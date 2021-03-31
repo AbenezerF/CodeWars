@@ -1,11 +1,13 @@
 // Create function that reverses a string
 
 function reverseStr(str){
-    let strArr = str.split('');
-    let finalStr = [];
-    for(let i = strArr.length - 1; i >= 0; i--){
-        finalStr.push(strArr[i]);
+    if(!str || str.length < 2 || typeof str !== 'string'){
+        return 'error not in correct format';
     }
-    // or you could do: strArr.reverse()
+    let finalStr = [];
+    for(let i = str.length - 1; i = 0; i--){
+        finalStr.push(str[i]);
+    }
+    // or you could do: str.split('') then str.reverse()
     return finalStr.join('')
 }
