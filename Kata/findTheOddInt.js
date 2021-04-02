@@ -8,7 +8,7 @@ There will always be only one integer that appears an odd number of times.
 
 function findOdd(A) {
     if(A.length === 1){
-      return A[0]
+      return A[0];
     }
     let map = new Map();
     for(let i = 0; i < A.length; i++){
