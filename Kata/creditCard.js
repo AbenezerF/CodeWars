@@ -18,7 +18,7 @@ maskify("Nananananananananananananananana Batman!") == "########################
 
 //Best solution:
 function maskify(cc){
-    return cc.slice(0, -4).replace(/./g, "#") + cc.slice(-4)
+    return cc.slice(0, -4).replace(/./g, "#") + cc.slice(-4);
 }
 
 // first solution
@@ -29,7 +29,7 @@ function maskify(cc) {
     let lastFour = cc.substring( (cc.length -4), (cc.length))
     let str = '';
     for(let i = 0; i < cc.length - 4; i++){
-      str += '#'
+      str += '#';
     }
     return str + lastFour;
   }
