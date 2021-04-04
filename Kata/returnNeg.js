@@ -13,4 +13,4 @@ makeNegative(0.12); // return -0.12
 
 function makeNegative(num) {
     return num >= 0 ? (-num): num;
-    }
+}
