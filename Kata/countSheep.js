@@ -17,8 +17,8 @@ function countSheeps(arrayOfSheep) {
     let counter = 0;
     arrayOfSheep.forEach(function(x){
       if(x === true){
-        counter++
+        counter++;
       }
-    })
+    });
     return counter;
 }
