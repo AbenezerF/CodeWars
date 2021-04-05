@@ -10,5 +10,5 @@ Examples:
 */
 
 function numberToString(num) {
-    return num.toString()
-    }
+    return num.toString();
+}
