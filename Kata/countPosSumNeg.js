@@ -22,7 +22,7 @@ function countPositivesSumNegatives(input) {
         positive++;
       else
         negative += input[i];
-    }
+     }
     
     return [positive, negative];
 }
