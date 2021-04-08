@@ -11,4 +11,4 @@ For the beginner, try to use the map method - it comes in very handy quite a lot
 
 function maps(x){
     return x.map( x => x * 2)
-  }
+}
