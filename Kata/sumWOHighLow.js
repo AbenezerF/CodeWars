@@ -19,4 +19,4 @@ function sumArray(array) {
       sum += array[i]
     }
     return sum
-  }
+ }
