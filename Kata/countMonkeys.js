@@ -13,9 +13,9 @@ monkeyCount(1) // --> [1]
 */
 
 function monkeyCount(n) {
-    let arr = [];
-    for(let i = 1; i <= n; i++){
-      arr.push(i)
-    }
-    return arr
+ let arr = [];
+ for(let i = 1; i <= n; i++){
+   arr.push(i);
+  }
+   return arr
   }
