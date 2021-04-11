@@ -11,4 +11,4 @@ The array will never be empty.
 function getAverage(marks){
     let result = marks.reduce( (acc, curr) => acc + curr)
     return Math.floor(result/marks.length);
-  }
+}
