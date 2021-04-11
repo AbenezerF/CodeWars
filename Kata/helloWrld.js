@@ -9,5 +9,5 @@ want to show your friends?
 */
 
 function greet(){
-    return 'hello world!'
-  }
+    return 'hello world!';
+}
