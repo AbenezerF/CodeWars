@@ -18,12 +18,12 @@ pointsPer48(0, 0) // 0
 
 // first solution
 function pointsPer48(ppg, mpg) {
-    if(ppg === 0) return 0
-    let num = (ppg / mpg) * 48
-    return Number(num.toFixed(1))
-  }
+    if(ppg === 0) return 0;
+    let num = (ppg / mpg) * 48;
+    return Number(num.toFixed(1));
+}
 
   // shortest solution
 function pointsPer48(ppg, mpg) {
-    return +(ppg/mpg*48).toFixed(1)||0
-  }
+    return +(ppg/mpg*48).toFixed(1)||0;
+}
