@@ -15,6 +15,6 @@ Array.prototype.filter = function (func) {
         res.push(this[i])
       }
     }
-    return res
-  }
+    return res;
+ }
   
