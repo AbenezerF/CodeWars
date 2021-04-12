@@ -19,4 +19,4 @@ var summation = function (num) {
       sum += i;
     }
     return sum;
-  }
+}
