@@ -18,5 +18,5 @@ with more examples on the expected behavior in the test cases.
 
 function greaterThanLessThan (a,b,c) {
     if( a < b < c) return true;
-    return false
-  }
+    return false;
+ }
