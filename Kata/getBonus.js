@@ -14,5 +14,5 @@ Python, Haskell and Lua) or "¥" (Rust).
 */
 
 function bonusTime(salary, bonus) {
-    return bonus ? '£' + salary * 10: '£' + salary
-  }
+    return bonus ? '£' + salary * 10: '£' + salary;
+}
