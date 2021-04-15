@@ -9,14 +9,14 @@ Example:
 //Using in built methods
 function reverseWords(str){
     return str.split(' ').reverse().join(' '); // reverse those words
-  }
+ }
 
 // implementation without in built methods
 function reverseWords(str){
     let newStr = str.split(' ');
-    let result = newStr[newStr.length - 1]
+    let result = newStr[newStr.length - 1];
     for(let i= newStr.length -2; i >= 0; i--){
-      result = result + " " + newStr[i]
+      result = result + " " + newStr[i];
     }
     return result; // reverse those words
-  }
+ }
