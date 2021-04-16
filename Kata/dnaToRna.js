@@ -16,14 +16,14 @@ For example:
 
 // using in-built methods and regex
 function DNAtoRNA(dna) {
-    return dna.replace(/T/g, 'U')
-   }
+    return dna.replace(/T/g, 'U');
+ }
 
 // my own implementation
 function DNAtoRNA(dna) {
     let arr = dna.split('');
     for(let i = 0; i < arr.length; i++){
-      if(arr[i] === 'T') arr[i] = 'U'
+      if(arr[i] === 'T') arr[i] = 'U';
     }
-    return arr.join('')
-  }
+    return arr.join('');
+}
