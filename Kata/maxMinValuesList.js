@@ -24,7 +24,7 @@ var min = function(list){
         result = num;
       }
     return result;
-  }
+ }
   
   var max = function(list){
     let result = list[0];
@@ -33,4 +33,4 @@ var min = function(list){
         result = num;
       }
     return result;
-  }
+ }
