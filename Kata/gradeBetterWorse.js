@@ -13,5 +13,5 @@ your point to the given array!
 
 function betterThanAverage(classPoints, yourPoints) {
     return yourPoints > classPoints.reduce( (acc,curr) => acc + curr)/classPoints.length;
-  }
+}
   
