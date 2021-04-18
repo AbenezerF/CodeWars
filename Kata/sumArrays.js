@@ -22,5 +22,5 @@ You can assume that you do get an array and if the array is empty, return 0.
 // Sum Numbers
 function sum (numbers) {
     if(numbers.length === 0 || numbers === undefined) return 0;
-     return numbers.reduce( (acc,curr) => acc + curr)    
-  };
+     return numbers.reduce( (acc,curr) => acc + curr);
+};
