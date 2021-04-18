@@ -1,24 +1,14 @@
-/* Counting sheep... (8kyu)
-Consider an array/list of sheep where some sheep may be missing from their place. We need a function that counts the number of sheep present in the array (true means present).
+/* If you can't sleep, just count sheep!! (8kyu)
 
-For example,
-
-[true,  true,  true,  false,
-  true,  true,  true,  true ,
-  true,  false, true,  false,
-  true,  false, false, true ,
-  true,  true,  true,  true ,
-  false, false, true,  true]
-The correct answer would be 17.
-
+Task:
+Given a non-negative integer, 3 for example, return a string with a murmur: "1 sheep...2 sheep...3 sheep...". 
+Input will always be valid, i.e. no negative integers.
 */
 
-function countSheeps(arrayOfSheep) {
-    let counter = 0;
-    arrayOfSheep.forEach(function(x){
-      if(x === true){
-        counter++;
-      }
-    });
-    return counter;
-}
+var countSheep = function (num){
+    let str = '';
+    for(let i = 1; i <= num; i++){
+      str += `${i} sheep...`
+    }
+    return str
+  }
