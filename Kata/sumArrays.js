@@ -24,3 +24,8 @@ function sum (numbers) {
     if(numbers.length === 0 || numbers === undefined) return 0;
      return numbers.reduce( (acc,curr) => acc + curr);
 };
+
+// using reduce() 
+  function sum(numbers) {
+    return numbers.reduce((a, b) => a + b, 0);
+}
