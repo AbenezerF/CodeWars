@@ -6,4 +6,4 @@ Note: Only valid inputs will be given.
 
 function booleanToString(b){
     return b === true ? 'true': "false";
-  }
+}
