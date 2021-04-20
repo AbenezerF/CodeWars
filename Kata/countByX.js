@@ -14,7 +14,7 @@ countBy(2,5) === [2,4,6,8,10]
 function countBy(x, n) {
     var z = [];
     for(let i = x; z.length < n; i+=x){
-      z.push(i)
+      z.push(i);
     }
     return z;
-  }
+ }
