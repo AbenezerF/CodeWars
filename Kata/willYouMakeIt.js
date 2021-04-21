@@ -8,5 +8,5 @@ The input values are always positive.
 */
 
 const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
-    return mpg * fuelLeft >= distanceToPump ? true:false;
- };
+   return mpg * fuelLeft >= distanceToPump ? true:false;
+};
