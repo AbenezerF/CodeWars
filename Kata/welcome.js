@@ -56,4 +56,4 @@ function greet(lang) {
   'spanish': 'Bienvenido',
   'swedish': 'Valkommen',
   'welsh': 'Croeso'
-  };
+   };
