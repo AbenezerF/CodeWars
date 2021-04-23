@@ -15,5 +15,5 @@ A few cases:
 */
 
 function isDivideBy(number, a, b) {
-    return number % a === 0 && number % b === 0 ? true: false;
- }
+   return number % a === 0 && number % b === 0 ? true: false;
+}
