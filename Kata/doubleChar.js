@@ -9,6 +9,6 @@ doubleChar("1234!_ ") ==> "11223344!!__  "
 
 function doubleChar(str) {
     return str.split("").map(function (c) {
-      return c + c
-    }).join("")
+      return c + c;
+    }).join("");
   }
