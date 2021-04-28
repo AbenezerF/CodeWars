@@ -12,13 +12,13 @@ array = [1, 2, 3] and N = 3, but N is outside of the array, so the result is -1.
 */
 
 function index(array, n){
-    for(let i =0; i < array.length; i++){
-      if(i === n) return array[i]**n
-    }
-    return -1;
-  }
+   for(let i =0; i < array.length; i++){
+      if(i === n) return array[i]**n;
+   }
+   return -1;
+ }
 
-  // another solution
-  function index(array, n){
-    return array[n] ** n || -1;
-  }
+// another solution
+ function index(array, n){
+   return array[n] ** n || -1;
+}
