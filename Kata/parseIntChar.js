@@ -7,5 +7,5 @@ Assume test input string always valid and may look like "1 year old" or "5 years
 */
 
 function getAge(inputString){
-    return Number(inputString[0])
-   }
+    return Number(inputString[0]);
+ }
