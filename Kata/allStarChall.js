@@ -19,5 +19,5 @@ The second string argument will always be of length 1
 */
 
 function strCount(str, letter){ 
-    return str.split('').filter( (x) => x === letter).join('').length
- }
+    return str.split('').filter( (x) => x === letter).join('').length;
+}
