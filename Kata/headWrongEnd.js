@@ -9,5 +9,5 @@ Simples!
 */
 
 function fixTheMeerkat(arr) {
-    return arr.reverse()
+    return arr.reverse();
   }
