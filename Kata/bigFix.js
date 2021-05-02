@@ -10,5 +10,5 @@ function createArray(number){
       newArray.push(counter);
     }
     
-    return newArray
+    return newArray;
   }
