@@ -14,7 +14,7 @@ Zero alone is fine, don't worry about it. Poor guy anyway
 
 function noBoringZeros(n) {
     while (n % 10 === 0 && n !== 0) {
-      n = n / 10
+      n = n / 10;
     }
-    return n
+    return n;
   }
