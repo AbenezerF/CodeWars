@@ -10,11 +10,11 @@ For example, update_light('green') should return 'yellow'
 
 function updateLight(current) {
     if(current === 'red'){
-      return 'green'
+      return 'green';
     }else if(current === 'yellow'){
-      return 'red'
+      return 'red';
     }else{
-      return 'yellow'
+      return 'yellow';
     }
   }
 
