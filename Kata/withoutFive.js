@@ -5,5 +5,5 @@ Sounds easy right? Just bear in mind that you can't use any of the following cha
 */
 
 function unusualFive() {
-    return "words".length
-  }
+  return "words".length;
+}
