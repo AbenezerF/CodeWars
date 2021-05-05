@@ -20,5 +20,5 @@ divide(6) === true  // 6 = 2 + 4
 */
 
 function divide(weight){
-    return weight % 2 === 0 && weight > 2 ? true : false;
-  }
+  return weight % 2 === 0 && weight > 2 ? true : false;
+}
