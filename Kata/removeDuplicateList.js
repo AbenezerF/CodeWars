@@ -6,16 +6,16 @@ The order of the sequence has to stay the same.
 
 
 function distinct(a) {
-    let b = []
+    let b = [];
     for(let i = 0; i < a.length; i++){
       if(!b.includes(a[i])){
         b.push(a[i])
       }
     }
-    return b
-  }
+  return b;
+}
 
   //using set 
 function distinct(a) {
-    return [...new Set(a)];
+ return [...new Set(a)];
 }
