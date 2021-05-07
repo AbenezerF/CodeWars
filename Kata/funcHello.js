@@ -39,6 +39,6 @@ In the end, click "Submit" to submit your code pass this kata.
 */
 
 function helloWorld(){
-    var str = 'Hello World!'
-    console.log(str)
+    var str = 'Hello World!';
+    console.log(str);
   }
