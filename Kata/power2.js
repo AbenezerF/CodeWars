@@ -11,8 +11,8 @@ n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
 function powersOfTwo(n){
     let arr = [];
     for(let i = 0; i <= n; i++){
-      let res = Number(2 ** i)
-      arr.push(res)
+      let res = Number(2 ** i);
+      arr.push(res);
     }
-    return arr
+    return arr;
   }
