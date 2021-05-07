@@ -10,10 +10,10 @@ Note: The parameter is optional. So you have to give it a default value.
 */
 
 function arr(n){
-    var newArr = []
+    var newArr = [];
     for(var i = 0; i < n; i++){
-      newArr.push(i)
+      newArr.push(i);
     }
-    return newArr
+    return newArr;
   }
   
