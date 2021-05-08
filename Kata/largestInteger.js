@@ -10,5 +10,5 @@ If the argument passed through is single digit or is already the maximum possibl
 */
 
 function superSize(n){
-    return parseInt(n.toString().split('').sort().reverse().join(''))
+    return parseInt(n.toString().split('').sort().reverse().join(''));
   }
