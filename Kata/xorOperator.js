@@ -17,5 +17,5 @@ behaviour described above, returning true if exactly one of the two expressions 
 */
 
 function xor(a, b) {
-    return a != b
+    return a != b;
   }
