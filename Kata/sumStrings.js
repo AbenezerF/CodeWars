@@ -8,6 +8,6 @@ Example: (Input1, Input2 -->Output)
 */
 
 function sumStr(a,b) {
-    let sum = Number(a) + Number(b) 
-    return sum.toString()
+    let sum = Number(a) + Number(b);
+    return sum.toString();
   }
