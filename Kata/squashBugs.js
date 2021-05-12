@@ -12,12 +12,12 @@ Good luck!
 
 function howManyDalmatians(number){
     if (number <= 10) {
-      return "Hardly any"
+      return "Hardly any";
     } else if (number <= 50) {
-      return "More than a handful!"
+      return "More than a handful!";
     } else if (number === 101) {
-      return "101 DALMATIANS!!!"
+      return "101 DALMATIANS!!!";
     } else {
-      return "Woah that's a lot of dogs!" 
+      return "Woah that's a lot of dogs!";
     }
   }
