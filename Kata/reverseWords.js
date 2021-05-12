@@ -12,6 +12,6 @@ Happy coding!
 */
 
 function reverse(string){
-    return string.split(' ').reverse().join(' ')
+    return string.split(' ').reverse().join(' ');
   }
   
