@@ -1,13 +1,17 @@
-/* Reverse Words (7kyu)
-Complete the function that accepts a string parameter, and reverses each word in the string. 
-All spaces in the string should be retained.
+/* Reversing Words in a String (8kyu)
+You need to write a function that reverses the words in a given string. A word can also fit an empty string. 
+If this is not clear enough, here are some examples:
 
-Examples
-"This is an example!" ==> "sihT si na !elpmaxe"
-"double  spaces"      ==> "elbuod  secaps"
+As the input may have trailing spaces, you will also need to ignore unneccesary whitespace.
 
+Example (Input --> Output)
+
+"Hello World" --> "World Hello"
+"Hi There." --> "There. Hi"
+Happy coding!
 */
 
-function reverseWords(str) {
-  return str.split('').reverse('').join('').split(' ').reverse('').join(' ')
-}
+function reverse(string){
+    return string.split(' ').reverse().join(' ')
+  }
+  
