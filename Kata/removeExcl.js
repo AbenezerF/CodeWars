@@ -14,5 +14,5 @@ Please don't post issue about difficulty or duplicate.
 */
 
 function remove(s){
-    return s.endsWith('!') ? s.slice(0, -1) : s;
-  }
+  return s.endsWith('!') ? s.slice(0, -1) : s;
+}
