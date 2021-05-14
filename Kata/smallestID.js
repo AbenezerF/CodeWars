@@ -13,8 +13,8 @@ Go on and code some pure awesomeness!
 function nextId(ids){
     for (i = 0; i < ids.length; i++) { 
       if (ids.indexOf(i) == -1){
-        return i;
+        return i
       }
     }
-    return ids.length;
+    return ids.length
   }
