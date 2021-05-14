@@ -9,9 +9,9 @@ Your job is to write an algorithm that gets you from the input to the output.
 */
 
 function preFizz(n) {
-    var arr = []
+    var arr = [];
     for(var i = 1; i < n + 1; i++){
-      arr.push(i)
+      arr.push(i);
     }
-    return arr
+    return arr;
   }
