@@ -37,5 +37,5 @@ function equal4(){
 function equal5(){
   var a=v6;
   var b=v3;
-  return a%b;
+  return a%b
 }
