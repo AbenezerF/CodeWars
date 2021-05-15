@@ -19,5 +19,5 @@ elevator(0, 0, 0); // => "right"
 elevator(0, 2, 1); // => "right"
 */
 function elevator(left, right, call){
-    return Math.abs(call - right) > Math.abs(call - left) ? "left" : "right";
+    return Math.abs(call - right) > Math.abs(call - left) ? "left" : "right"
   }
