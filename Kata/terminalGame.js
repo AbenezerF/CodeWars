@@ -9,6 +9,6 @@ move(3, 6) should equal 15
 */
 
 function move (position, roll) {
-    return position + roll * 2
+    return position + roll * 2;
   }
   
