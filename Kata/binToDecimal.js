@@ -3,5 +3,5 @@ Complete the function which converts a binary number (given as a string) to a de
 */
 
 function binToDec(bin){
-    return parseInt(bin,2)
+    return parseInt(bin,2);
   }
