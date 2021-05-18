@@ -8,8 +8,8 @@ so a baby of 5 months, will have an ascribed ‘age’ of 0. Return a new array 
 */
 
 function differenceInAges(ages){
-    const min = Math.min(...ages)
-    const max = Math.max(...ages)
+    const min = Math.min(...ages);
+    const max = Math.max(...ages);
     
-    return [min, max, max-min]
+    return [min, max, max-min];
   }
