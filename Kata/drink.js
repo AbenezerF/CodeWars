@@ -28,7 +28,7 @@ function peopleWithAgeDrink(age){
     else if(age < 21)
       drink = 'beer';
     else if(age => 21)
-      drink = 'whisky'
+      drink = 'whisky';
   
-    return 'drink ' + drink
+    return 'drink ' + drink;
   }
