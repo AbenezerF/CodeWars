@@ -11,5 +11,5 @@ isPalindrome(123456)   ==> false
 */
 
 function isPalindrome(line) {
-    return (line.toString() == line.toString().split('').reverse().join(''))
+    return (line.toString() == line.toString().split('').reverse().join(''));
   }
