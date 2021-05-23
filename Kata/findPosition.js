@@ -7,7 +7,7 @@ Ouput :: "Position of alphabet: 1"
 */
 
 function position(letter){
-    const alphabet = 'abcdefghijklmnopqrstuvwxyz'
-    return 'Position of alphabet: ' + (alphabet.indexOf(letter) + 1)
+    const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+    return 'Position of alphabet: ' + (alphabet.indexOf(letter) + 1);
   }
   
