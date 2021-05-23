@@ -21,7 +21,7 @@ Note: newlines should be added between rows, but there should be no trailing new
 function multiTable(number) {
     let table = '';
     for(let i = 1; i <= 10; i++){
-      table += `${i} * ${number} = ${i*number}\n`
+      table += `${i} * ${number} = ${i*number}\n`;
     }
-    return table.slice(0, -1)
+    return table.slice(0, -1);
   }
