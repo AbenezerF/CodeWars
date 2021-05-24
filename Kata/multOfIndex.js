@@ -11,10 +11,10 @@ Some cases:
 */
 
 function multipleOfIndex(array) {
-    let result = []
+    let result = [];
     for(let i = 0; i < array.length; i++){
       if(Math.abs(array[i]) % i === 0){
-        result.push(array[i])
+        result.push(array[i]);
       }
     }
     return result;
