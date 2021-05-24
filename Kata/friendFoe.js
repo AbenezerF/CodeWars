@@ -11,5 +11,5 @@ friend ["Ryan", "Kieran", "Mark"] `shouldBe` ["Ryan", "Mark"]
 */
 
 function friend(friends){
-    return friends.filter( (x) => x.length === 4 )
+    return friends.filter( (x) => x.length === 4);
   }
