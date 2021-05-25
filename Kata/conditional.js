@@ -59,7 +59,7 @@ function howManydays(month){
         break;
       case 12:
         days = 31;
-        break
+        break;
     }
-    return days
+    return days;
   }
