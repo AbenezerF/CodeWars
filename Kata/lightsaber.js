@@ -14,6 +14,6 @@ For example(Input --> Output):
 */
 
 function howManyLightsabersDoYouOwn(name) {
-    return name === 'Zach' ? 18 : 0
+    return name === 'Zach' ? 18 : 0;
   }
   
