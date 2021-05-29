@@ -8,5 +8,5 @@ Your harried co-workers are looking to you for a solution to take this garbled t
 */
 
 function stringClean(s){
-    return s.replace(/\d/g, "")
+    return s.replace(/\d/g, "");
   }
