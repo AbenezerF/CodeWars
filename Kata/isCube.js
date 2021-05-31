@@ -15,5 +15,5 @@ Note: the sides must be integers
 */
 
 var cubeChecker = function(volume, side){
-    return Math.pow(side, 3) === volume && side > 0
+    return Math.pow(side, 3) === volume && side > 0;
   };
