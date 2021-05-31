@@ -3,6 +3,6 @@ Write function parseF which takes an input and returns a number or null if conve
 */
 
 function parseF(s) {
-    const f = parseFloat(s)
-    return isNaN(f) ? null : f
+    const f = parseFloat(s);
+    return isNaN(f) ? null : f;
   }
