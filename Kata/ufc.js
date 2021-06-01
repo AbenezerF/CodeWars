@@ -18,4 +18,4 @@ var quote = function(fighter) {
       case 'george saint pierre': return "I am not impressed by your performance.";
       default : 'Who are you?' 
     }
-  }
+  };
