@@ -7,5 +7,5 @@ All values will be positive integers or floats, or zero.
 */
 
 function plural(n) {
-    return n !== 1
+    return n !== 1;
   }
