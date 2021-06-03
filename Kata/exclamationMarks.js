@@ -12,5 +12,5 @@ remove("Hi") === "Hi!"
 */
 
 function remove(s){
-    return s.replace(/!/gi, '') + '!'
+    return s.replace(/!/gi, '') + '!';
   }
