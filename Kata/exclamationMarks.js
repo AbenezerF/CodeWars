@@ -1,14 +1,16 @@
-/* Exclamation marks series #11: Replace all vowel to exclamation mark in the sentence (8kyu)
+/* Exclamation marks series #4: Remove all exclamation marks from sentence but ensure a exclamation mark at the end of string (8kyu)
 Description:
-Replace all vowel to exclamation mark in the sentence. aeiouAEIOU is vowel.
+Remove all exclamation marks from sentence but ensure a exclamation mark at the end of string. For a beginner kata, you can assume that the input data is always a non empty string, no need to verify it.
 
 Examples
-replace("Hi!") === "H!!"
-replace("!Hi! Hi!") === "!H!! H!!"
-replace("aeiou") === "!!!!!"
-replace("ABCDE") === "!BCD!"
+remove("Hi!") === "Hi!"
+remove("Hi!!!") === "Hi!"
+remove("!Hi") === "Hi!"
+remove("!Hi!") === "Hi!"
+remove("Hi! Hi!") === "Hi Hi!"
+remove("Hi") === "Hi!"
 */
 
-function replace(s){
-  return s.replace(/[aeiou]/gi, "!");
-}
+function remove(s){
+    return s.replace(/!/gi, '') + '!'
+  }
