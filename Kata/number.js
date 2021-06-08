@@ -15,5 +15,5 @@ isDigit("zero")
 */
 
 function isDigit(s) {
-    return s==parseFloat(s)
+    return s==parseFloat(s);
    }
