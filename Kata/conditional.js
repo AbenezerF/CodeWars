@@ -23,5 +23,5 @@ In the end, click "Submit" to submit your code pass this kata.
 */
 
 function trueOrFalse(val){
-    return val ? true : false            
+    return val ? true : false;           
   }
