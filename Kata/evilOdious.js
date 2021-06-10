@@ -22,5 +22,5 @@ function evil(n) {
      if(count%2==0)
       return "It's Evil!"; 
      else 
-      return "It's Odious!"
+      return "It's Odious!";
   }
