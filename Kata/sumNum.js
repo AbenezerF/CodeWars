@@ -7,4 +7,4 @@ Write a function named sumDigits which takes a number as input and returns the s
 Let's assume that all numbers in the input will be integer values.
 */
 
-sumDigits = n => Math.abs(n).toString().split('').reduce((s, e) => s + +e, 0)
+sumDigits = n => Math.abs(n).toString().split('').reduce((s, e) => s + +e, 0);
