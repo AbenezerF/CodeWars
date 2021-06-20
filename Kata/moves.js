@@ -40,11 +40,14 @@ The input strings are separated by , instead of \n. The output strings should be
 
 function vertMirror(strng) {
     const vertMirror = s => s.map(s => [...s].reverse().join(''));
+    
 }
 function horMirror(strng) {
     const horMirror = s => s.reverse();
+    
 }
 function oper(fct, s) {
+    
     const oper = (fct, s) => fct(s.split("\n")).join("\n");
 }
 
