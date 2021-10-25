@@ -1,4 +1,4 @@
-/* Task:
+/* For Twins: 2. Math operations:
 A magician in the subway showed you a trick, he put an ice brick in a bottle to impress you. The brick's width and height are equal, forming a square. Just for fun and also to impress the magician and people around, you decided to calculate the brick's volume. Write a function iceBrickVolume that will accept these parameters:
 
 radius - bottle's radius (always > 0);
@@ -17,10 +17,10 @@ iceBrickVolume(5, 30, 7); // => 1150
 */
 
 function iceBrickVolume(radius, bottleLength, rimLength) {
-    let length = bottleLength - rimLength
-    let width = radius * 2
+    let length = bottleLength - rimLength;
+    let width = radius * 2;
     
-    return length * width * radius
+    return length * width * radius;
     
 }
 
