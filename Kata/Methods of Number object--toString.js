@@ -13,7 +13,7 @@ colorOf(1, 2 ,3) should return "#010203"
 */
 
 function colorOf(r,g,b){
-    return '#' + hex(r) + hex(g) + hex(b)
+    return '#' + hex(r) + hex(g) + hex(b);
     
     function hex(n){
       let val = n.toString(16)
