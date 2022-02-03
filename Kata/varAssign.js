@@ -9,6 +9,6 @@ but it's not working. Can you figure out why?
 //var name == a + b;
 
 //after corrections
-var a = "code";
-var b = "wa.rs";
-var name = a + b;
+var a = "code"
+var b = "wa.rs"
+var name = a + b
