@@ -1,3 +1,3 @@
 function digitize(n) {
-    return n.toString().split('').map(Number)
+    return n.toString().split('').map(Number);
   }
