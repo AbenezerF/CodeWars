@@ -17,7 +17,6 @@ laLigaGoals
 championsLeagueGoals
 copaDelReyGoals
 Create a fourth variable named totalGoals that stores the sum of all of Messi's goals for this year.
-
 */
 
 var laLigaGoals = 43;
