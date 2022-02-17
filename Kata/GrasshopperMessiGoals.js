@@ -1,4 +1,4 @@
-// Grasshopper - Messi Goals (8kyu
+// Grasshopper - Messi Goals (8kyu)
 
 /*
 Messi's Goal Total
