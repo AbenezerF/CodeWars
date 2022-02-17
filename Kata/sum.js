@@ -10,7 +10,7 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 
 function sumTwoSmallestNumbers(numbers) {  
   numbers = numbers.sort( (a, b) => {
-    return a - b
+    return a - b;
   })
-  return numbers[0] + numbers[1]
+  return numbers[0] + numbers[1];
 }
