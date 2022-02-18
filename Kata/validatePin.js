@@ -16,6 +16,7 @@ function validatePIN (pin) {
      return true;
    } 
   return false;
+   
   //let some = /^\d+$/.test(pin)
   //return some  Number(pin) == pin 
 }
