@@ -10,3 +10,12 @@ Examples (Input --> Output)
 "12345"  -->  false
 "a234"   -->  false
 */
+
+function validatePIN (pin) {
+   if(pin.length === 4 && /^\d+$/.test(pin)  || pin.length === 6 && /^\d+$/.test(pin)){
+     return true
+   } 
+  return false
+  //let some = /^\d+$/.test(pin)
+  //return some  Number(pin) == pin 
+}
