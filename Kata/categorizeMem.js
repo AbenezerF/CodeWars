@@ -20,13 +20,13 @@ output = ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 */
 
 function openOrSenior(data){
-  let arr = []
+  let arr = [];
   for(let i = 0; i < data.length; i++){
       if(data[i][0]>= 55 && data[i][1] > 7){
-          arr.push('Senior')
+          arr.push('Senior');
       }else{
-        arr.push('Open')
+        arr.push('Open');
       }
   }
-  return arr
+  return arr;
 }
