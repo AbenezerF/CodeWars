@@ -31,3 +31,7 @@ const binaryArrayToNumber = arr => {
   }
    return total;
 };
+
+// fastest solution 
+// const binaryArrayToNumber = arr => parseInt(arr.join(''), 2);
+
