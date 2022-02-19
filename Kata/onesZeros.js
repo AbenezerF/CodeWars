@@ -16,3 +16,18 @@ Testing: [1, 1, 1, 1] ==> 15
 Testing: [1, 0, 1, 1] ==> 11
 However, the arrays can have varying lengths, not just limited to 4.
 */
+
+const binaryArrayToNumber = arr => {
+  let total = 0;
+  arr = arr.reverse()
+  for(let i = 0; i < arr.length; i++){
+    if(arr [i] === 1 && i === 0){
+      total += 1
+    }else if(arr[i] === 1 && i === 1){
+      total +=2
+    }else if( arr[i] === 1){
+      total += (2 ** i)
+    }
+  }
+   return total;
+};
