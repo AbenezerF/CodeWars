@@ -1,4 +1,4 @@
-// Ones and Zeros Kata
+// Ones and Zeros Kata (7kyu)
 /*
 Given an array of ones and zeroes, convert the equivalent binary value to an integer.
 
