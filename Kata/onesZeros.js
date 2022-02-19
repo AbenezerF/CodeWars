@@ -24,7 +24,7 @@ const binaryArrayToNumber = arr => {
     if(arr [i] === 1 && i === 0){
       total += 1;
     }else if(arr[i] === 1 && i === 1){
-      total +=2
+      total +=2;
     }else if( arr[i] === 1){
       total += (2 ** i)
     }
