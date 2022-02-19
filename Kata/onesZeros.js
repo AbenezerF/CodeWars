@@ -22,7 +22,7 @@ const binaryArrayToNumber = arr => {
   arr = arr.reverse()
   for(let i = 0; i < arr.length; i++){
     if(arr [i] === 1 && i === 0){
-      total += 1
+      total += 1;
     }else if(arr[i] === 1 && i === 1){
       total +=2
     }else if( arr[i] === 1){
