@@ -20,6 +20,6 @@ you don't have to check for null, undefined or similar.
 function minMax(arr){
   let out = []
   out.push(Math.min(...arr)), 
-  out.push(Math.max(...arr))
+  out.push(Math.max(...arr));
   return out
 }
