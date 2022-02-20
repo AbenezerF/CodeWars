@@ -1,4 +1,4 @@
-// The Highest Profit Wins Kata 
+// The Highest Profit Wins Kata (7Kyu)
 
 /*
 Story
