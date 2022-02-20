@@ -21,5 +21,5 @@ function minMax(arr){
   let out = [];
   out.push(Math.min(...arr)), 
   out.push(Math.max(...arr));
-  return out
+  return out;
 }
