@@ -1,4 +1,4 @@
-
+// The Highest Profit Wins Kata 
 
 /*
 Story
