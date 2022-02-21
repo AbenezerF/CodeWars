@@ -17,5 +17,5 @@ function factorial(n){
     throw new RangeError("The argument must be between 0 and 12.");
   }
   if(n === 0 || n ===1) return 1;
-  return (n * factorial(n-1))
+  return (n * factorial(n-1));
 }
