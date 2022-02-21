@@ -1,4 +1,4 @@
-// Count the Number of Divisors 
+// Count the Number of Divisors (7kyu)
 /*
 Count the number of divisors of a positive integer n.
 
