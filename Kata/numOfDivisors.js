@@ -15,7 +15,7 @@ function getDivisorsCnt(n){
     let total = 0;
     for(let i = n; i > 0; i--){
       if(n % i === 0){
-        total++
+        total++;
       }
     }
   return total
