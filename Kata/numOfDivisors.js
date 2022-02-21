@@ -10,3 +10,13 @@ Examples (input --> output)
 12 --> 6 (1, 2, 3, 4, 6, 12)
 30 --> 8 (1, 2, 3, 5, 6, 10, 15, 30)
 */
+
+function getDivisorsCnt(n){
+    let total = 0;
+    for(let i = n; i > 0; i--){
+      if(n % i === 0){
+        total++
+      }
+    }
+  return total
+}
