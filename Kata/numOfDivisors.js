@@ -18,5 +18,5 @@ function getDivisorsCnt(n){
         total++;
       }
     }
-  return total
+  return total;
 }
