@@ -12,7 +12,7 @@ IllegalArgumentException (Java) or RangeException (PHP) or throw a RangeError
 */
 
 function factorial(n){
-  let output = 0
+  let output = 0;
   if(n < 0 || n > 12){
     throw new RangeError("The argument must be between 0 and 12.")
   }
