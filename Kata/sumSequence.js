@@ -17,7 +17,7 @@ Examples
 
 const sequenceSum = (begin, end, step) => {
   let val = 0;
-  if(begin > end) return 0
+  if(begin > end) return 0;
   for(let i = begin; i <= end; i+= step){
     val += i
   }
