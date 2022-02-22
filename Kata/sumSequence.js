@@ -21,5 +21,5 @@ const sequenceSum = (begin, end, step) => {
   for(let i = begin; i <= end; i+= step){
     val += i;
   }
-  return val
+  return val;
 };
