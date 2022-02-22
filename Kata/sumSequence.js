@@ -14,3 +14,12 @@ Examples
 1,5,1 --> 15 (1 + 2 + 3 + 4 + 5)
 1,5,3  --> 5 (1 + 4)
 */
+
+const sequenceSum = (begin, end, step) => {
+  let val = 0
+  if(begin > end) return 0
+  for(let i = begin; i <= end; i+= step){
+    val += i
+  }
+  return val
+};
