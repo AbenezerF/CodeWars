@@ -1,4 +1,4 @@
-
+//  Sum of Sequence (7kyu)
 
 /*
 Your task is to make function, which returns the sum of a sequence of integers.
