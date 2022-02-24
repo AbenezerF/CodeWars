@@ -14,5 +14,5 @@ var capitals = function (word) {
         arr.push(i);
       }
   }
-  return arr
+  return arr;
 };
