@@ -27,5 +27,5 @@ function fizzbuzz(n){
       arr.push(i)
     }
   }
-  return arr
+  return arr;
 }
