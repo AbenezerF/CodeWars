@@ -1,4 +1,4 @@
-
+// Leap Years (7Kyu)
 
 /*
 In this kata you should simply determine, whether a given year is a leap year or not. In case you don't know the rules, here they are:
