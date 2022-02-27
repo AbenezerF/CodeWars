@@ -7,3 +7,8 @@ Example:
 "riley" --> "Hello Riley!"
 "JACK"  --> "Hello Jack!"
 */
+
+var greet = function(name) {
+  names = name.slice(1).toLowerCase()
+  return `Hello ${name[0].toUpperCase() + names}!`
+};
