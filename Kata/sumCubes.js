@@ -17,5 +17,5 @@ function sumCubes(n){
   for(let i = 1; i <= n; i++){
     total += Math.pow(i,3);
   }
-  return total
+  return total;
 }
