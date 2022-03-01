@@ -23,5 +23,5 @@ function vowelIndices(word){
       arr.push(i);
     }
   }
-  return arr
+  return arr;
 }
