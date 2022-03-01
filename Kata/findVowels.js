@@ -16,7 +16,7 @@ This is indexed from [1..n] (not zero indexed!)
 */
 
 function vowelIndices(word){
-  let arr = []
+  let arr = [];
   word = word.toLowerCase()
   for(let i = 1; i <= word.length; i++){
     if(word.charAt(i-1) === 'a' || word.charAt(i-1) === 'e' || word.charAt(i-1) === 'i' || word.charAt(i-1) === 'o' || word.charAt(i-1) === 'u' || word.charAt(i-1) === 'y'){
