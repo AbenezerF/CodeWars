@@ -10,5 +10,5 @@ If there are less than 2 blue beads return 0.
 
 function countRedBeads(n) {
   if(n < 3) return 0;
-  return (n * 2) - 2
+  return (n * 2) - 2;
 }
