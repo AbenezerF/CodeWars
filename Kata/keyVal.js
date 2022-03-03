@@ -9,7 +9,7 @@ keysAndValues({a: 1, b: 2, c: 3}) // should return [['a', 'b', 'c'], [1, 2, 3]]
 */
 
 function keysAndValues(data){
-  let arr = []
+  let arr = [];
   let arr1 = []
   let final = []
   for(let val in data){
