@@ -1,4 +1,4 @@
-
+// Get key/value pairs as arrays (7Kyu)
 
 /*
 Complete the keysAndValues function so that it takes in an object and returns the keys and values as separate arrays.
