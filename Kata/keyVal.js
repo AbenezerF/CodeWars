@@ -16,5 +16,5 @@ function keysAndValues(data){
     arr.push(val);
     arr1.push(data[val]);
   }
-  return final.concat([arr], [arr1])
+  return final.concat([arr], [arr1]);
 }
