@@ -14,7 +14,7 @@ function keysAndValues(data){
   let final = [];
   for(let val in data){
     arr.push(val);
-    arr1.push(data[val])
+    arr1.push(data[val]);
   }
   return final.concat([arr], [arr1])
 }
