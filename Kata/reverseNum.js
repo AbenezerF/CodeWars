@@ -12,7 +12,7 @@ Examples
 
 function reverseNumber(n) {
   if(n < 0){
-    n *= -1
+    n *= -1;
     return Number(n.toString().split('').reverse().join('')) * -1
   }
   return Number(n.toString().split('').reverse().join(''))
