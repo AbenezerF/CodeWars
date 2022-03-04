@@ -9,3 +9,11 @@ Examples
 -456 -> -654
 1000 ->    1
 */
+
+function reverseNumber(n) {
+  if(n < 0){
+    n *= -1
+    return Number(n.toString().split('').reverse().join('')) * -1
+  }
+  return Number(n.toString().split('').reverse().join(''))
+}
