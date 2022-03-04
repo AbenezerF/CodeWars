@@ -15,5 +15,5 @@ function reverseNumber(n) {
     n *= -1;
     return Number(n.toString().split('').reverse().join('')) * -1;
   }
-  return Number(n.toString().split('').reverse().join(''))
+  return Number(n.toString().split('').reverse().join(''));
 }
