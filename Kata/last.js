@@ -1,4 +1,4 @@
-
+// Last (7Kyu)
 
 /*
 Find the last element of the given argument(s).
