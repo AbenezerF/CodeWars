@@ -8,3 +8,9 @@ Assume the first parameter will always be an array filled with at least 1 number
 min([1,2,3,4,5], 'value') // => 1
 min([1,2,3,4,5], 'index') // => 0
 */
+
+function min(arr, toReturn) {
+  let val = Math.min(...arr)
+  if(toReturn === 'value') return val
+  if(toReturn === 'index') return arr.indexOf(val)
+}
