@@ -12,8 +12,8 @@ Good luck!
 
 
 function capitalize(s){
-  let str = ''
-  let str1 = ''
+  let str = '';
+  let str1 = '';
   let arr = []
   for(let i = 0; i < s.length; i++){
     if(i % 2 === 0){
