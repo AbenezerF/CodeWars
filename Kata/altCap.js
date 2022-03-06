@@ -19,7 +19,7 @@ function capitalize(s){
     if(i % 2 === 0){
       str = str + s[i].toUpperCase()
     }else{
-      str = str + s[i]
+      str = str + s[i];
     }
   }
   for(let i = 0; i < s.length; i++){
