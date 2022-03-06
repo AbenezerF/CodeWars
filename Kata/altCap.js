@@ -26,7 +26,7 @@ function capitalize(s){
     if(i % 2 !== 0){
       str1 = str1 + s[i].toUpperCase();
     }else{
-      str1 = str1 + s[i]
+      str1 = str1 + s[i];
     }
   }
   return arr.concat(str,str1);
