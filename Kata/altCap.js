@@ -17,14 +17,14 @@ function capitalize(s){
   let arr = [];
   for(let i = 0; i < s.length; i++){
     if(i % 2 === 0){
-      str = str + s[i].toUpperCase()
+      str = str + s[i].toUpperCase();
     }else{
       str = str + s[i];
     }
   }
   for(let i = 0; i < s.length; i++){
     if(i % 2 !== 0){
-      str1 = str1 + s[i].toUpperCase()
+      str1 = str1 + s[i].toUpperCase();
     }else{
       str1 = str1 + s[i]
     }
