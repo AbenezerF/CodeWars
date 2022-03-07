@@ -14,7 +14,6 @@ Examples:
 
 
 function getMissingElement(superImportantArray){
-  //TODO
   superImportantArray.sort( (a,b) => a -b)
   for(let i = 0; i <= superImportantArray.length; i++){
     if(superImportantArray[i] !== i){
