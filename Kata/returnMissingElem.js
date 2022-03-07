@@ -11,3 +11,14 @@ Examples:
 [0, 5, 1, 3, 2, 9, 7, 6, 4] --> 8
 [9, 2, 4, 5, 7, 0, 8, 6, 1] --> 3
 */
+
+
+function getMissingElement(superImportantArray){
+  //TODO
+  superImportantArray.sort( (a,b) => a -b)
+  for(let i = 0; i <= superImportantArray.length; i++){
+    if(superImportantArray[i] !== i){
+      return i
+    }
+  }
+}
