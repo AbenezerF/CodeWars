@@ -20,5 +20,5 @@ function evenNumbers(array, number) {
       final.push(array[i]);
     }
   }
-  return final.reverse()
+  return final.reverse();
 }
