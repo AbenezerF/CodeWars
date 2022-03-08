@@ -9,3 +9,16 @@ For example:
 ([-22, 5, 3, 11, 26, -6, -7, -8, -9, -8, 26], 2) => [-8, 26]
 ([6, -25, 3, 7, 5, 5, 7, -3, 23], 1) => [6]
 */
+
+
+function evenNumbers(array, number) {
+  // good luck
+  let final = []
+  array = array.reverse()
+  for(let i = 0; i < array.length; i++){
+    if(array[i] % 2 === 0 && final.length < number){
+      final.push(array[i])
+    }
+  }
+  return final.reverse()
+}
