@@ -21,3 +21,9 @@ function evenNumbers(array, number) {
   }
   return final.reverse();
 }
+
+/*
+cleverest solution
+const evenNumbers = (array, number) => array.filter(item => item % 2 === 0).slice(-number);
+
+*/
