@@ -12,7 +12,6 @@ For example:
 
 
 function evenNumbers(array, number) {
-  // good luck
   let final = [];
   array = array.reverse();
   for(let i = 0; i < array.length; i++){
