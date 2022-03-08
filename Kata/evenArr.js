@@ -13,7 +13,7 @@ For example:
 
 function evenNumbers(array, number) {
   // good luck
-  let final = []
+  let final = [];
   array = array.reverse()
   for(let i = 0; i < array.length; i++){
     if(array[i] % 2 === 0 && final.length < number){
