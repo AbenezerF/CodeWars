@@ -19,7 +19,7 @@ function averages(numbers) {
   let final = [];
   if(numbers === null || numbers.length <= 1) return final;
   for(let i = 0; i < numbers.length -1; i++){
-    let val = (numbers[i] + numbers[i+1])/2
+    let val = (numbers[i] + numbers[i+1])/2;
     final.push(val)
   }
   return final
