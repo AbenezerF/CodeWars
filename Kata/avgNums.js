@@ -1,4 +1,4 @@
-
+// Average of Numbers (7kyu)
 
 /*
 #Get the averages of these numbers
