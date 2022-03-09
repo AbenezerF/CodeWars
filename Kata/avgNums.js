@@ -20,7 +20,7 @@ function averages(numbers) {
   if(numbers === null || numbers.length <= 1) return final;
   for(let i = 0; i < numbers.length -1; i++){
     let val = (numbers[i] + numbers[i+1])/2;
-    final.push(val)
+    final.push(val);
   }
   return final
 }
