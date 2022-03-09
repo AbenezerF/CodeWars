@@ -22,5 +22,5 @@ function averages(numbers) {
     let val = (numbers[i] + numbers[i+1])/2;
     final.push(val);
   }
-  return final
+  return final;
 }
