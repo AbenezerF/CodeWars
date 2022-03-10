@@ -24,7 +24,7 @@ function caffeineBuzz(n){
   if(n % 3 === 0 && n % 4 === 0){
     val += 'Coffee';
   }else if(n % 3 === 0){
-    val += 'Java' 
+    val += 'Java';
   }
   
   if(n % 3 !== 0){
