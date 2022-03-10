@@ -17,3 +17,21 @@ caffeineBuzz(6)   => "JavaScript"
 caffeineBuzz(12)  => "CoffeeScript"
 
 */
+
+
+function caffeineBuzz(n){
+  let val = ''
+  if(n % 3 === 0 && n % 4 === 0){
+    val += 'Coffee'
+  }else if(n % 3 === 0){
+    val += 'Java' 
+  }
+  
+  if(n % 3 !== 0){
+    return 'mocha_missing!'
+  }else if(n % 2 === 0){
+    return val + 'Script'
+  }
+  
+  return val
+}
