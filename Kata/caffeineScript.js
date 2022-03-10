@@ -32,6 +32,14 @@ function caffeineBuzz(n){
   }else if(n % 2 === 0){
     return val + 'Script';
   }
-  
   return val;
 }
+
+/* Best practice 
+function caffeineBuzz(n){
+  if (n % 12 === 0) return "CoffeeScript";
+  if (n % 6 === 0) return "JavaScript";
+  if (n % 3 === 0)  return "Java";
+  return "mocha_missing!";
+}
+*/
