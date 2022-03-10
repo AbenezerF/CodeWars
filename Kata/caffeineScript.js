@@ -28,7 +28,7 @@ function caffeineBuzz(n){
   }
   
   if(n % 3 !== 0){
-    return 'mocha_missing!'
+    return 'mocha_missing!';
   }else if(n % 2 === 0){
     return val + 'Script'
   }
