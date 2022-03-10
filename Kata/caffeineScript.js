@@ -22,7 +22,7 @@ caffeineBuzz(12)  => "CoffeeScript"
 function caffeineBuzz(n){
   let val = '';
   if(n % 3 === 0 && n % 4 === 0){
-    val += 'Coffee'
+    val += 'Coffee';
   }else if(n % 3 === 0){
     val += 'Java' 
   }
