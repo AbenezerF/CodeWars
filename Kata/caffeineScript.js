@@ -1,4 +1,4 @@
-
+// Caffeine Script (7Kyu)
 
 /*
 Complete the function caffeineBuzz, which takes a non-zero integer as its argument.
