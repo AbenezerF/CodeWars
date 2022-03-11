@@ -19,7 +19,7 @@ Good luck!
 
 
 function solve(arr) {
-  let final = []
+  let final = [];
   arr = arr.reverse()
   for(let i = 0; i < arr.length; i++){
     if(!final.includes(arr[i])){
