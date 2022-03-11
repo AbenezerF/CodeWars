@@ -28,3 +28,9 @@ function solve(arr) {
   }
   return final.reverse();
 }
+
+
+// Best practice solution
+function solve(arr){
+    return arr.filter((val,i) => arr.lastIndexOf(val) == i);
+}
