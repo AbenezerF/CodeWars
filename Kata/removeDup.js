@@ -14,7 +14,6 @@ Expected output: [4, 6, 3]
 More examples can be found in the test cases.
 
 Good luck!
-
 */
 
 
