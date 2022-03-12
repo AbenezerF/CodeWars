@@ -4,7 +4,6 @@
 Remove the duplicates from a list of integers, keeping the last ( rightmost ) occurrence of each element.
 
 Example:
-
 For input: [3, 4, 4, 3, 6, 3]
 
 remove the 3 at index 0
