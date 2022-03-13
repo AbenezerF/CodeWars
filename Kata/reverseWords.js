@@ -11,3 +11,7 @@ Example (Input --> Output)
 "Hi There." --> "There. Hi"
 Happy coding!
 */
+
+function reverse(string){
+  return string.split(' ').reverse().join(' ')
+}
