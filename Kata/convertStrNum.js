@@ -15,5 +15,5 @@ Note that you can receive floats as well.
 */
 
 function toNumberArray(stringarray){
-  return stringarray.map( el => Number(el))
+  return stringarray.map( el => Number(el));
 }
