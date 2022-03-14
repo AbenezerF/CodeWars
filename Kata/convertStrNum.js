@@ -11,6 +11,7 @@ Create the function that takes as a parameter a sequence of numbers represented 
 ie:["1", "2", "3"] to [1, 2, 3]
 
 Note that you can receive floats as well.
+
 */
 
 function toNumberArray(stringarray){
