@@ -1,4 +1,4 @@
-
+// Convert an array of strings to array of numbers (7kyu)
 
 /*
 Oh no!
