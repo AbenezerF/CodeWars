@@ -10,7 +10,6 @@ spam(6);  // huehuehuehuehuehue
 spam(14); // huehuehuehuehuehuehuehuehuehuehuehuehuehue
 */
 
-
 function spam(number){
   return "hue".repeat(number);
 }
