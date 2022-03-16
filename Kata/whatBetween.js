@@ -9,3 +9,12 @@ a = 1
 b = 4
 --> [1, 2, 3, 4]
 */
+
+
+function between(a, b) {
+  let final = []
+  for(let i = a; i <=b; i++){
+    final.push(i)
+  }
+  return final
+}
