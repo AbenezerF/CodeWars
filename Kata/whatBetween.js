@@ -12,7 +12,7 @@ b = 4
 
 
 function between(a, b) {
-  let final = []
+  let final = [];
   for(let i = a; i <=b; i++){
     final.push(i)
   }
