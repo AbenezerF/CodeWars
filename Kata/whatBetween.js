@@ -1,4 +1,5 @@
-// What is Between (7Kyu)
+// What is Between 
+
 /*
 Complete the function that takes two integers (a, b, where a < b) and return an array of all integers between the input parameters, including them.
 
@@ -11,9 +12,9 @@ b = 4
 
 
 function between(a, b) {
-  let final = [];
+  let final = []
   for(let i = a; i <=b; i++){
-    final.push(i);
+    final.push(i)
   }
-  return final;
+  return final
 }
