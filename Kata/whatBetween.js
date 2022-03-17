@@ -15,5 +15,5 @@ function between(a, b) {
   for(let i = a; i <=b; i++){
     final.push(i);
   }
-  return final
+  return final;
 }
