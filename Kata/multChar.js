@@ -1,4 +1,5 @@
 // Multiply Characters (7Kyu)
+
 /*
 Here we have a function that help us spam our hearty laughter. But is not working! I need you to find out why...
 
