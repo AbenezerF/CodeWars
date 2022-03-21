@@ -6,7 +6,6 @@ If they are, return true. Else, return false.
 You can assume all values in the array are numbers.
 */
 
-
 function smallEnough(a, limit){
-  return a.every( x => x <= limit);
+  return a.every( x => x <= limit)
 }
