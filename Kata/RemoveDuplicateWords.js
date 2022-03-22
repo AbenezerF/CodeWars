@@ -15,10 +15,10 @@ Output:
 */
 
 function removeDuplicateWords (s) {
-  let arr = s.split(' ')
-  let set = new Set()
-  arr.forEach( x => set.add(x))
-  let final = ''
+  let arr = s.split(' ');
+  let set = new Set();
+  arr.forEach( x => set.add(x));
+  let final = '';
   set.forEach( x => final += x + ' ')
   return final.substring(0, final.length-1)
 }
