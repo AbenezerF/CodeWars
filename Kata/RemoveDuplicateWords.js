@@ -19,5 +19,5 @@ function removeDuplicateWords (s) {
   arr.forEach( x => set.add(x));
   let final = '';
   set.forEach( x => final += x + ' ');
-  return final.substring(0, final.length-1)
+  return final.substring(0, final.length-1);
 }
