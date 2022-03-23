@@ -12,7 +12,7 @@ function divCon(x){
   let strings = x.filter( y => typeof y === 'string');
   
   let totInts = ints.reduce( (acc, curr) => acc += curr, 0);
-  let totString = strings.reduce( (acc, curr) => acc += +curr, 0)
+  let totString = strings.reduce( (acc, curr) => acc += +curr, 0);
   
  return totInts - totString
 }
