@@ -5,3 +5,14 @@ Given a mixed array of number and string representations of integers, add up the
 
 Return as a number.
 */
+
+
+function divCon(x){
+  let ints = x.filter( y => typeof y === 'number')
+  let strings = x.filter( y => typeof y === 'string')
+  
+  let totInts = ints.reduce( (acc, curr) => acc += curr, 0)
+  let totString = strings.reduce( (acc, curr) => acc += +curr, 0)
+  
+ return totInts - totString
+}
