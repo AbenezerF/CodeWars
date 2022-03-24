@@ -5,5 +5,5 @@ Make a function that returns the value multiplied by 50 and increased by 6. If t
 
 
 function problem(x){
-  return typeof x === 'number' ? (x * 50) + 6 : "Error"
+  return typeof x === 'number' ? (x * 50) + 6 : "Error";
 }
