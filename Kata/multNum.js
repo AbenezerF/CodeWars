@@ -12,7 +12,7 @@ multiply(-3)==-15 // -3 * 5¹
 function multiply(number){
   let str = number.toString();
   if(number < 0){
-    return number * (5**(str.length-1))
+    return number * (5**(str.length-1));
   }
   return number * (5**str.length)
 }
