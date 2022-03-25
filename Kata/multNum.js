@@ -8,3 +8,11 @@ multiply(200)==25000 // 200 * 5³
 multiply(0)==0 // 0 * 5¹
 multiply(-3)==-15 // -3 * 5¹
 */
+
+function multiply(number){
+  let str = number.toString()
+  if(number < 0){
+    return number * (5**(str.length-1))
+  }
+  return number * (5**str.length)
+}
