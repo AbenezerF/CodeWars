@@ -17,3 +17,6 @@ function multiply(number){
   }
   return number * (5**str.length);
 }
+
+// No if statement solution
+ return number * Math.pow(5, Math.abs(number).toString().length);
