@@ -14,5 +14,5 @@ function multiply(number){
   if(number < 0){
     return number * (5**(str.length-1));
   }
-  return number * (5**str.length)
+  return number * (5**str.length);
 }
