@@ -1,4 +1,4 @@
-// Flatten and sort an array 
+// Flatten and sort an array (7Kyu)
 /*
 Challenge:
 
