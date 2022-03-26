@@ -12,5 +12,5 @@ Given [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]], your function should return [1, 2, 
 "use strict";
 function flattenAndSort(array) {
   let final = [].concat(...array);
-  return final.sort((a,b) => a -b)
+  return final.sort((a,b) => a -b);
 }
