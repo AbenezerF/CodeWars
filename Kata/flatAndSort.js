@@ -1,5 +1,4 @@
 // Flatten and sort an array 
-
 /*
 Challenge:
 
