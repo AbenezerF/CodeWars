@@ -9,6 +9,6 @@ For example
 */
 
 function largestPairSum (numbers) {
-  let final = numbers.sort( (a,b) => a -b);
-  return final[final.length-2] + final[final.length-1];
+  let final = numbers.sort( (a,b) => a -b)
+  return final[final.length-2] + final[final.length-1]
 }
