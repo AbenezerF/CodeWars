@@ -33,14 +33,14 @@ var SequenceSum = (function() {
   function SequenceSum() {}
 
   SequenceSum.showSequence = function(count) {
-    let final = 0
-    let str = '0'
+    let final = 0;
+    let str = '0';
     for(let i = 1; i <= count; i++){
-      final += i
-      str += `+${i}`
+      final += i;
+      str += `+${i}`;
     }
     if(count === 0) return `${count}=0`
-    return count < 0 ? `${count}<0` : str + ` = ${final}`
+    return count < 0 ? `${count}<0` : str + ` = ${final}`;
   };
 
   return SequenceSum;
