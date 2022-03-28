@@ -38,5 +38,5 @@ function declareWinner(fighter1, fighter2, firstAttacker) {
     else if (fighter1.health <= 0)
       return fighter2.name
     else
-      return fighter1.name;
+      return fighter1.name
   }
