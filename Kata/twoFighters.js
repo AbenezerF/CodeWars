@@ -1,4 +1,4 @@
-
+// Two Fighters, One Winner Kata
 
 /*
 Create a function that returns the name of the winner in a fight between two fighters.
