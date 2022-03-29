@@ -8,5 +8,5 @@ Example: (Input1, Input2 --> Output)
 */
 
 function repeater(string, n){
-  return string.repeat(n)
+  return string.repeat(n);
 }
