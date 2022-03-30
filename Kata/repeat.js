@@ -1,4 +1,4 @@
-
+// repeatIt (7Kyu)
 
 /*
 Create a function that takes a string and an integer (n).
