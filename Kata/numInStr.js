@@ -10,5 +10,5 @@ Good luck!
 */
 
 function solve(s){
-  return Math.max(...s.match(/\d+/g))
+  return Math.max(...s.match(/\d+/g));
 }
