@@ -8,3 +8,7 @@ For example, solve("gh12cdy695m1") = 695, because this is the largest of all num
 Good luck!
 
 */
+
+function solve(s){
+  return Math.max(...s.match(/\d+/g));
+}
