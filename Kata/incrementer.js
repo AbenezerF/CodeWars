@@ -21,7 +21,7 @@ function incrementer(nums) {
     if( nums[i] + i + 1 === 10){
       nums[i] = 0;
     }else if(nums[i] + i + 1 > 10){
-      nums[i] = (nums[i] + i + 1) % 10
+      nums[i] = (nums[i] + i + 1) % 10;
     }else{
       nums[i] += (i + 1)
     }
