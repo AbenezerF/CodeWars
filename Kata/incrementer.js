@@ -19,7 +19,7 @@ Examples:
 function incrementer(nums) { 
   for(let i = 0; i < nums.length; i++){
     if( nums[i] + i + 1 === 10){
-      nums[i] = 0
+      nums[i] = 0;
     }else if(nums[i] + i + 1 > 10){
       nums[i] = (nums[i] + i + 1) % 10
     }else{
