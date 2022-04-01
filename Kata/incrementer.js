@@ -23,7 +23,7 @@ function incrementer(nums) {
     }else if(nums[i] + i + 1 > 10){
       nums[i] = (nums[i] + i + 1) % 10;
     }else{
-      nums[i] += (i + 1)
+      nums[i] += (i + 1);
     }
   }
   return nums
