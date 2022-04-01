@@ -28,3 +28,5 @@ function incrementer(nums) {
   }
   return nums;
 }
+
+// inbuilt methods
