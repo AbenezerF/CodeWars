@@ -26,5 +26,5 @@ function incrementer(nums) {
       nums[i] += (i + 1);
     }
   }
-  return nums
+  return nums;
 }
