@@ -28,13 +28,13 @@ function banana(){
 
 //answer some questions if you finished works above
 function answer1(){
-  return "no"
+  return "no";
 }
 function answer2(){
-  return "no"
+  return "no";
 }
 function answer3(){
-  return "yes"
+  return "yes";
 }
 
 
