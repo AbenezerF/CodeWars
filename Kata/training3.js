@@ -23,7 +23,7 @@ function Bee(){
   return b1+e2+e2;
 }
 function banana(){
-  return b2+a2+n2+a2+n2+a2
+  return b2+a2+n2+a2+n2+a2;
 }
 
 //answer some questions if you finished works above
