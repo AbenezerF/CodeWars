@@ -16,3 +16,11 @@ Example (Input --> Output)
 5 --> 5
 10 --> 10
 */
+
+
+function cookingTime(eggs) {
+  let val = eggs / 8
+  if(eggs === 0) return 0
+  else if(eggs <= 8) return 5
+  else return Math.ceil(val) * 5
+}
