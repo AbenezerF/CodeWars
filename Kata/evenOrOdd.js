@@ -21,6 +21,6 @@ function evenOrOdd(str) {
   } else if(even < odd) {
     return 'Odd is greater than Even';
   } else {
-    return 'Even and Odd are the same';
+    return 'Even and Odd are the same'
   }
 }
