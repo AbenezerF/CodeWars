@@ -1,4 +1,4 @@
-
+// All Star Code Challenge #3 (7kyu)
 
 /*
 This Kata is intended as a small challenge for my students
