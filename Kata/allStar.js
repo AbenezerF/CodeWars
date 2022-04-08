@@ -8,3 +8,14 @@ Create a function, called removeVowels (or remove_vowels), that takes a string a
 removeVowels("drake") // => "drk"
 removeVowels("aeiou") // => ""
 */
+
+var removeVowels = function(str){
+  let final = ''
+  str.split('').forEach(x =>{
+    if(!x.match(/[aeiou]/ig)){
+      final += x
+    }
+  })
+  return final
+}
+
