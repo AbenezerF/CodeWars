@@ -19,3 +19,7 @@ var removeVowels = function(str){
   return final
 }
 
+// one line solution
+function removeVowels(str) {
+  return str.replace(/[aeiou]/gi, ''); //hehe
+}
