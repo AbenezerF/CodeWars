@@ -10,10 +10,10 @@ removeVowels("aeiou") // => ""
 */
 
 var removeVowels = function(str){
-  let final = ''
+  let final = '';
   str.split('').forEach(x =>{
     if(!x.match(/[aeiou]/ig)){
-      final += x
+      final += x;
     }
   })
   return final
