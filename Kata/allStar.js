@@ -16,7 +16,7 @@ var removeVowels = function(str){
       final += x;
     }
   })
-  return final
+  return final;
 }
 
 // one line solution
