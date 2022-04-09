@@ -1,5 +1,4 @@
 // Evens and Odds (7kyu)
-
 /*
 This kata is about converting numbers to their binary or hexadecimal representation:
 
