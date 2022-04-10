@@ -14,3 +14,9 @@ Example:
 Try to avoid using the % (modulo) operator.
 
 */
+
+
+function divisibleByThree(str){
+  let val = str.split('').map(x => +x).reduce( (a,b) =>   a + b, 0)
+  return val % 3 === 0 ? true : false
+}
