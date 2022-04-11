@@ -24,5 +24,5 @@ function initializeNames(name){
       str = str + arr[i] + ' ';
     }
   }
-  return str
+  return str;
 }
