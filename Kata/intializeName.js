@@ -12,7 +12,7 @@ Examples
 */
 
 function initializeNames(name){
-  let str = ''
+  let str = '';
   let arr = name.split(' ')
   if(arr.length <= 2) return arr.join(' ');
   for(let i = 0; i < arr.length; i++){
