@@ -1,5 +1,4 @@
 // Initialize my name (7kyu)
-
 /*
 Some people just have a first name; some people have first and last names and some people have first, middle and last names.
 
