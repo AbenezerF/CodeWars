@@ -13,7 +13,7 @@ Examples
 
 function initializeNames(name){
   let str = '';
-  let arr = name.split(' ')
+  let arr = name.split(' ');
   if(arr.length <= 2) return arr.join(' ');
   for(let i = 0; i < arr.length; i++){
     if(i !== 0 && i !== arr.length - 1){
