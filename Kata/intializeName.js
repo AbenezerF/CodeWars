@@ -17,7 +17,7 @@ function initializeNames(name){
   if(arr.length <= 2) return arr.join(' ');
   for(let i = 0; i < arr.length; i++){
     if(i !== 0 && i !== arr.length - 1){
-      str = str + arr[i].charAt(0) + '. '
+      str = str + arr[i].charAt(0) + '. ';
     }else if(i === arr.length -1 ){
       str = str + arr[i]
     }else{
