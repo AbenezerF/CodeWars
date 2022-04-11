@@ -21,7 +21,7 @@ function initializeNames(name){
     }else if(i === arr.length -1 ){
       str = str + arr[i];
     }else{
-      str = str + arr[i] + ' '
+      str = str + arr[i] + ' ';
     }
   }
   return str
