@@ -19,7 +19,7 @@ function initializeNames(name){
     if(i !== 0 && i !== arr.length - 1){
       str = str + arr[i].charAt(0) + '. ';
     }else if(i === arr.length -1 ){
-      str = str + arr[i]
+      str = str + arr[i];
     }else{
       str = str + arr[i] + ' '
     }
