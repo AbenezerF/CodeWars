@@ -13,5 +13,5 @@ greet(null) === null; // Return null if input is null
 */
 
 function greet(name) {
-    return name ? 'hello ' + name + '!' : null;
+    return name ? 'hello ' + name + '!' : null
   }
