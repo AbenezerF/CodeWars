@@ -11,6 +11,6 @@ Do not modify the input list.
 */
 function longest(words) {
   let arr = [];
-  words.forEach(x => arr.push(x.length))
+  words.forEach(x => arr.push(x.length));
   return Math.max(...arr)
 }
