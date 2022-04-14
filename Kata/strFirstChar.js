@@ -1,4 +1,4 @@
-
+// Return String of First Characters (7kyu)
 
 /*
 In this exercise, a string is passed to a method and a new string has to be returned with the first character of each word in the string.
