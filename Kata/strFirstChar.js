@@ -12,5 +12,5 @@ Strings will only contain letters and spaces, with exactly 1 space between words
 */
 
 function makeString(s){
-  return s.split(' ').map( x => x[0]).join('');
+  return s.split(' ').map( x => x[0]).join('')
 }
