@@ -7,3 +7,7 @@ Example
 summy("1 2 3")  ==> 6
 
 */
+
+function summy(stringOfInts){
+    return stringOfInts.split(' ').map(x => +x).reduce((curr,prev) => curr + prev, 0)
+}
