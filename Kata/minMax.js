@@ -14,5 +14,5 @@ function getMinMax(arr){
 
 // one line solution
 function getMinMax(arr){
-  return [Math.min(...arr),Math.max(...arr)];
+  return [Math.min(...arr),Math.max(...arr)]
 };
