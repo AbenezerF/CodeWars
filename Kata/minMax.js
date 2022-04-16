@@ -10,3 +10,9 @@ function getMinMax(arr){
   let min = Math.max(...arr);
   return [].concat(max,min);
 };
+
+
+// one line solution
+function getMinMax(arr){
+  return [Math.min(...arr),Math.max(...arr)];
+};
