@@ -1,4 +1,4 @@
-
+// Between Extremes (7kyu)
 
 /*
 Given an array of numbers, return the difference between the largest and smallest values.
