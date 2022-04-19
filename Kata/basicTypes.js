@@ -26,6 +26,6 @@ In the end, click "Submit" to submit your code pass this kata.
 
 
 function animal(obj){
-  return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`;
+  return `This ${obj.color} ${obj.name} has ${obj.legs} legs.`
 }
 
