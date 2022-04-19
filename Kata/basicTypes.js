@@ -1,4 +1,4 @@
-
+// Training JS #5: Basic data types--Object (8kyu)
 
 /*
 In javascript, Object is one of basic data types. Define an Object can use var obj=new Object() or var obj={}
