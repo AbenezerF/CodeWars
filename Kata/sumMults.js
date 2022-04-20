@@ -20,7 +20,7 @@ function sumMul(n,m){
   let temp = n;
   while(n < m){
     total += n;
-    n += temp
+    n += temp;
   }
   return total === 0 ? "INVALID" : total
 }
