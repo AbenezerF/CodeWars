@@ -22,5 +22,5 @@ function sumMul(n,m){
     total += n;
     n += temp;
   }
-  return total === 0 ? "INVALID" : total
+  return total === 0 ? "INVALID" : total;
 }
