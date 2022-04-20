@@ -17,7 +17,7 @@ sumMul(4, -7)  ==> "INVALID"
 
 function sumMul(n,m){
   let total = 0;
-  let temp = n
+  let temp = n;
   while(n < m){
     total += n;
     n += temp
