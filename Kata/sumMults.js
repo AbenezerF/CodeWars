@@ -13,3 +13,14 @@ sumMul(3, 13)  ==> 3 + 6 + 9 + 12 = 30
 sumMul(4, 123) ==> 4 + 8 + 12 + ... = 1860
 sumMul(4, -7)  ==> "INVALID"
 */
+
+
+function sumMul(n,m){
+  let total = 0
+  let temp = n
+  while(n < m){
+    total += n;
+    n += temp
+  }
+  return total === 0 ? "INVALID" : total
+}
