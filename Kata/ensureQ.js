@@ -10,5 +10,5 @@ For example (Input --> Output)
 */
 
 function ensureQuestion(s) {
-  return s.substring(s.length-1) === '?' ? s : s + '?'
+  return s.substring(s.length-1) === '?' ? s : s + '?';
 }
