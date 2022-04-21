@@ -8,3 +8,7 @@ For example (Input --> Output)
 "Yes" --> "Yes?" 
 "No?" --> "No?"
 */
+
+function ensureQuestion(s) {
+  return s.substring(s.length-1) === '?' ? s : s + '?'
+}
