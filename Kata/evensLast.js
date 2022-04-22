@@ -14,5 +14,5 @@ function evenLast(numbers) {
   for (let i = 0; i < numbers.length; i += 2) {
     sum += numbers[i];
   }
-  return sum * numbers[numbers.length - 1]
+  return sum * numbers[numbers.length - 1];
 }
