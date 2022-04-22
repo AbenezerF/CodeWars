@@ -9,7 +9,7 @@ If the sequence is empty, you should return 0.
 
 
 function evenLast(numbers) {
-  if (numbers.length === 0) return 0
+  if (numbers.length === 0) return 0;
   let sum = 0;
   for (let i = 0; i < numbers.length; i += 2) {
     sum += numbers[i]
