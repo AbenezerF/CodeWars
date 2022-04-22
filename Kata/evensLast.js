@@ -1,4 +1,4 @@
-
+// Evens times last (7kyu)
 
 /*
 Given a sequence of integers, return the sum of all the integers that have an even index (odd index in COBOL), multiplied by the integer at the last index.
