@@ -5,6 +5,4 @@ Given a sequence of integers, return the sum of all the integers that have an ev
 Indices in sequence start from 0.
 
 If the sequence is empty, you should return 0.
-
-
 */
