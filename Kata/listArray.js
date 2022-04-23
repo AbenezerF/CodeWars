@@ -19,5 +19,5 @@ function listToArray(list) {
       temp.push(list.value);
       list = list.next;
     }
-    return temp
+    return temp;
   }
