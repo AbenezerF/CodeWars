@@ -10,8 +10,6 @@ Write a function listToArray (or list_to_array in Python) that converts a list t
 
 [1, 2, 3]
 Assume all inputs are valid lists with at least one value. For the purpose of simplicity, all values will be either numbers, strings, or Booleans.
-
-
 */
 
 
