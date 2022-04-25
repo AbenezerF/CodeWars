@@ -4,7 +4,7 @@
 
 class Counter {
     constructor() {
-      this.value = 0
+      this.value = 0;
     }
     
     increase() {
