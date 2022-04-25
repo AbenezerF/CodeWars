@@ -8,7 +8,7 @@ class Counter {
     }
     
     increase() {
-      this.value++
+      this.value++;
     };
   
     getValue() {
