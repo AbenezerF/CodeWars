@@ -4,18 +4,18 @@
 
 class Counter {
     constructor() {
-      this.value = 0;
+      this.value = 0
     }
     
     increase() {
-      this.value++;
+      this.value++
     };
   
     getValue() {
-      return this.value;
+      return this.value
     };
   
     reset() {
-      this.value = 0;
+      this.value = 0
     };
   }
