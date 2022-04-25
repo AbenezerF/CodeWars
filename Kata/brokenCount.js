@@ -16,6 +16,6 @@ class Counter {
     };
   
     reset() {
-      this.value = 0
+      this.value = 0;
     };
   }
