@@ -12,7 +12,7 @@ class Counter {
     };
   
     getValue() {
-      return this.value
+      return this.value;
     };
   
     reset() {
