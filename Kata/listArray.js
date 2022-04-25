@@ -14,10 +14,10 @@ Assume all inputs are valid lists with at least one value. For the purpose of si
 
 
 function listToArray(list) {
-    var temp = [];
+    var temp = []
     while(list){
-      temp.push(list.value);
-      list = list.next;
+      temp.push(list.value)
+      list = list.next
     }
-    return temp;
+    return temp
   }
