@@ -37,10 +37,13 @@ Since , {-282 , 818 , 900 , 928 } is the even numbers here , So it came first in
 Since , (Duplications are not included when separating) , then you can see only one (-282) was appeared in the final array/list .
 */
 
+
+// alternative way to get rid of duplicates is   
+// arr = Array.from(new Set(arr));
 function menFromBoys(arr){
+    let arrs = [];
     let evens = arr.filter( x => x % 2 === 0).sort( (a,b) =>  a- b);
     let odds = arr.filter( x => x % 2 !== 0).sort((a,b) =>  b- a);
-    let arrs = [];
     evens.forEach(x => {
       if(!arrs.includes(x)) arrs.push(x);
     })
@@ -49,3 +52,4 @@ function menFromBoys(arr){
     })
     return arrs;
   }
+
