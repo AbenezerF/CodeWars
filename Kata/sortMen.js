@@ -47,5 +47,5 @@ function menFromBoys(arr){
     odds.forEach(x => {
       if(!arrs.includes(x)) arrs.push(x);
     })
-    return arrs
+    return arrs;
   }
