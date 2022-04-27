@@ -17,7 +17,7 @@ function filterLongWords(sentence, n) {
       ret.push(x);
     }
   })
-  return ret
+  return ret;
 }
 
 // one line solution
