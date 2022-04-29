@@ -1,4 +1,4 @@
-// Help Bob count letters and digits 
+// Help Bob count letters and digits (7kyu)
 /*
 Bob is a lazy man.
 
