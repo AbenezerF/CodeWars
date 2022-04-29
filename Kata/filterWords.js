@@ -10,17 +10,17 @@ Example:
 */
 
 function filterLongWords(sentence, n) {
-  let ret = [];
-  let arr = sentence.split(' ');
+  let ret = []
+  let arr = sentence.split(' ')
   arr.forEach(x => {
     if(x.length > n){
-      ret.push(x);
+      ret.push(x)
     }
   })
-  return ret;
+  return ret
 }
 
 // one line solution
 function filterLongWords(sentence, n) {
-  return sentence.split(" ").filter(x => x.length > n);
+  return sentence.split(" ").filter(x => x.length > n)
 }
