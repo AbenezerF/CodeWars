@@ -11,7 +11,7 @@ Example:
 
 function filterLongWords(sentence, n) {
   let ret = [];
-  let arr = sentence.split(' ')
+  let arr = sentence.split(' ');
   arr.forEach(x => {
     if(x.length > n){
       ret.push(x)
