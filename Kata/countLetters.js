@@ -14,5 +14,5 @@ Example:
 */
 
 function countLettersAndDigits(s) {
-  return s.replace(/[^a-z\d]/gi,"").length
+  return s.replace(/[^a-z\d]/gi,"").length;
 }
