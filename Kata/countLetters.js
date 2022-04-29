@@ -12,3 +12,7 @@ Example:
 
 "!?..A" --> 1
 */
+
+function countLettersAndDigits(s) {
+  return s.replace(/[^a-z\d]/gi,"").length;
+}
