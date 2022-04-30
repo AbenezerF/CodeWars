@@ -15,5 +15,5 @@ function sum() {
     for(var i in arguments){
       total += arguments[i];
     }
-    return total
+    return total;
   }
