@@ -1,4 +1,4 @@
-
+// Sum of all arguments (7kyu)
 
 /*
 
