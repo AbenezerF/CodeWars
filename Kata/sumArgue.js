@@ -11,9 +11,9 @@ sum(1, 2, 3, 4, 5) // => 15
 */
 
 function sum() {
-    var total = 0
+    var total = 0;
     for(var i in arguments){
-      total += arguments[i]
+      total += arguments[i];
     }
     return total
   }
