@@ -17,7 +17,7 @@ But as you will see after clicking RUN or ATTEMPT this code has several bugs, pl
 */
 
 function getStatus(isBusy) {
-  var msg = (isBusy ? "busy" : "available");
+  var msg = (isBusy ? "busy" : "available")
   return {
     status: msg
   }
