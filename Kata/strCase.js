@@ -11,3 +11,17 @@ solve("coDe") = "code". Lowercase characters > uppercase. Change only the "D" to
 solve("CODe") = "CODE". Uppercase characters > lowecase. Change only the "e" to uppercase.
 solve("coDE") = "code". Upper == lowercase. Change all to lowercase.
 */
+
+function solve(s){
+   let minCount = 0
+   let maxCount = 0
+   s.split('').forEach(x => {
+     if(x == x.toLowerCase()){
+       minCount++
+     }else{
+       maxCount++
+     }
+   })
+  if(minCount === maxCount) return s.toLowerCase()
+  return minCount > maxCount ? s.toLowerCase(): s.toUpperCase()
+}
