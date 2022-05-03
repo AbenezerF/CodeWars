@@ -22,6 +22,5 @@ function solve(s){
        maxCount++
      }
    })
-  if(minCount === maxCount) return s.toLowerCase()
-  return minCount > maxCount ? s.toLowerCase(): s.toUpperCase()
+  return minCount >= maxCount ? s.toLowerCase(): s.toUpperCase()
 }
