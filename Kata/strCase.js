@@ -17,7 +17,7 @@ function solve(s){
    let maxCount = 0;
    s.split('').forEach(x => {
      if(x == x.toLowerCase()){
-       minCount++
+       minCount++;
      }else{
        maxCount++
      }
