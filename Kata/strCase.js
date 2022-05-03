@@ -19,7 +19,7 @@ function solve(s){
      if(x == x.toLowerCase()){
        minCount++;
      }else{
-       maxCount++
+       maxCount++;
      }
    })
   return minCount >= maxCount ? s.toLowerCase(): s.toUpperCase()
