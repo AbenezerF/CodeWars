@@ -14,7 +14,7 @@ solve("coDE") = "code". Upper == lowercase. Change all to lowercase.
 
 function solve(s){
    let minCount = 0;
-   let maxCount = 0
+   let maxCount = 0;
    s.split('').forEach(x => {
      if(x == x.toLowerCase()){
        minCount++
