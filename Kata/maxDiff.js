@@ -10,3 +10,8 @@ lst is not sorted
 [1, 2, 3, -4]  //  returns 7 because 3 - (-4) == 7
 
 */
+
+function maxDiff(list) {
+  list = list.sort((a,b) => a-b)
+  return list.length !== 0 ? list[list.length-1] - list[0]: 0
+};
