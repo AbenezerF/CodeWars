@@ -13,5 +13,5 @@ lst is not sorted
 
 function maxDiff(list) {
   list = list.sort((a,b) => a-b);
-  return list.length !== 0 ? list[list.length-1] - list[0]: 0
+  return list.length !== 0 ? list[list.length-1] - list[0]: 0;
 };
