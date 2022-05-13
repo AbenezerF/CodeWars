@@ -35,5 +35,5 @@ function minValue(values){
 // Shortest Solution
 function minValue(values){
   let arr = Array.from(new Set(values));
-  return parseInt(arr.sort().join(''))
+  return parseInt(arr.sort().join(''));
 }
