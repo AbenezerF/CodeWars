@@ -1,10 +1,7 @@
 // Total Pressure Calculation (8Kyu)
 /*
 Given the molecular mass of two molecules M1M_1M and M2M_2M, their masses present m1m_1m 
-  and m2m_2m 
-2
-​
-  in a vessel of volume VVV at a specific temperature TTT, find the total pressure PtotalP_{total}P 
+and m2m_2m in a vessel of volume VVV at a specific temperature TTT, find the total pressure PtotalP_{total}P 
 total
 ​
   exerted by the molecules. Formula to calculate the pressure is:
