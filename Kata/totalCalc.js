@@ -6,7 +6,6 @@ total exerted by the molecules. Formula to calculate the pressure is:
 
 Ptotal=(m1M1+m2M2)RTV\LARGE P_{total} = {{({{m_1} \over {M_1}} + {{m_2} \over {M_2}}) R T} \over V}P 
 total
-​
  = 
 V
 ( 
