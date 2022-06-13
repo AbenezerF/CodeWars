@@ -5,19 +5,7 @@ and m2m_2m in a vessel of volume VVV at a specific temperature TTT, find the tot
 total exerted by the molecules. Formula to calculate the pressure is:
 
 Ptotal=(m1M1+m2M2)RTV\LARGE P_{total} = {{({{m_1} \over {M_1}} + {{m_2} \over {M_2}}) R T} \over V}
-P total= V(M1/m1+ 
-M 
-2
-​
- 
-m 
-2
-​
- 
-​
- )RT
-​
- 
+P total= V(M1/m1 + M2/m2)RT
 Input
 Six values :
 
