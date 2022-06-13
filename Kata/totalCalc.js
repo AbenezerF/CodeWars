@@ -4,21 +4,8 @@ Given the molecular mass of two molecules M1M_1M and M2M_2M, their masses presen
 and m2m_2m in a vessel of volume VVV at a specific temperature TTT, find the total pressure PtotalP_{total}P 
 total exerted by the molecules. Formula to calculate the pressure is:
 
-Ptotal=(m1M1+m2M2)RTV\LARGE P_{total} = {{({{m_1} \over {M_1}} + {{m_2} \over {M_2}}) R T} \over V}P 
-total
- = 
-V
-( 
-M 
-1
-​
- 
-m 
-1
-​
- 
-​
- + 
+Ptotal=(m1M1+m2M2)RTV\LARGE P_{total} = {{({{m_1} \over {M_1}} + {{m_2} \over {M_2}}) R T} \over V}
+P total= V(M1/m1+ 
 M 
 2
 ​
