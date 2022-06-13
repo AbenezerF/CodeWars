@@ -1,14 +1,6 @@
 // Total Pressure Calculation (8Kyu)
 /*
-Given the molecular mass of two molecules M1M_1M 
-1
-
-  and M2M_2M 
-2
-​
- , their masses present m1m_1m 
-1
-​
+Given the molecular mass of two molecules M1M_1M and M2M_2M, their masses present m1m_1m 
   and m2m_2m 
 2
 ​
