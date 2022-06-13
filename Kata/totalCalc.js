@@ -8,13 +8,7 @@ Ptotal=(m1M1+m2M2)RTV\LARGE P_{total} = {{({{m_1} \over {M_1}} + {{m_2} \over {M
 P total= V(M1/m1 + M2/m2)RT
 Input
 Six values :
-
-M1M_1M 
-1
-​
- , M2M_2M 
-2
- : molar masses of both gases, in grams (ggg)
+M1M_1M 1, M2M_2M : molar masses of both gases, in grams (ggg)
 m1m_1m 
 1
   and m2m_2m 
