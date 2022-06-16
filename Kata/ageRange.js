@@ -29,7 +29,7 @@ function datingRange(age){
     min = age/2 + 7;
     max = (age-7) * 2;
   }else{
-    min =  age - 0.10 * age
+    min =  age - 0.10 * age;
     max =  age + 0.10 * age
   }
   return `${Math.floor(min)}-${Math.floor(max)}`
