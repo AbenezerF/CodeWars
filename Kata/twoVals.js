@@ -16,5 +16,5 @@ function alternate(n, firstValue, secondValue){
     if(i%2===0) arr.push(firstValue);
     else arr.push(secondValue);
   }
-  return arr
+  return arr;
 }
