@@ -23,7 +23,7 @@ age = 17   =>   15-20
 */
 
 function datingRange(age){
-  let min = 0
+  let min = 0;
   let max = 0
   if(age > 14){
     min = age/2 + 7
