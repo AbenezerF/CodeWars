@@ -1,4 +1,4 @@
-//  Last Survivor (7Kyu)
+//  Last Survivor(7Kyu)
 
 /*
 You are given a string of letters and an array of numbers.
