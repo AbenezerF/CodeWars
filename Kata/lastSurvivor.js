@@ -24,5 +24,5 @@ function lastSurvivor(letters, coords) {
   for(let i = 0; i < coords.length; i++){
     arr.splice(coords[i], 1);
   }
-  return arr.join('')
+  return arr.join('');
 }
