@@ -13,6 +13,6 @@ function fourSeven(n){
  let obj = {
   7:4,
   4:7
- }
- return obj[n] || 0
+ };
+ return obj[n] || 0;
 }
