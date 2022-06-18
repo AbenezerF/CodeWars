@@ -8,3 +8,11 @@ There are some very simple ways of answering this problem, but I encourage you t
 
 Good Luck!
 */
+
+function fourSeven(n){
+ let obj = {
+  7:4,
+  4:7
+ }
+ return obj[n] || 0
+}
