@@ -14,5 +14,5 @@ function fourSeven(n){
   7:4,
   4:7
  };
- return obj[n] || 0
+ return obj[n] || 0;
 }
