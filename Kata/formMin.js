@@ -22,7 +22,7 @@ Explanation:
 
 
 function minValue(values){
-  let arr = []
+  let arr = [];
   values.forEach(x =>{
     if(!arr.includes(x) && x >= 0){
       arr.push(x)
