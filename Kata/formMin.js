@@ -31,3 +31,5 @@ function minValue(values){
   arr.sort( (a,b) => a -b);
   return Number(arr.join(''));
 }
+
+// Shortest Solution
