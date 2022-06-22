@@ -19,3 +19,15 @@ minValue({1, 9, 3, 1, 7, 4, 6, 6, 7}) return  ==> (134679)
 Explanation:
 (134679) is the minimum number could be formed from {1, 9, 3, 1, 7, 4, 6, 6, 7} , Without duplications
 */
+
+
+function minValue(values){
+  let arr = []
+  values.forEach(x =>{
+    if(!arr.includes(x) && x >= 0){
+      arr.push(x)
+    }
+  })
+  arr.sort( (a,b) => a -b)
+  return Number(arr.join(''))
+}
