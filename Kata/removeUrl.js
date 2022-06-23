@@ -10,6 +10,6 @@ Examples
 
 
 function removeUrlAnchor(url){
-  let arr = url.split('#')
+  let arr = url.split('#');
   return arr[0]
 }
