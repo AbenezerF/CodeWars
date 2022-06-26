@@ -10,5 +10,5 @@ This example will return the string Hello, John Smith! Welcome to Phoenix, Arizo
 
 function sayHello( name, city, state ) {
   let names = name.join(' ')
-  return `Hello, ${names}! Welcome to ${city}, ${state}!`;
+  return `Hello, ${names}! Welcome to ${city}, ${state}!`
 }
