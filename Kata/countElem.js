@@ -1,5 +1,4 @@
 // Counting Array Elements (7Kyu)
-
 /*
 Write a function that takes an array and counts the number of each unique element present.
 
