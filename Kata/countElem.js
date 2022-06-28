@@ -9,7 +9,7 @@ count(['james', 'james', 'john'])
 
 
 function count(array){
-    var names = {}
+    var names = {};
     array.forEach(item => {
       names[item] = (names[item] || 0) + 1
     });
