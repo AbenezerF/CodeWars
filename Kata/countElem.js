@@ -13,5 +13,5 @@ function count(array){
     array.forEach(item => {
       names[item] = (names[item] || 0) + 1;
     });
-    return names
+    return names;
   }
