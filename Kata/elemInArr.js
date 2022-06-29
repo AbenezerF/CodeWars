@@ -1,4 +1,4 @@
-
+// Find all occurrences of an element in an array (7Kyu)
 
 /*
 Given an array (a list in Python) of integers and an integer n, find all occurrences of n in the given array and return another array containing all the index positions of n in the given array.
