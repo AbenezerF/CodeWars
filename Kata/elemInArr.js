@@ -13,7 +13,7 @@ findAll([6, 9, 3, 4, 3, 82, 11], 3) => [2, 4]
 */
 
 const findAll = (array, n) => {
-  let arr = []
+  let arr = [];
   for(let i = 0; i < array.length; i++){
     if(array[i] === n){
       arr.push(i)
