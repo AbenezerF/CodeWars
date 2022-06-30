@@ -15,7 +15,7 @@ function numberToPower(number, power){
   let total = 1;
   let i = 0;
   while(i < power){
-    i++
+    i++;
     total *= number;
   }
   return total
