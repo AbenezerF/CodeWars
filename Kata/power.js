@@ -13,7 +13,7 @@ Note: Math.pow and some other Math functions like eval() and ** are disabled.
 
 function numberToPower(number, power){
   let total = 1;
-  let i = 0
+  let i = 0;
   while(i < power){
     i++
     total *= number
