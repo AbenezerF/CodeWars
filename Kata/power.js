@@ -18,6 +18,6 @@ function numberToPower(number, power){
     i++;
     total *= number;
   }
-  return total
+  return total;
 }
 
