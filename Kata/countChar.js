@@ -28,3 +28,10 @@ function countChar(string, char) {
   }
   return total
 }
+
+
+// inbuilt methods
+function countChar(s, c) {
+  c = c.toLowerCase();
+  return s.toLowerCase().split('').filter(x => x == c).length;
+}
