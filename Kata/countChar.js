@@ -30,6 +30,6 @@ function countChar(string, char) {
 
 // inbuilt methods
 function countChar(s, c) {
-  c = c.toLowerCase()
+  c = c.toLowerCase();
   return s.toLowerCase().split('').filter(x => x == c).length;
 }
