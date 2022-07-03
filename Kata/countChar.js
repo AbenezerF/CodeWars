@@ -24,7 +24,7 @@ function countChar(string, char) {
       total++;
     }
   }
-  return total
+  return total;
 }
 
 
