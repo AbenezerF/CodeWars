@@ -14,7 +14,7 @@ Good luck.
 */
 function countChar(string, char) {
   if(char === char.toLowerCase()){
-    string = string.toLowerCase()
+    string = string.toLowerCase();
   }else{
     string = string.toUpperCase()
   }
