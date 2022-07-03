@@ -16,7 +16,7 @@ function countChar(string, char) {
   if(char === char.toLowerCase()){
     string = string.toLowerCase()
   }else{
-    string = string.toUpperCase();
+    string = string.toUpperCase()
   }
   let total = 0;
   for(let i = 0; i < string.length; i++){
