@@ -37,7 +37,7 @@ function whatday(num) {
       return "Saturday"
       break
     default:
-      return "Wrong, please enter a number between 1 and 7"
-      break
+      return "Wrong, please enter a number between 1 and 7";
+      break;
   }
 }
