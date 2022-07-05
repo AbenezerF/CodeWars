@@ -31,8 +31,8 @@ function whatday(num) {
       return 'Thursday';
       break;
     case 6: 
-      return 'Friday'
-      break
+      return 'Friday';
+      break;
     case 7:
       return "Saturday"
       break
