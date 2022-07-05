@@ -28,8 +28,8 @@ function whatday(num) {
       return 'Wednesday';
       break;
     case 5: 
-      return 'Thursday'
-      break
+      return 'Thursday';
+      break;
     case 6: 
       return 'Friday'
       break
