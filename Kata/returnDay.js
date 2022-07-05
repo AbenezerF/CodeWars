@@ -25,8 +25,8 @@ function whatday(num) {
       return 'Tuesday';
       break;
     case 4: 
-      return 'Wednesday'
-      break
+      return 'Wednesday';
+      break;
     case 5: 
       return 'Thursday'
       break
