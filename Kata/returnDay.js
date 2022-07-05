@@ -23,7 +23,7 @@ function whatday(num) {
       break;
     case 3: 
       return 'Tuesday';
-      break
+      break;
     case 4: 
       return 'Wednesday'
       break
