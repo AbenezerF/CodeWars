@@ -34,8 +34,8 @@ function whatday(num) {
       return 'Friday';
       break;
     case 7:
-      return "Saturday"
-      break
+      return "Saturday";
+      break;
     default:
       return "Wrong, please enter a number between 1 and 7";
       break;
