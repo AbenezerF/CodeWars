@@ -20,7 +20,7 @@ function whatday(num) {
       break;
     case 2: 
       return 'Monday';
-      break
+      break;
     case 3: 
       return 'Tuesday'
       break
