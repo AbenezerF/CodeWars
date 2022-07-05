@@ -17,7 +17,7 @@ function whatday(num) {
   switch(num){
     case 1: 
       return 'Sunday';
-      break
+      break;
     case 2: 
       return 'Monday'
       break
