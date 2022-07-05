@@ -16,7 +16,7 @@ Otherwise returns "Wrong, please enter a number between 1 and 7"
 function whatday(num) { 
   switch(num){
     case 1: 
-      return 'Sunday'
+      return 'Sunday';
       break
     case 2: 
       return 'Monday'
