@@ -19,7 +19,7 @@ function whatday(num) {
       return 'Sunday';
       break;
     case 2: 
-      return 'Monday'
+      return 'Monday';
       break
     case 3: 
       return 'Tuesday'
