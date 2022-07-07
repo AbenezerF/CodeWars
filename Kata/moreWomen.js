@@ -22,6 +22,4 @@ function inviteMoreWomen(L) {
   let arr = L.filter(x => x === -1);
   let arr1 = L.filter(x => x === 1);
   return arr1.length > arr.length ? true: false;
-  
-  
 }
