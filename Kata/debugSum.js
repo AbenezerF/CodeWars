@@ -10,7 +10,7 @@ Example
 */
 
 function getSumOfDigits(integer) {
-  var sum = null;
+  var sum = null
   var digits =  Math.floor(integer).toString();
   for(var ix = 0; ix < digits.length; ix++) {
     sum += +digits[ix];
