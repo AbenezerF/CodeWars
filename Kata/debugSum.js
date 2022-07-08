@@ -14,5 +14,5 @@ function getSumOfDigits(integer) {
   for(var ix = 0; ix < digits.length; ix++) {
     sum += +digits[ix];
   }
-  return sum;
+  return sum
 }
