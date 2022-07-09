@@ -1,5 +1,4 @@
 // Basic Training: Add item to an Array (8Kyu)
-
 /*
 Add the value "codewars" to the websites array.
 After your code executes the websites array should == ["codewars"]
