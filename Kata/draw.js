@@ -7,6 +7,6 @@ function drawStairs(n) {
       }
       return str.trim();
     } else {
-      return 'I'
+      return 'I';
     }
   }
