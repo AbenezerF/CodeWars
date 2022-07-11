@@ -12,7 +12,7 @@ Examples
 
 
 function checkThreeAndTwo(array) {
-  let a = array.filter( x => x === 'a').length
+  let a = array.filter( x => x === 'a').length;
   let b = array.filter( x => x === 'b').length
   let c = array.filter( x => x === 'c').length
   
