@@ -1,5 +1,4 @@
 // Check three and two (7Kyu)
-
 /*
 Given an array with exactly 5 strings "a", "b" or "c" (chars in Java, characters in Fortran), check if the array contains three and two of the same values.
 
