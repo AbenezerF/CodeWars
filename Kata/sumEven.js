@@ -16,5 +16,5 @@ function sumEvenNumbers(input) {
   input.forEach(x => {
     if(x % 2 === 0) total += x;
  })
-  return total;
+  return total
 }
