@@ -11,3 +11,11 @@ Examples
 [4, 3, 1, 2, 5, 10, 6, 7, 9, 8]  -->  30   # because 4 + 2 + 10 + 6 + 8 = 30
 [] -->  0
 */
+
+function sumEvenNumbers(input) {
+  let total = 0
+  input.forEach(x => {
+    if(x % 2 === 0) total += x
+ })
+  return total
+}
