@@ -1,0 +1,1 @@
+// Sum even numbers (7Kyu)
