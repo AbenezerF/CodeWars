@@ -14,7 +14,7 @@ Examples
 function sumEvenNumbers(input) {
   let total = 0
   input.forEach(x => {
-    if(x % 2 === 0) total += x;
+    if(x % 2 === 0) total += x
  })
   return total;
 }
