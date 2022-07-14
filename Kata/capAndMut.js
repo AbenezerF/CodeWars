@@ -9,3 +9,7 @@ Don't worry about numbers, special characters, or non-string types being passed 
 
 
 */
+
+function capitalizeWord(word) {
+  return word[0].toUpperCase() + word.slice(1);
+}
