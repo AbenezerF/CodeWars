@@ -19,5 +19,5 @@ function sumOfDifferences(arr) {
   for(let i = 0; i < sorted.length - 1; i++){
     total += (sorted[i] - sorted[i+1]);
   }
-  return total
+  return total;
 }
