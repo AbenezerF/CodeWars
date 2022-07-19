@@ -1,5 +1,4 @@
 // Who is going to pay for the wall? (8Kyu)
-
 /*
 Don Drumphet lives in a nice neighborhood, but one of his neighbors has started to let his house go. Don Drumphet 
 wants to build a wall between his house and his neighbor’s, and is trying to get the neighborhood association to pay for it. 
