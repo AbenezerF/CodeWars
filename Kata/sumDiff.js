@@ -1,7 +1,6 @@
 // Sum of differences in array (8Kyu)
 
 /*
-
 Your task is to sum the differences between consecutive pairs in the array in descending order.
 
 Example
