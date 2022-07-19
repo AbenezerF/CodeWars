@@ -14,7 +14,7 @@ If the number of the characters in name is less than or equal to two, it will re
 
 function whoIsPaying(name){
   if(name.length <= 2){
-    return [name]
+    return [name];
   }
   return [name, name[0]+name[1]]
 }
