@@ -1,5 +1,4 @@
 // Ninja vs Samurai: Strike (7Kyu)
-
 /*
 Something is wrong with our Warrior class. The strike method does not work correctly. The following shows an example of this code being used:
 
