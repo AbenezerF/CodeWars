@@ -12,7 +12,7 @@ Can you figure out what is wrong?
 
 
 var Warrior = function(name){
-  this.name = name
+  this.name = name;
   this.health = 100
 
 this.strike = function(enemy, swings){
