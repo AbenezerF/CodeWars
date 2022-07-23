@@ -13,4 +13,4 @@ You are given two empty arrays (truthy and falsy) and you have to fill this arra
 */
 
 const truthy = ["0", 12n, 3.14, 42, true];
-const falsy = [0,NaN,"",null,undefined]
+const falsy = [0,NaN,"",null,undefined];
