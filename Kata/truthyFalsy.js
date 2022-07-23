@@ -12,5 +12,5 @@ Your task
 You are given two empty arrays (truthy and falsy) and you have to fill this array with at least 5 elements in each which will evaluate to true or false accordingly.
 */
 
-const truthy = ["0", 12n, 3.14, 42, true];
+const truthy = ["0", 12n, 3.14, 42, true]
 const falsy = [0,NaN,"",null,undefined];
