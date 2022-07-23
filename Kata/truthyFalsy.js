@@ -1,5 +1,4 @@
 // Truthy and Falsy (7Kyu)
-
 /*
 In JavaScript there are truthy and falsy values:
 
