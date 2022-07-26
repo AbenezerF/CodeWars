@@ -6,5 +6,5 @@ Health can't be less than 0.
 */
 
 function combat(health, damage) {
-  return health < damage ? 0 : health - damage
+  return health < damage ? 0 : health - damage;
 }
