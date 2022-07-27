@@ -19,6 +19,6 @@ If the building contains no ghosts, return the string:
 */
 
 function ghostBusters(building) {
-  const ghostBusters = building => /\s/.test(building) ? building.split(' ').join('') : "You just wanted my autograph didn't you?"
+  const ghostBusters = building => /\s/.test(building) ? building.split(' ').join('') : "You just wanted my autograph didn't you?";
 
 }
