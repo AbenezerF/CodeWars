@@ -1,4 +1,5 @@
 // Ghostbusters (whitespace removal) (7Kyu)
+
 /*
 Oh no! Ghosts have reportedly swarmed the city. It's your job to get rid of them and save the day!
 
