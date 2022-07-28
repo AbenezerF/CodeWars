@@ -1,1 +1,1 @@
-// Grasshopper - Function syntax debugging(8Kyu)
+// Grasshopper - Function syntax debugging (8Kyu)
