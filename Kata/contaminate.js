@@ -1,5 +1,4 @@
 // Contamination #1 -String-(8Kyu)
-
 /*
 An AI has infected a text with a character!!
 
