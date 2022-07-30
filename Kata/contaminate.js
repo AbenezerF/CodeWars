@@ -17,6 +17,6 @@ text after  = "zzz"
 
 
 function contamination(text, char){
-  let string = char.repeat(text.length)
+  let string = char.repeat(text.length);
   return char === "" ? "": string
 }
