@@ -13,3 +13,8 @@ function checkTheBucket(bucket){
   }
   return false;
 }
+
+// inbuilt method
+function checkTheBucket(bucket){
+  return bucket.includes('gold');
+}
