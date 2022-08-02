@@ -15,7 +15,7 @@ function switcheroo(x){
     if(arr[i] === 'a'){
       arr[i] = 'b';
     }else if(arr[i] === 'b'){
-      arr[i] = 'a'
+      arr[i] = 'a';
     }
     }
   return arr.join('')
