@@ -20,3 +20,6 @@ function switcheroo(x){
     }
   return arr.join('')
 }
+
+// using regex
+const switcheroo=x=>x.replace(/[ab]/g,x=>x=="a"?"b":"a")
