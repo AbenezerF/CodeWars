@@ -18,7 +18,7 @@ function switcheroo(x){
       arr[i] = 'a';
     }
     }
-  return arr.join('')
+  return arr.join('');
 }
 
 // using regex
