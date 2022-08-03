@@ -11,6 +11,7 @@ Example
 25  =>  25 + 12 + 6 + 3 + 1 = 47
 */
 
+
 function halvingSum(n) {
   let total = 0;
   while(n >= 1){
