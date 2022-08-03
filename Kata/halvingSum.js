@@ -1,5 +1,4 @@
 // Halving Sum (7Kyu)
-
 /*
 Task
 Given a positive integer n, calculate the following sum:
