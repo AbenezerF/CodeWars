@@ -26,5 +26,5 @@ function outed(meet, boss){
         sum+=meet[key]*2;
         count++;
       }
-    return sum/count<=5?'Get Out Now!':'Nice Work Champ!'
+    return sum/count<=5?'Get Out Now!':'Nice Work Champ!';
   }
