@@ -13,7 +13,7 @@ Note that your boss is in the room (boss), their score is worth double it's face
 */
 
 function outed(meet, boss){
-    let sum=0
+    let sum=0;
     let count=0
     for (var key in meet)
       if (key!=boss)
