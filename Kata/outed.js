@@ -23,8 +23,8 @@ function outed(meet, boss){
       }  
       else
       {
-        sum+=meet[key]*2
-        count++
+        sum+=meet[key]*2;
+        count++;
       }
     return sum/count<=5?'Get Out Now!':'Nice Work Champ!'
   }
