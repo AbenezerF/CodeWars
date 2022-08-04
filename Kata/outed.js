@@ -19,7 +19,7 @@ function outed(meet, boss){
       if (key!=boss)
       {
         sum+=meet[key];
-        count++
+        count++;
       }  
       else
       {
