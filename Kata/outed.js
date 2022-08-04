@@ -18,7 +18,7 @@ function outed(meet, boss){
     for (var key in meet)
       if (key!=boss)
       {
-        sum+=meet[key]
+        sum+=meet[key];
         count++
       }  
       else
