@@ -1,4 +1,4 @@
-
+// Number Of Occurrences (7Kyu)
 
 
 Array.prototype.numberOfOccurrences = function (element) {
