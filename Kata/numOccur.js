@@ -19,5 +19,5 @@ Array.prototype.numberOfOccurrences = function (element) {
         if (this[i] == element) { counter++; }
     }
     
-    return counter
+    return counter;
 }
