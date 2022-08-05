@@ -13,7 +13,7 @@ arr.numberOfOccurrences("a") === 0;
 
 Array.prototype.numberOfOccurrences = function (element) {
     
-    var counter = 0
+    var counter = 0;
     for (var i = 0; i < this.length; i++)
     {
         if (this[i] == element) { counter++; }
