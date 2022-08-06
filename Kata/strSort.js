@@ -34,7 +34,7 @@ function sortMyString(S) {
         strEven += S[i]
       }
       else {
-        strOdd += S[i]
+        strOdd += S[i];
       }
     }
     return strEven + ' ' + strOdd;
