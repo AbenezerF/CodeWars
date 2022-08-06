@@ -27,7 +27,7 @@ Enjoy.
 
 
 function sortMyString(S) {
-    let strEven = ''
+    let strEven = '';
     let strOdd = ''
     for (let i = 0; i < S.length; i++) {
       if (i % 2 === 0) {
