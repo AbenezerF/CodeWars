@@ -11,5 +11,5 @@ If the array is null or is empty, the function should return null.
  * @param {Array} values - The array containing the items.
  */
 function product(values) {
-  return values=== null || values.length===0 ? null: values.reduce( (a,b) => a * b)
+  return values=== null || values.length===0 ? null: values.reduce( (a,b) => a * b);
 }
