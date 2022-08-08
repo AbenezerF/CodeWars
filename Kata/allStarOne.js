@@ -20,5 +20,5 @@ sumPPG(iverson, jordan); // => 31.4
 */
 
 function sumPPG(playerOne, playerTwo){
-  return playerOne.ppg + playerTwo.ppg;
+  return playerOne.ppg + playerTwo.ppg
 }
