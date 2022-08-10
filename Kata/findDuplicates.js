@@ -16,7 +16,7 @@ function duplicates(arr) {
   for(let i = 0; i < arr.length; i++){
     if(!newArr.includes(arr[i])) newArr.push(arr[i]);
     else if(finalArr.includes(arr[i])) continue;
-    else finalArr.push(arr[i])
+    else finalArr.push(arr[i]);
   }
   return finalArr
 }
