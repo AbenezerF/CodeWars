@@ -18,5 +18,5 @@ function duplicates(arr) {
     else if(finalArr.includes(arr[i])) continue;
     else finalArr.push(arr[i]);
   }
-  return finalArr
+  return finalArr;
 }
