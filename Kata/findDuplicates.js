@@ -11,7 +11,7 @@ Examples
 */
 
 function duplicates(arr) {
-  let newArr = []
+  let newArr = [];
   let finalArr = []
   for(let i = 0; i < arr.length; i++){
     if(!newArr.includes(arr[i])) newArr.push(arr[i])
