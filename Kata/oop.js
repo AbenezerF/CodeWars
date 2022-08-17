@@ -34,7 +34,7 @@ Good luck!
 
 function Ship(draft,crew) {
  this.draft = draft;
- this.crew = crew
+ this.crew = crew;
 }
 
 Ship.prototype.isWorthIt = function(){
