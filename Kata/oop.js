@@ -33,7 +33,7 @@ Good luck!
 */
 
 function Ship(draft,crew) {
- this.draft = draft;
+ this.draft = draft
  this.crew = crew
 }
 
