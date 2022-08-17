@@ -1,4 +1,4 @@
-
+// Object Oriented Piracy (8kyu)
 
 
 function Ship(draft,crew) {
