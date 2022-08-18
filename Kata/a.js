@@ -9,4 +9,4 @@ a == false
 a == !a
 */
 
-const a = '0'
+const a = '0';
