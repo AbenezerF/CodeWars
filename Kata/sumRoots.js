@@ -12,6 +12,7 @@ Examples
 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
 */
 
+
 function digitalRoot(n) {
   let total = calc(n);
   while(total>= 10){
@@ -28,4 +29,14 @@ function calc(val){
     total += Number(arr[i]);
   }
   return total;
+}
+
+
+// Best Practice Solution
+
+function digital_root(n) {
+  if (n < 10) return n;
+  
+  return digital_root(
+    n.toString().split('').reduce(function(acc, d) { return acc + +d; }, 0));
 }
