@@ -11,3 +11,21 @@ Examples
 132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11  -->  1 + 1 = 2
 */
+
+function digitalRoot(n) {
+  let total = calc(n)
+  while(total>= 10){
+    total = calc(total)
+  }
+  return total
+  
+}
+
+function calc(val){
+  let total = 0
+  let arr = val.toString().split('')
+  for(let i =0; i < arr.length; i++){
+    total += Number(arr[i])
+  }
+  return total
+}
