@@ -23,7 +23,7 @@ function digitalRoot(n) {
 
 function calc(val){
   let total = 0;
-  let arr = val.toString().split('')
+  let arr = val.toString().split('');
   for(let i =0; i < arr.length; i++){
     total += Number(arr[i])
   }
