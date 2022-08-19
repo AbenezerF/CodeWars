@@ -17,7 +17,7 @@ function digitalRoot(n) {
   while(total>= 10){
     total = calc(total);
   }
-  return total
+  return total;
   
 }
 
