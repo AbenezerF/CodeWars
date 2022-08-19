@@ -13,9 +13,9 @@ Examples
 */
 
 function digitalRoot(n) {
-  let total = calc(n)
+  let total = calc(n);
   while(total>= 10){
-    total = calc(total)
+    total = calc(total);
   }
   return total
   
