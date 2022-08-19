@@ -25,7 +25,7 @@ function calc(val){
   let total = 0;
   let arr = val.toString().split('');
   for(let i =0; i < arr.length; i++){
-    total += Number(arr[i])
+    total += Number(arr[i]);
   }
   return total
 }
