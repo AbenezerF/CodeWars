@@ -27,5 +27,5 @@ function calc(val){
   for(let i =0; i < arr.length; i++){
     total += Number(arr[i]);
   }
-  return total
+  return total;
 }
