@@ -6,6 +6,6 @@ You are not allowed to use any loops (including for, for/in, while, and do/while
 */
 
 function average(scores) {
-   let total = scores.reduce( (acc,prev) => acc + prev)
+   let total = scores.reduce( (acc,prev) => acc + prev);
    return Math.round(total/scores.length)
 }
