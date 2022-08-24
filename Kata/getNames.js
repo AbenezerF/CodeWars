@@ -15,5 +15,5 @@ getNames(data) // should return ['Joe', 'Bill', 'Kate']
 */
 
 function getNames(data){
-  return data.map(item => item.name)
+  return data.map(item => item.name);
 }
