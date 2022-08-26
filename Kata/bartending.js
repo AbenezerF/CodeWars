@@ -24,7 +24,7 @@ function getDrinkByProfession(param){
         return "Patron Tequila";
         break;
       case "school counselor":
-        return "Anything with Alcohol"
+        return "Anything with Alcohol";
         break;
       case "programmer":
         return "Hipster Craft Beer"
