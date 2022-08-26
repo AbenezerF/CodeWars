@@ -27,7 +27,7 @@ function getDrinkByProfession(param){
         return "Anything with Alcohol";
         break;
       case "programmer":
-        return "Hipster Craft Beer"
+        return "Hipster Craft Beer";
         break;
       case "bike gang member":
         return "Moonshine"
