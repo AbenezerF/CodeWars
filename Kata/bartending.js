@@ -36,7 +36,7 @@ function getDrinkByProfession(param){
         return "Your tax dollars";
         break;
       case "rapper":
-        return "Cristal"
+        return "Cristal";
         break;
       default:
       return "Beer";
