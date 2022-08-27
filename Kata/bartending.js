@@ -21,10 +21,10 @@ function getDrinkByProfession(param){
   let val = param.toLowerCase()
   switch(val){
       case "jabroni":
-        return "Patron Tequila";
+        return "Patron Tequila"
         break;
-      case "school counselor":
-        return "Anything with Alcohol";
+      case "school counselor"
+        return "Anything with Alcohol"
         break;
       case "programmer":
         return "Hipster Craft Beer";
