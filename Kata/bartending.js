@@ -30,7 +30,7 @@ function getDrinkByProfession(param){
         return "Hipster Craft Beer";
         break;
       case "bike gang member":
-        return "Moonshine"
+        return "Moonshine";
         break;
       case "politician":
         return "Your tax dollars";
