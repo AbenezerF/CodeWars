@@ -18,7 +18,7 @@ function Warrior(n){
   let name = n;
   this.name = function(n){
     if( n ) name=n;
-    return name
+    return name;
   }
   
 }
