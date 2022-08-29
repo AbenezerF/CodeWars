@@ -11,7 +11,7 @@ solution({a: 1, b: '2'}) // should return "a = 1,b = 2"
 */
 
 function solution(pairs){
-  let array = []
+  let array = [];
   for (var pair in pairs){
     array.push((pair+' = '+pairs[pair]))
   }
