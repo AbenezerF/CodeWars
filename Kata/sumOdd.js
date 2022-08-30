@@ -1,0 +1,1 @@
+// Sum of Odd Cubed Numbers (7Kyu)
