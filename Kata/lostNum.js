@@ -17,7 +17,7 @@ Note: N may be 1 or less (in the latter case, the first array will be []).
 
 function findDeletedNumber(arr, mixArr) {
   let newArr = mixArr.sort( (a,b) => a -b);
-  if(arr.length === newArr.length) return 0
+  if(arr.length === newArr.length) return 0;
   for(let i = 0; i < arr.length;i++){
     if(arr[i] !== newArr[i]) return arr[i]
   }
