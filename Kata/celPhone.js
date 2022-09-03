@@ -18,5 +18,5 @@ function createPhoneNumber(numbers){
   for(var i = 0; i < numbers.length; i++){
     format = format.replace('x', numbers[i]);
   }
-  return format
+  return format;
 }
