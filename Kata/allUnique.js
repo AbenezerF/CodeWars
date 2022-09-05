@@ -7,5 +7,5 @@ The string may contain any of the 128 ASCII characters. Characters are case-sens
 */
 
 function hasUniqueChars(str){
-  return [...new Set(str)].join('') === str;
+  return [...new Set(str)].join('') === str
 }
