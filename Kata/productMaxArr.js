@@ -31,3 +31,12 @@ Explanation:
 Since the size (k) equal 3 , then the subsequence of size 3 whose gives product of maxima is 10 * 3 * -1 = -30 .
 
 */
+
+function maxProduct(numbers, size){
+  let arr = numbers.sort((a,b) => b -a)
+  let total = 1
+  for(let i = 0; i < size; i++){
+    total *= arr[i]
+  }
+  return total
+}
