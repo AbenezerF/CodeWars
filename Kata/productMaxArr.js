@@ -36,9 +36,9 @@ function maxProduct(numbers, size){
   let arr = numbers.sort((a,b) => b -a)
   let total = 1
   for(let i = 0; i < size; i++){
-    total *= arr[i]
+    total *= arr[i];
   }
-  return total
+  return total;
 }
 
 // inbuilt methods
