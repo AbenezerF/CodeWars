@@ -11,3 +11,21 @@ The first and/or last names are never null, but may be empty.
 Task
 Fix the bug so we can all go home early.
 */
+
+class Dinglemouse{
+
+  constructor(firstName, lastName){
+    this.firstName = firstName
+    this.lastName = lastName
+  }
+  
+  getFullName(){
+    if(this.lastName === ''){
+      return this.firstName
+    }else if(this.firstName === ''){
+      return this.lastName
+    }
+    return this.firstName + " " + this.lastName
+  }
+  
+}
