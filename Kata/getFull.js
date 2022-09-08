@@ -21,7 +21,7 @@ class Dinglemouse{
   
   getFullName(){
     if(this.lastName === ''){
-      return this.firstName
+      return this.firstName;
     }else if(this.firstName === ''){
       return this.lastName
     }
