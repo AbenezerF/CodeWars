@@ -23,7 +23,7 @@ class Dinglemouse{
     if(this.lastName === ''){
       return this.firstName;
     }else if(this.firstName === ''){
-      return this.lastName
+      return this.lastName;
     }
     return this.firstName + " " + this.lastName
   }
