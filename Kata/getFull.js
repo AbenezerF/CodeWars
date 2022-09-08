@@ -25,7 +25,7 @@ class Dinglemouse{
     }else if(this.firstName === ''){
       return this.lastName;
     }
-    return this.firstName + " " + this.lastName
+    return this.firstName + " " + this.lastName;
   }
   
 }
