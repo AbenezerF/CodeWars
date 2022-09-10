@@ -45,7 +45,7 @@ Expected Time Complexity O(n Log n)
 
 
 function minimumSteps(numbers, value){
- let arr = numbers.sort( (a,b) => a -b)
+ let arr = numbers.sort( (a,b) => a -b);
  let sum = 0
  for(let i = 0; i < numbers.length; i++){
    sum += numbers[i]
