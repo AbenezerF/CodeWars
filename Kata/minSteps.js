@@ -48,7 +48,7 @@ function minimumSteps(numbers, value){
  let arr = numbers.sort( (a,b) => a -b);
  let sum = 0;
  for(let i = 0; i < numbers.length; i++){
-   sum += numbers[i]
+   sum += numbers[i];
    if(sum >= value) return i
  }
 }
