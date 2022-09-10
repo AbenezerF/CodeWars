@@ -49,6 +49,6 @@ function minimumSteps(numbers, value){
  let sum = 0;
  for(let i = 0; i < numbers.length; i++){
    sum += numbers[i];
-   if(sum >= value) return i
+   if(sum >= value) return i;
  }
 }
