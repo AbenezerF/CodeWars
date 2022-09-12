@@ -13,4 +13,4 @@ Examples:
 */
 
 
-const arrCheck = value => value.every( (val) => Array.isArray(val))
+const arrCheck = value => value.every( (val) => Array.isArray(val));
