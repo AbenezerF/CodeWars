@@ -1,0 +1,1 @@
+// get ascii value of character (8Kyu)
