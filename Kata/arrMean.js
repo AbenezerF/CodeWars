@@ -17,3 +17,8 @@ For an example list of 1, 3, 5, 7
 16/4 = 4
 3. The mean (or average) of this list is 4
 */
+
+
+var findAverage = function (nums) {
+ return (nums.reduce((a,b) => a + b))/nums.length
+}
