@@ -9,7 +9,7 @@ However, one number is missing. Write a function to find and return this number.
 */
 
 function missingNo(nums) {
-  let arr = nums.sort( (a,b) => a - b)
+  let arr = nums.sort( (a,b) => a - b);
   for(let i =0; i < arr.length; i++){
     if( (arr[i] + 1) !== arr[i+1]){
       return arr[i] + 1;
