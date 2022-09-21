@@ -13,6 +13,6 @@ Return "Not valid" if the input is not an integer or less than 0.
 */
 
 function palindrome(num) { 
-  let val = num.toString().split('').reverse().join('')
+  let val = num.toString().split('').reverse().join('');
   return typeof(num) !== "number" || num < 0 ? "Not valid" : num  === Number(val) 
 } 
