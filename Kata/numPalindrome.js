@@ -1,0 +1,1 @@
+// Numerical Palindrome #1 (7Kyu)
