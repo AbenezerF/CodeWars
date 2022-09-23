@@ -27,7 +27,7 @@ The input can be modified
 
 
 function nicknameGenerator(name){
-  let arr = ['a','e','i','o','u']
+  let arr = ['a','e','i','o','u'];
   if(name.length <= 3){
     return "Error: Name too short";
   }else if(arr.includes(name[2])){
