@@ -31,7 +31,7 @@ function nicknameGenerator(name){
   if(name.length <= 3){
     return "Error: Name too short";
   }else if(arr.includes(name[2])){
-    return name.substring(0,4)
+    return name.substring(0,4);
   }else if(!arr.includes(name[2])){
     return  name.substring(0,3)
   }
