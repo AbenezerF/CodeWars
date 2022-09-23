@@ -33,6 +33,6 @@ function nicknameGenerator(name){
   }else if(arr.includes(name[2])){
     return name.substring(0,4);
   }else if(!arr.includes(name[2])){
-    return  name.substring(0,3)
+    return  name.substring(0,3);
   }
 }
