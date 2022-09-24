@@ -11,3 +11,7 @@ Unfortunately, something is wrong with the instructions in the function body. Yo
 
 Click the "Train" button to get started, and be careful with your quotation marks.
 */
+
+function quotable(name, quote){
+  return `${name} said: "${quote}"`
+}
