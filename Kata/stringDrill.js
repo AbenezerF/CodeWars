@@ -13,5 +13,5 @@ Click the "Train" button to get started, and be careful with your quotation mark
 */
 
 function quotable(name, quote){
-  return `${name} said: "${quote}"`
+  return `${name} said: "${quote}"`;
 }
