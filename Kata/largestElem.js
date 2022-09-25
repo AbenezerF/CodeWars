@@ -16,5 +16,5 @@ function largest(n,xs){
   for(let i = arr.length-n; i < arr.length; i++){
     final.push(arr[i]);
   }
-  return final
+  return final;
 }
