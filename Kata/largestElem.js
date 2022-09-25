@@ -11,7 +11,7 @@ largest(2, [7,6,5,4,3,2,1])
 
 
 function largest(n,xs){
-  let final = []
+  let final = [];
   let arr = xs.sort( (a,b) => a -b)
   for(let i = arr.length-n; i < arr.length; i++){
     final.push(arr[i])
