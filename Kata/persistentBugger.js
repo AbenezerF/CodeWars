@@ -17,5 +17,5 @@ function persistence(num) {
     num = val.reduce( (x,y) => x * y);
     counter++;
   }
-  return counter 
+  return counter;
 }
