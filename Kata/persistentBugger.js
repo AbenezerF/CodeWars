@@ -15,7 +15,7 @@ function persistence(num) {
   while(num >= 10){
     let val = num.toString().split('').map( (x) => Number(x));
     num = val.reduce( (x,y) => x * y);
-    counter++
+    counter++;
   }
   return counter 
 }
