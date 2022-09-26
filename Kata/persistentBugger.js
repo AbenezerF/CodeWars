@@ -11,7 +11,7 @@ For example (Input --> Output):
 */
 
 function persistence(num) {
-  let counter = 0
+  let counter = 0;
   while(num >= 10){
     let val = num.toString().split('').map( (x) => Number(x))
     num = val.reduce( (x,y) => x * y)
