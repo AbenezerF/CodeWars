@@ -30,3 +30,8 @@ nthSmallest({177,225,243,-169,-12,-5,2,92} ,5) ==> return (92)
 Explanation:
 Since the passed number is 5 , Then * the fifth smallest element in this array/list is 92*
 */
+
+function nthSmallest(arr, pos){
+  arr = arr.sort( (a,b) =>  a - b)
+  return arr[pos-1]
+}
