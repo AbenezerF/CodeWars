@@ -33,5 +33,5 @@ Since the passed number is 5 , Then * the fifth smallest element in this array/l
 
 function nthSmallest(arr, pos){
   arr = arr.sort( (a,b) =>  a - b)
-  return arr[pos-1]
+  return arr[pos-1];
 }
