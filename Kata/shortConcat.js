@@ -11,5 +11,5 @@ If a and b have the same length treat a as the longer producing b+reverse(a)+b
 
 function shorter_reverse_longer(a,b){
   if(a.length > b.length || a.length === b.length) return b + a.split('').reverse().join('') + b;
-  return a + b.split('').reverse().join('') + a 
+  return a + b.split('').reverse().join('') + a;
 }
