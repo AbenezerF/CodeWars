@@ -9,6 +9,6 @@ You can assume that the number is not negative.
 */
 
 function reverseBits (n) {
-  let val = n.toString(2).split('').reverse().join('');
-  return Number.parseInt(val, 2);
+  let val = n.toString(2).split('').reverse().join('')
+  return Number.parseInt(val, 2)
 }
