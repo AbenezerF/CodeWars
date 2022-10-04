@@ -14,6 +14,6 @@ Your function should be case insensitive to the vowels.
 
 function vowel2index(str) {
    return str.replace(/[aeiou]/gi, function(x, i) {
-     return i+1
+     return i+1;
    })
 }
