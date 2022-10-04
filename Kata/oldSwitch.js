@@ -11,3 +11,9 @@ vowel2index('Codewars is the best site in the world') == 'C2d4w6rs 10s th15 b18s
 vowel2index('') == ''
 Your function should be case insensitive to the vowels.
 */
+
+function vowel2index(str) {
+   return str.replace(/[aeiou]/gi, function(x, i) {
+     return i+1;
+   });
+}
