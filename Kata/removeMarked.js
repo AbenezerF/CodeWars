@@ -12,6 +12,6 @@ Enjoy it!!
 */
 
 Array.prototype.remove_ = function(integer_list, values_list){
-  let arr = integer_list.filter( x => !values_list.includes(x));
-  return arr;
+  let arr = integer_list.filter( x => !values_list.includes(x))
+  return arr
 }
