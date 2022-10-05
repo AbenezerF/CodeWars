@@ -1,0 +1,1 @@
+// Remove All The Marked Elements of a List (7Kyu)
