@@ -10,3 +10,11 @@ Example
 arithmetic_sequence_elements(1, 2, 5) == "1, 3, 5, 7, 9"
 
 */
+
+function arithmeticSequenceElements(a, d, n) {
+  let arr = []
+  for(let i = a; arr.length < n; i+=d){
+    arr.push(i)
+  }
+  return arr.join(', ')
+}
