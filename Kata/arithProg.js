@@ -16,5 +16,5 @@ function arithmeticSequenceElements(a, d, n) {
   for(let i = a; arr.length < n; i+=d){
     arr.push(i);
   }
-  return arr.join(', ')
+  return arr.join(', ');
 }
