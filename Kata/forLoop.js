@@ -55,5 +55,5 @@ function pickIt(arr){
   }
   
   
-  return [odd,even]
+  return [odd,even];
 }
