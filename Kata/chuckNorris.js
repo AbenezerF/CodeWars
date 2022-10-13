@@ -9,3 +9,7 @@ Your task is to be more like Chuck (ha! good luck!). You must return false witho
 
 Go show some truth who's boss!
 */
+
+function ifChuckSaysSo(){
+  return !true;
+}
