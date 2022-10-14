@@ -12,7 +12,7 @@ complete the get Info property and getInfo method/Info getter which should retur
 
 class Person {
   constructor(string, age) {
-    this.string = string
+    this.string = string;
     this.age = age
   }
   get info(){
