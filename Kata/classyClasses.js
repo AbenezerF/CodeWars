@@ -16,6 +16,6 @@ class Person {
     this.age = age;
   }
   get info(){
-    return `${this.string}s age is ${this.age}`
+    return `${this.string}s age is ${this.age}`;
   }
 }
