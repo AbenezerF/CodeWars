@@ -20,5 +20,5 @@ Good luck!
 */
 
 function sixToast(num) {
-  return Math.abs(6 - num)
+  return Math.abs(6 - num);
 }
