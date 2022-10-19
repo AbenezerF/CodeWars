@@ -6,7 +6,7 @@ Why doesn't greet_abe() actually greet Abe?
 */
 
 var greet_abe = function() {
-  var name = 'Abe'
+  var name = 'Abe';
   return "Hello, " + name + '!'
 };
 
