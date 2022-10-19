@@ -12,5 +12,5 @@ var greet_abe = function() {
 
 var greet_ben = function() {
   name = 'Ben';
-  return "Hello, " + name + '!'
+  return "Hello, " + name + '!';
 };
