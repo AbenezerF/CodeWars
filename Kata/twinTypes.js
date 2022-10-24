@@ -10,3 +10,7 @@ Examples:
 42, "number"   --> true
 "42", "number" --> false
 */
+
+function typeValidation(variable, type) {
+  return (typeof variable) === type
+}
