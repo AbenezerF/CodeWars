@@ -1,0 +1,1 @@
+// Grasshopper - Object syntax debug (8Kyu)
