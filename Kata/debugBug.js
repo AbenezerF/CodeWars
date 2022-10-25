@@ -35,7 +35,7 @@ var rooms = {
   second: {
     description: 'This is the second room',
     items: {
-      couch: 'This couch looks like it would hurt your back',
+      couch: 'This couch looks like it would hurt your back'
       table: 'On the table there is an unopened bottle of water'
     }
   }
