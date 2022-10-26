@@ -13,3 +13,10 @@ Should give you this output back:
 
 If startNum is the same as endNum, return an empty array.
 */
+
+function range(startNum, endNum)   { 
+  let arr = []
+  for(let i = startNum + 1; i < endNum; i++){ arr.push(i)}
+  return arr
+};  
+  
