@@ -12,6 +12,4 @@ Should give you this output back:
 [ 3, 4, 5, 6, 7, 8 ]
 
 If startNum is the same as endNum, return an empty array.
-
-
 */
