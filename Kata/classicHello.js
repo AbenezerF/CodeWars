@@ -19,6 +19,6 @@ If you still don't get it probably you can define main as an attribute of the So
 // Print "Hello World!" to the screen
 class Solution{
 static main() {
-    console.log("Hello World!");
+    console.log("Hello World!")
   }
 }
