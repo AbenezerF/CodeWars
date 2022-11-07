@@ -25,5 +25,5 @@ var isSquare = function(arr){
   for(let i = 0; i < arr.length; i++){
     if( (Math.sqrt(arr[i]) * Math.sqrt(arr[i])) !== arr[i]) return false;
   }
-   return true
+   return true;
 }
