@@ -1,0 +1,1 @@
+// Are they square? (7Kyu)
