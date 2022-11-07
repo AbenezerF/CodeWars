@@ -19,3 +19,11 @@ is_square([3, 4, 7, 9]) --> False
 
 is_square([]) --> None
 */
+
+var isSquare = function(arr){
+  if(arr.length === 0) return undefined
+  for(let i = 0; i < arr.length; i++){
+    if( (Math.sqrt(arr[i]) * Math.sqrt(arr[i])) !== arr[i]) return false
+  }
+   return true
+}
