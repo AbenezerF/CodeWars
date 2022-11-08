@@ -17,6 +17,6 @@ Given a string, you must decide whether or not it contains a valid phone number.
 */
 
 function isItANum(str) {
-  str = str.replace(/[^0-9]/g, '');
-  return /^0\d{10}$/.test(str) ? str : "Not a phone number";
+  str = str.replace(/[^0-9]/g, '')
+  return /^0\d{10}$/.test(str) ? str : "Not a phone number"
 }
