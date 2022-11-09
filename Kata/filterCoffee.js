@@ -11,3 +11,9 @@ Your 'search' function should return the stores that sell coffee within your bud
 The search function should return a string of prices for the coffees beans you can afford. The prices in this string are to be sorted in ascending order.
 
 */
+
+function search(budget, prices) {
+  let arr = prices.filter( x => x <= budget)
+  arr.sort( (a,b) => a -b)
+  return arr.join(',')
+}
