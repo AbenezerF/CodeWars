@@ -9,5 +9,5 @@ If you are able to reach home safely by encountering 15 bumps or less, return Wo
 
 function bump(x){
   let arr = x.split('').filter( x => x == 'n');
- return arr.length <= 15 ? "Woohoo!" : "Car Dead"
+ return arr.length <= 15 ? "Woohoo!" : "Car Dead";
 }
