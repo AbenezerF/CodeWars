@@ -15,5 +15,5 @@ function squares(x, n) {
     x = Math.pow(x,2);
     i++;
   }
-  return total
+  return total;
 }
