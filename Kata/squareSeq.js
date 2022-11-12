@@ -12,7 +12,7 @@ function squares(x, n) {
   let total = [];
   while(i < n){
     total.push(x);
-    x = Math.pow(x,2)
+    x = Math.pow(x,2);
     i++
   }
   return total
