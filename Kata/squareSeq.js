@@ -13,7 +13,7 @@ function squares(x, n) {
   while(i < n){
     total.push(x);
     x = Math.pow(x,2);
-    i++
+    i++;
   }
   return total
 }
