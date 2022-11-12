@@ -9,7 +9,7 @@ Examples
 
 function squares(x, n) {
   let i = 0;
-  let total = []
+  let total = [];
   while(i < n){
     total.push(x)
     x = Math.pow(x,2)
