@@ -11,7 +11,7 @@ function squares(x, n) {
   let i = 0;
   let total = [];
   while(i < n){
-    total.push(x)
+    total.push(x);
     x = Math.pow(x,2)
     i++
   }
