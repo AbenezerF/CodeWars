@@ -8,7 +8,7 @@ Examples
 */
 
 function squares(x, n) {
-  let i = 0
+  let i = 0;
   let total = []
   while(i < n){
     total.push(x)
