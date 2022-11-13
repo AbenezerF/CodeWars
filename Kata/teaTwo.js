@@ -11,3 +11,7 @@ tea42(9022) //should return '90tt'
 tea42(5676765) //should return '5676765'
 tea42('2u2u') //should return 'tutu'
 */
+
+function tea42(input) {
+  return input.toString().replace (/2/g, 't');
+};
