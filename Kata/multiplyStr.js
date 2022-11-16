@@ -15,7 +15,7 @@ function modifyMultiply (str,loc,num) {
   let val = str.split(' ')[loc];
   let arr = [];
   for(let i = 0; i < num; i++){
-    arr.push(val)
+    arr.push(val);
   }
   return arr.join('-');
 } 
