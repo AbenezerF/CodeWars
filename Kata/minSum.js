@@ -16,3 +16,12 @@ minSum({12,6,10,26,3,24}) ==> return (342)
 Explanation:
 The minimum sum obtained from summing each two integers product ,  26*3 + 24*6 + 12*10 = 342
 */
+
+function minSum(arr) {
+  let total = 0
+  arr = arr.sort((a,b) => a -b)
+  for(let i =0; i < arr.length; i++){
+    total += arr[i] * arr[arr.length-i-1]
+  }
+  return total/2
+}
