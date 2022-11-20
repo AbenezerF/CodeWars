@@ -23,5 +23,5 @@ function minSum(arr) {
   for(let i =0; i < arr.length; i++){
     total += arr[i] * arr[arr.length-i-1];
   }
-  return total/2;
+  return total/2
 }
