@@ -6,5 +6,5 @@ and returns true if the block (/function) returns true for none of the items in 
 */
 
 function none(arr, fun){
-  return !arr.some(fun);
+  return !arr.some(fun)
 }
