@@ -11,7 +11,7 @@ You will be given a string of numbers and letters mixed up, you have to return a
 */
 
 var FilterString = function(value) {
-  let empty = ''
+  let empty = '';
   for(let i =0; i < value.length; i++){
     if(!isNaN(Number(value[i]))){
       empty+=(value[i])
