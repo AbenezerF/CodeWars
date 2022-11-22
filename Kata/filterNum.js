@@ -11,12 +11,11 @@ You will be given a string of numbers and letters mixed up, you have to return a
 */
 
 var FilterString = function(value) {
-  let empty = []
-  let arr = value.split('')
-  for(let i =0; i < arr.length; i++){
-    if(!isNaN(Number(arr[i]))){
-      empty.push(arr[i])
+  let empty = ''
+  for(let i =0; i < value.length; i++){
+    if(!isNaN(Number(value[i]))){
+      empty+=(value[i])
     }
   }
-  return Number(empty.join(''))
+  return Number(empty)
 }
