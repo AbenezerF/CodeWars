@@ -9,3 +9,14 @@ Your task is to return a number from a string.
 Details
 You will be given a string of numbers and letters mixed up, you have to return all the numbers in that string in the order they occur.
 */
+
+var FilterString = function(value) {
+  let empty = []
+  let arr = value.split('')
+  for(let i =0; i < arr.length; i++){
+    if(!isNaN(Number(arr[i]))){
+      empty.push(arr[i])
+    }
+  }
+  return Number(empty.join(''))
+}
