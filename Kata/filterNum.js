@@ -14,7 +14,7 @@ var FilterString = function(value) {
   let empty = '';
   for(let i =0; i < value.length; i++){
     if(!isNaN(Number(value[i]))){
-      empty+=(value[i])
+      empty+=(value[i]);
     }
   }
   return Number(empty)
