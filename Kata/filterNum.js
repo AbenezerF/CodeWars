@@ -17,5 +17,5 @@ var FilterString = function(value) {
       empty+=(value[i]);
     }
   }
-  return Number(empty);
+  return Number(empty)
 }
