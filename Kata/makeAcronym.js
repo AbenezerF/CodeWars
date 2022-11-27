@@ -18,7 +18,7 @@ function toAcronym(inp){
   let str = '';
   let arr = inp.split(' ');
   for(let i = 0; i < arr.length; i++){
-    str += arr[i][0]
+    str += arr[i][0];
   }
  return str.toUpperCase()
 }
