@@ -20,5 +20,5 @@ function toAcronym(inp){
   for(let i = 0; i < arr.length; i++){
     str += arr[i][0];
   }
- return str.toUpperCase()
+ return str.toUpperCase();
 }
