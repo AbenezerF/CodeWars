@@ -9,4 +9,4 @@ In JavaScript / TypeScript / Coffeescript the input will be a number.
 In Python / Java / C / NASM / Haskell / the input will be a float.
 */
 
-const isNegativeZero = n => Object.is(n, -0)
+const isNegativeZero = n => Object.is(n, -0);
