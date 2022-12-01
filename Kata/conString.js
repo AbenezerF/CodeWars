@@ -16,3 +16,18 @@ Good luck!
 
 
 */
+
+function getTheVowels(word) {
+  let vowelSequence = "aeiou"; 
+  let currentVowelIndex = 0; 
+  let consCount = 0; 
+  
+  for (letter of word) {
+    if (letter == vowelSequence[currentVowelIndex]) {
+      consCount++;
+      currentVowelIndex = (currentVowelIndex + 1) % vowelSequence.length;
+    }
+  }
+  
+  return consecutiveCount;
+}
