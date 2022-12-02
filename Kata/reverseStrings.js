@@ -8,3 +8,13 @@ spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw"
 spinWords( "This is a test") => returns "This is a test" 
 spinWords( "This is another test" )=> returns "This is rehtona test"
 */
+
+function spinWords(string){
+  let str = string.split(' ')
+  for(let i = 0; i < str.length; i++){
+    if(str[i].length >= 5){
+      str[i] = [...str[i]].reverse().join('')
+    }
+  }
+  return str.join(' ')
+}
