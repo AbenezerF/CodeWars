@@ -10,7 +10,7 @@ spinWords( "This is another test" )=> returns "This is rehtona test"
 */
 
 function spinWords(string){
-  let str = string.split(' ')
+  let str = string.split(' ');
   for(let i = 0; i < str.length; i++){
     if(str[i].length >= 5){
       str[i] = [...str[i]].reverse().join('')
