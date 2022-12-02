@@ -16,5 +16,5 @@ function spinWords(string){
       str[i] = [...str[i]].reverse().join('');
     }
   }
-  return str.join(' ')
+  return str.join(' ');
 }
