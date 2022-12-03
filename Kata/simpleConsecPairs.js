@@ -1,0 +1,1 @@
+// Simple consecutive pairs (7Kyu)
