@@ -13,5 +13,5 @@ Don't forget the space after the closing parentheses!
 
 function createPhoneNumber(numbers){
   let str = '(' + numbers[0] + numbers[1] + numbers[2] + ') ';
-  return str + numbers.slice(3,6).join('') + '-' + numbers.slice(6).join('')
+  return str + numbers.slice(3,6).join('') + '-' + numbers.slice(6).join('');
 }
