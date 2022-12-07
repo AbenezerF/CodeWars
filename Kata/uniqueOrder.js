@@ -11,7 +11,7 @@ uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 */
 
 var uniqueInOrder=function(iterable){
-   let arr = []
+   let arr = [];
   for(let i = 0; i < iterable.length; i++){
     if(iterable[i] !== iterable[i+1]){
       arr.push(iterable[i])
