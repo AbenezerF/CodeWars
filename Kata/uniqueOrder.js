@@ -17,5 +17,5 @@ var uniqueInOrder=function(iterable){
       arr.push(iterable[i]);
     }
   }
-  return typeof arr === 'string' ? arr.map( (x) => x.toUpperCase()) : arr
+  return typeof arr === 'string' ? arr.map( (x) => x.toUpperCase()) : arr;
 }
