@@ -93,8 +93,8 @@ xyxyxyxyxy  <---The effect when you console.log it
 function fiveLine(s){
   //coding here...
   s = s.trim();
-  var tmp = s;
-  var res = [s];
+  var tmp = s
+  var res = [s]
   
   for (var i = 1; i < 5; i++) {
    	res.push(s += tmp);
