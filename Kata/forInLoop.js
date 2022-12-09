@@ -86,5 +86,5 @@ function giveMeFive(obj){
     if(x.length === 5) arr.push(x);
     if(obj[x].length === 5) arr.push(obj[x]);
   }
-  return arr
+  return arr;
 }
