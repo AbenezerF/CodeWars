@@ -16,7 +16,7 @@ Example
 
 function duplicateCount(text){
   let lower = text.toLowerCase();
-  var count = 0;
+  let count = 0;
   var used = [];
   
   lower.split('').forEach(function(letter) {
