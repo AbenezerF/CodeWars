@@ -15,7 +15,7 @@ Example
 */
 
 function duplicateCount(text){
-  var lower = text.toLowerCase();
+  let lower = text.toLowerCase();
   var count = 0;
   var used = [];
   
