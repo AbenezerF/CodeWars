@@ -14,3 +14,14 @@ The second value in the first integer array is 0, since the bus is empty in the 
 
 
 */
+
+var number = function(busStops){
+  let total = 0
+  for(let i = 0; i < busStops.length; i++){
+    for(let j = 0; j < 1; j++){
+      total += busStops[i][j]
+      total -= busStops[i][j+1]
+    }
+  }
+  return total
+}
