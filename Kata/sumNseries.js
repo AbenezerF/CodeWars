@@ -19,8 +19,8 @@ Examples:(Input --> Output)
 */
 
 function SeriesSum(n){
-  let total = 1
-  let denom = 4
+  let total = 1;
+  let denom = 4;
   if(n === 1) return n.toFixed(2)
   else if(n === 0) return n.toFixed(2)
   for(let i = 1; i < n; i++){
