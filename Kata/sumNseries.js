@@ -27,5 +27,5 @@ function SeriesSum(n){
     total += 1/denom
     denom+=3
   }
-  return total.toFixed(2)
+  return total.toFixed(2);
 }
