@@ -17,3 +17,15 @@ Examples:(Input --> Output)
 2 --> 1 + 1/4 --> "1.25"
 5 --> 1 + 1/4 + 1/7 + 1/10 + 1/13 --> "1.57"
 */
+
+function SeriesSum(n){
+  let total = 1
+  let denom = 4
+  if(n === 1) return n.toFixed(2)
+  else if(n === 0) return n.toFixed(2)
+  for(let i = 1; i < n; i++){
+    total += 1/denom
+    denom+=3
+  }
+  return total.toFixed(2)
+}
