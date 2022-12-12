@@ -24,7 +24,7 @@ function SeriesSum(n){
   if(n === 1) return n.toFixed(2)
   else if(n === 0) return n.toFixed(2)
   for(let i = 1; i < n; i++){
-    total += 1/denom
+    total += 1/denom;
     denom+=3
   }
   return total.toFixed(2);
