@@ -30,7 +30,7 @@ Assumption: Assume that Desired Principal 'D' is always greater than the initial
 function calculateYears(principal, interest, tax, desired) {
   let i = 0;
   while(principal < desired){
-    principal += (principal * interest) * (1 - tax) 
+    principal += (principal * interest) * (1 - tax)
     i++;
   }
   return i;
