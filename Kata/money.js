@@ -33,5 +33,5 @@ function calculateYears(principal, interest, tax, desired) {
     principal += (principal * interest) * (1 - tax) 
     i++
   }
-  return i
+  return i;
 }
