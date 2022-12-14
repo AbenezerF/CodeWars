@@ -21,5 +21,5 @@ function sumOfMinimums(arr) {
     let min = Math.min(...arr[i]);
     minArr.push(min);
   }
-  return minArr.reduce( (a,b) => a + b)
+  return minArr.reduce( (a,b) => a + b);
 }
