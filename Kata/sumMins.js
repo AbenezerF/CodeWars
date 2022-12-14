@@ -16,7 +16,7 @@ ENJOY CODING :)
 */
 
 function sumOfMinimums(arr) {
-  let minArr = []
+  let minArr = [];
   for(let i = 0; i < arr.length; i++){
     let min = Math.min(...arr[i])
     minArr.push(min)
