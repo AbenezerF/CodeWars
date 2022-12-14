@@ -19,7 +19,7 @@ function sumOfMinimums(arr) {
   let minArr = [];
   for(let i = 0; i < arr.length; i++){
     let min = Math.min(...arr[i]);
-    minArr.push(min)
+    minArr.push(min);
   }
   return minArr.reduce( (a,b) => a + b)
 }
