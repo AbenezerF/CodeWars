@@ -12,7 +12,7 @@ n = 3, so I expect a 3x3 square back just like below as a string:
 */
 
 function generateShape(integer){
-  let string = ''
+  let string = '';
   for(let i = 1; i <= integer; i++){
     if(i === integer) string += '+'.repeat(integer)
     else string += '+'.repeat(integer) + '\n'
