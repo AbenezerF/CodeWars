@@ -17,5 +17,5 @@ function generateShape(integer){
     if(i === integer) string += '+'.repeat(integer);
     else string += '+'.repeat(integer) + '\n';
   }
-  return string
+  return string;
 }
