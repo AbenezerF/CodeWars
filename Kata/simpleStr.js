@@ -13,6 +13,6 @@ const solve = x => {
   let a = x.match(/[A-Z]/g)||[];
   let b = x.match(/[a-z]/g)||[];
   let c = x.match(/[0-9]/g)||[];
-  let d = x.match(/[^A-Z0-9]/gi)||[]
+  let d = x.match(/[^A-Z0-9]/gi)||[];
   return [a.length, b.length, c.length, d.length]
 }
