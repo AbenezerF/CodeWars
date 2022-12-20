@@ -1,0 +1,1 @@
+// Simple string characters (7Kyu)
