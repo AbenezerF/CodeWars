@@ -9,7 +9,7 @@ Examples:
 */
 
 function solution(str){
-   let final = []
+   let final = [];
    for(let i = 0; i < str.length-1; i+=2){
      final.push(str[i] + str[i+1])
    }
