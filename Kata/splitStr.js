@@ -11,7 +11,7 @@ Examples:
 function solution(str){
    let final = [];
    for(let i = 0; i < str.length-1; i+=2){
-     final.push(str[i] + str[i+1])
+     final.push(str[i] + str[i+1]);
    }
   if(str.length % 2 !== 0) final.push(str[str.length-1] + '_')
   return final
