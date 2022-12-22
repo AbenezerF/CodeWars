@@ -22,7 +22,7 @@ The maximum product obtained from multiplying -2 * 7 = -14, and they're adjacent
 */
 
 function adjacentElementsProduct(array) {
-  let newArr = []
+  let newArr = [];
   for(let i= 0; i < array.length-1; i++){
     newArr.push(array[i]*array[i+1])
   }  
