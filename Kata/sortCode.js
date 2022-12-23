@@ -16,5 +16,5 @@ Examples (Input -- => Output):
 */
 
 function sortGiftCode(code){
-  return code.split('').sort( (a,b) => a.localeCompare(b)).join('')
+  return code.split('').sort( (a,b) => a.localeCompare(b)).join('');
 }
