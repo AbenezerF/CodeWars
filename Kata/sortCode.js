@@ -14,3 +14,7 @@ Examples (Input -- => Output):
 "pqksuvy"                     -- => "kpqsuvy"
 "zyxwvutsrqponmlkjihgfedcba"  -- => "abcdefghijklmnopqrstuvwxyz"
 */
+
+function sortGiftCode(code){
+  return code.split('').sort( (a,b) => a.localeCompare(b)).join('')
+}
