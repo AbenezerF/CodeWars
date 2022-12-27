@@ -13,7 +13,7 @@ You may assume both integers are positive integers.
 
 function add(num1, num2) {
   let arr1 = num1.toString().split('').reverse();
-  let arr2 = num2.toString().split('').reverse()
+  let arr2 = num2.toString().split('').reverse();
   let total = []
   for(let i=0; i < (arr1.length < arr2.length ? arr2.length : arr1.length); i++) {
     total.push((parseInt(arr1[i]) || 0) + (parseInt(arr2[i]) || 0))
