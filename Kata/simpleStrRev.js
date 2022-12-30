@@ -14,9 +14,8 @@ More examples in the test cases. All input will be lower case letters and in som
 */
 
 function solve(str){
-   //..
-  let splitStr = str.split('')
-  let reverseStr = str.split(' ').join('').split('').reverse()
+  let splitStr = str.split('');
+  let reverseStr = str.split(' ').join('').split('').reverse();
   for (let i = 0; i <= splitStr.length; i++){
     if (splitStr[i] === ' ') {
       reverseStr.splice(i, 0, ' ');
