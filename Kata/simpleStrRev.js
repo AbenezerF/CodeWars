@@ -12,3 +12,15 @@ solve("your code rocks") = "skco redo cruoy".
 solve("codewars") = "srawedoc"
 More examples in the test cases. All input will be lower case letters and in some cases spaces.
 */
+
+function solve(str){
+   //..
+  let splitStr = str.split('')
+  let reverseStr = str.split(' ').join('').split('').reverse()
+  for (let i = 0; i <= splitStr.length; i++){
+    if (splitStr[i] === ' ') {
+      reverseStr.splice(i, 0, ' ')
+    }
+  }
+  return reverseStr.join('')
+}
