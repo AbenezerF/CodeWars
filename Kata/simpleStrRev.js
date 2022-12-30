@@ -19,8 +19,8 @@ function solve(str){
   let reverseStr = str.split(' ').join('').split('').reverse()
   for (let i = 0; i <= splitStr.length; i++){
     if (splitStr[i] === ' ') {
-      reverseStr.splice(i, 0, ' ')
+      reverseStr.splice(i, 0, ' ');
     }
   }
-  return reverseStr.join('')
+  return reverseStr.join('');
 }
