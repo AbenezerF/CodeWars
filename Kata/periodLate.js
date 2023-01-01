@@ -14,5 +14,5 @@ Return true if the number of days passed from last to today is greater than cycl
 */
 
 function periodIsLate(last, today, cycleLength){
-  return (today-last)/(1000 * 60 * 60 * 24) > cycleLength;
+  return (today-last)/(1000 * 60 * 60 * 24) > cycleLength
 }
