@@ -16,3 +16,7 @@ Don't you think the whole "You're a(n) <insert_something_here>" is very repetiti
 Write everything in one line, \n and other whitespaces counts.
 Whatever you do, do not change what the function does. Good luck :)
 */
+
+function describeAge(age) {
+  return "You're a(n) " + (age < 13 ? "kid" : age < 18 ? "teenager" : age < 65 ? "adult" : "elderly")
+}
