@@ -1,0 +1,1 @@
+// Be Concise I - The Ternary Operator (8Kyu)
