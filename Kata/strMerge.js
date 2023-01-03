@@ -8,3 +8,7 @@ Examples
 ("jason", "samson", "s")      ==>  "jasamson"
 ("wonderful", "people", "e")  ==>  "wondeople"
 */
+
+let stringMerge = (a, b, c) =>
+    a.slice(0, a.indexOf(c))
+  + b.slice(b.indexOf(c));
