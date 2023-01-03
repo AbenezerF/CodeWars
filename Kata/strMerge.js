@@ -11,4 +11,4 @@ Examples
 
 let stringMerge = (a, b, c) =>
     a.slice(0, a.indexOf(c))
-  + b.slice(b.indexOf(c));
+  + b.slice(b.indexOf(c))
