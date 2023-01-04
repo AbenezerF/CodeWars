@@ -1,0 +1,1 @@
+// Sum of array singles (7Kyu)
