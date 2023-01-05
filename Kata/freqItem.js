@@ -13,5 +13,5 @@ function mostFrequentItemCount(collection) {
   collection.forEach(x => {
     obj[x] = (obj[x] || 0) + 1;
   })
-  return collection.length === 0 ? 0 : Math.max(...Object.values(obj))
+  return collection.length === 0 ? 0 : Math.max(...Object.values(obj));
 }
