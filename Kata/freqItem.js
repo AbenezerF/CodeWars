@@ -11,7 +11,7 @@ The most frequent number in the array is -1 and it occurs 5 times.
 function mostFrequentItemCount(collection) {
   let obj = {}
   collection.forEach(x => {
-    obj[x] = (obj[x] || 0) + 1
+    obj[x] = (obj[x] || 0) + 1;
   })
   return collection.length === 0 ? 0 : Math.max(...Object.values(obj))
 }
