@@ -13,5 +13,5 @@ function evenChars(string) {
   for(let i = 1; i < string.length; i+=2){
     str.push(string[i]);
   }
-  return string.length > 1 && string.length < 100 ? str : "invalid string"
+  return string.length > 1 && string.length < 100 ? str : "invalid string";
 }
