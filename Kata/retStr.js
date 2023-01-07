@@ -7,3 +7,11 @@ For example:
 "abcdefghijklm" --> ["b", "d", "f", "h", "j", "l"]
 "a"             --> "invalid string"
 */
+
+function evenChars(string) {
+  let str = []
+  for(let i = 1; i < string.length; i+=2){
+    str.push(string[i])
+  }
+  return string.length > 1 && string.length < 100 ? str : "invalid string"
+}
