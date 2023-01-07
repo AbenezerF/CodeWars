@@ -9,7 +9,7 @@ For example:
 */
 
 function evenChars(string) {
-  let str = []
+  let str = [];
   for(let i = 1; i < string.length; i+=2){
     str.push(string[i])
   }
