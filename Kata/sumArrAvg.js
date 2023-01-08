@@ -20,3 +20,8 @@ Math.floor(44.2) = 44
 import math
 math.floor(44.2) = 44
 */
+
+const sumAverage = arr => {
+  const result = arr.map(x => x.reduce((a, b) => a + b) / x.length).reduce((a, b) => a + b)
+  return Math.floor(result)
+}
