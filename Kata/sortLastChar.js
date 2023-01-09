@@ -8,5 +8,5 @@ All inputs will be valid.
 */
 
 function last(x){
-  return x.split(' ').sort((a, b) => a.slice(-1).localeCompare(b.slice(-1)));
+  return x.split(' ').sort((a, b) => a.slice(-1).localeCompare(b.slice(-1)))
 }
