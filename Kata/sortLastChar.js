@@ -6,3 +6,7 @@ If two words have the same last letter, they returned array should show them in 
 
 All inputs will be valid.
 */
+
+function last(x){
+  return x.split(' ').sort((a, b) => a.slice(-1).localeCompare(b.slice(-1)))
+}
