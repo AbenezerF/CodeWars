@@ -9,3 +9,8 @@ Examples
 "1plus2plus3minus4" -->  "2"
 
 */
+
+function calculate(str) {
+  const num = str.split('plus').join(' ').split('minus').join(' -').split(' ').reduce((a,i)=> a + +i, 0)
+  return [] + num
+}
