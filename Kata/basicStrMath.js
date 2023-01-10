@@ -11,6 +11,6 @@ Examples
 */
 
 function calculate(str) {
-  const num = str.split('plus').join(' ').split('minus').join(' -').split(' ').reduce((a,i)=> a + +i, 0)
+  const num = str.split('plus').join(' ').split('minus').join(' -').split(' ').reduce((a,i)=> a + +i, 0);
   return [] + num
 }
