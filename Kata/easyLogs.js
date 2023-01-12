@@ -4,5 +4,5 @@ Add two logs with base X, with the value of A and B. Example log A + log B where
 */
 
 function logs(x , a, b){
-  return (Math.log(a*b) / Math.log(x));
+  return (Math.log(a*b) / Math.log(x))
 }
