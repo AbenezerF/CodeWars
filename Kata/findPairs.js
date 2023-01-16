@@ -22,8 +22,8 @@ function duplicates(array){
     for(let i = 0; i < array.length; i++){
       if(array[i] === array[i+1]){
          count++
-        i = i+1
+        i = i+1;
       }
     }
-    return count
-  }
+    return count;
+}
