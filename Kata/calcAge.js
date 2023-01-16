@@ -14,5 +14,5 @@ function getAges(sum,difference){
   if (sum < 0 || difference < 0 || sum - difference < 0) return null;
   else average = (sum - difference) /2;
   
-  return [average+difference, average]
+  return [average+difference, average];
 };
