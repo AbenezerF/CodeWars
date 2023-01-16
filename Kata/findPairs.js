@@ -17,8 +17,8 @@ Examples
 
 
 function duplicates(array){
-    let count = 0
-    array = array.sort()
+    let count = 0;
+    array = array.sort();
     for(let i = 0; i < array.length; i++){
       if(array[i] === array[i+1]){
          count++
