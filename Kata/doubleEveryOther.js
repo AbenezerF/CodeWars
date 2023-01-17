@@ -11,3 +11,10 @@ the function should return :
 
 [1,4,3,8]
 */
+
+function doubleEveryOther(a) {
+  for(let i = 1; i < a.length; i+=2){
+    a[i] *= 2
+  }
+  return a
+}
