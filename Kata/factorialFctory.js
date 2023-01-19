@@ -10,3 +10,12 @@ Note: 0! is always equal to 1. Negative values should return null;
 
 For more on Factorials : http://en.wikipedia.org/wiki/Factorial
 */
+
+//This function should return n!
+function factorial (n) {
+  let total = 1
+  for(let i = n; i > 0; i--){
+    total *= i
+  }
+  return n < 0 ? null : total
+}
