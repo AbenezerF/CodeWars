@@ -1,0 +1,1 @@
+// Factorial Factory (7Kyu)
