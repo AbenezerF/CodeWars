@@ -13,7 +13,7 @@ For more on Factorials : http://en.wikipedia.org/wiki/Factorial
 
 //This function should return n!
 function factorial (n) {
-  let total = 1
+  let total = 1;
   for(let i = n; i > 0; i--){
     total *= i;
   }
