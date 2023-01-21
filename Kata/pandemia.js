@@ -20,8 +20,8 @@ Your task is to find the percentage of human population that got infected in the
 
 function infected(s) {
   let arr = s.split('X');
-  let infected = 0
-  let total = 0
+  let infected = 0;
+  let total = 0;
   for(let i = 0; i < arr.length; i++){
     if(arr[i].includes("1")) infected +=arr[i].length
     total += arr[i].length
