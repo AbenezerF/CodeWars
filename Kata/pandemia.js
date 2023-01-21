@@ -17,3 +17,14 @@ Your task is to find the percentage of human population that got infected in the
 
 ➕ For maps without "0" and "1" return 0 as there is no population.
 */
+
+function infected(s) {
+  let arr = s.split('X');
+  let infected = 0
+  let total = 0
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i].includes("1")) infected +=arr[i].length
+    total += arr[i].length
+  }
+  return infected === 0 ? 0 : (infected / total) * 100
+}
