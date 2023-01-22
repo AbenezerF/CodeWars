@@ -26,5 +26,5 @@ function infected(s) {
     if(arr[i].includes("1")) infected +=arr[i].length;
     total += arr[i].length;
   }
-  return infected === 0 ? 0 : (infected / total) * 100
+  return infected === 0 ? 0 : (infected / total) * 100;
 }
