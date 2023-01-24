@@ -43,7 +43,7 @@ function toLeetSpeak(str) {
   let final = ''
   for(let i = 0; i < str.length; i++){
     if(obj[str[i]]) final += (obj[str[i]]);
-    else if( str[i] = ' ') final += str[i]
+    else if( str[i] = ' ') final += str[i];
   }
   return final;
 }
