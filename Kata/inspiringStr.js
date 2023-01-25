@@ -10,5 +10,5 @@ Example:
 */
 
 function longestWord(stringOfWords){
-  return stringOfWords.split(' ').sort( (b,a) => b.length-a.length).pop()
+  return stringOfWords.split(' ').sort( (b,a) => b.length-a.length).pop();
 }
