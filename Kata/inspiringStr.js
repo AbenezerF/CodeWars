@@ -8,3 +8,7 @@ Example:
 
 'red blue gold' //returns gold
 */
+
+function longestWord(stringOfWords){
+  return stringOfWords.split(' ').sort( (b,a) => b.length-a.length).pop()
+}
