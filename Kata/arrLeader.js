@@ -22,3 +22,19 @@ Explanation:
 
 Note : The last element 0 is equal to right sum of its elements (abstract zero).
 */
+
+function arrayLeaders(numbers){
+  let answer = [];
+
+  for (let i = 0; i < numbers.length; i++){          
+    let sum = 0;
+    for (let j = fi+1; j < numbers.length; j++){      
+      sum += numbers[j];                         
+    }
+    
+    if(numbers[i] > sum){                        
+      answer.push(numbers[i]); 
+    }
+  }
+  return answer;          
+}
