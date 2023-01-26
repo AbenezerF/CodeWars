@@ -28,7 +28,7 @@ function arrayLeaders(numbers){
 
   for (let i = 0; i < numbers.length; i++){          
     let sum = 0;
-    for (let j = fi+1; j < numbers.length; j++){      
+    for (let j = i+1; j < numbers.length; j++){      
       sum += numbers[j];                         
     }
     
