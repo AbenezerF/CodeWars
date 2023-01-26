@@ -36,5 +36,5 @@ function arrayLeaders(numbers){
       answer.push(numbers[i]); 
     }
   }
-  return answer          
+  return answer;          
 }
