@@ -18,7 +18,7 @@ Error checking for text strings or other invalid inputs is not required, only va
 function narcissistic(value) {
   let sum = 0
   value = value.toString().split('')
-  let numOfDigits = value.length
+  let numOfDigits = value.length;
   for(let i = 0; i < value.length; i++){
     sum += Number(value[i]) ** numOfDigits
   }
