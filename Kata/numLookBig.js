@@ -20,7 +20,7 @@ function narcissistic(value) {
   value = value.toString().split('')
   let numOfDigits = value.length;
   for(let i = 0; i < value.length; i++){
-    sum += Number(value[i]) ** numOfDigits
+    sum += Number(value[i]) ** numOfDigits;
   }
   return sum === Number(value.join('')) || Number(value.join('')) < 10 ? true : false
 }
