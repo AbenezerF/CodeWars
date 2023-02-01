@@ -22,5 +22,5 @@ function narcissistic(value) {
   for(let i = 0; i < value.length; i++){
     sum += Number(value[i]) ** numOfDigits;
   }
-  return sum === Number(value.join('')) || Number(value.join('')) < 10 ? true : false;
+  return sum === Number(value.join('')) || Number(value.join('')) < 10 ? true : false
 }
