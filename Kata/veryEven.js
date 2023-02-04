@@ -17,3 +17,11 @@ number = 5 => returns false
 number = 841 => returns true -> 8 + 4 + 1 = 13 -> 1 + 3 => 4 is even
 Note: The numbers will always be 0 or positive integers!
 */
+
+function isVeryEvenNumber(n) {
+  n = n.toString().split('').map(x => Number(x)).reduce((a,b) => a + b)
+  while(n > 9){
+    n = n.toString().split('').map(x => Number(x)).reduce((a,b) => a + b)
+  }
+  return n % 2 === 0;
+}
