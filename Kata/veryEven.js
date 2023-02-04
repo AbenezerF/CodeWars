@@ -21,7 +21,7 @@ Note: The numbers will always be 0 or positive integers!
 function isVeryEvenNumber(n) {
   n = n.toString().split('').map(x => Number(x)).reduce((a,b) => a + b);
   while(n > 9){
-    n = n.toString().split('').map(x => Number(x)).reduce((a,b) => a + b)
+    n = n.toString().split('').map(x => Number(x)).reduce((a,b) => a + b);
   }
   return n % 2 === 0;
 }
