@@ -23,5 +23,5 @@ function isVeryEvenNumber(n) {
   while(n > 9){
     n = n.toString().split('').map(x => Number(x)).reduce((a,b) => a + b);
   }
-  return n % 2 === 0;
+  return n % 2 === 0
 }
