@@ -12,5 +12,5 @@ Note: Y is not a vowel in this kata.
 */
 
 function swap(str){
-  return str.replace(/[aeiou]/g, x => x.toUpperCase() )
+  return str.replace(/[aeiou]/g, x => x.toUpperCase())
 }
