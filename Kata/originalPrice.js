@@ -11,3 +11,7 @@ DiscoverOriginalPrice(75, 25) => 100.00M where 75 is the sale price (discounted 
 
 
 */
+
+function discoverOriginalPrice(discountedPrice, salePercentage){
+  return Number((discountedPrice/(1-(salePercentage/100))).toFixed(2))
+}
