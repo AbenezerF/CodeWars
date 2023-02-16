@@ -16,7 +16,7 @@ firstToLast("ababc","d") should return -1
 */
 
 function firstToLast(str,c){
-  if( !str.includes(c)) return -1
+  if( !str.includes(c)) return -1;
   else if(str.indexOf(c) === str.lastIndexOf(c)) return 0
   else if( str.lastIndexOf(c) - str.indexOf(c) >= 0) return str.lastIndexOf(c) - str.indexOf(c)
 }
