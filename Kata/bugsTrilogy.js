@@ -1,4 +1,5 @@
 // A bugs trilogy: Episode 1 - "Let Math.Random(); decide your future" (8Kyu)
+
 /*
 Our friend Pac has finally decided to pursue a career in the coding industry.
 He is a newbie, he needs to learn properly.
