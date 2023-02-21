@@ -15,5 +15,5 @@ toBinary(11)  should return 1011
 
 
 function toBinary(n){
-  return Number(n.toString(2))
+  return Number(n.toString(2));
 }
