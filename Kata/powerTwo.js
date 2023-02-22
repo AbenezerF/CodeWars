@@ -17,6 +17,6 @@ Beware of certain edge cases - for example, 1 is a power of 2 since 2^0 = 1 and 
 
 
 function isPowerOfTwo(n){
-    return Number.isInteger(Math.log2(n))
+    return Number.isInteger(Math.log2(n));
     
 }
