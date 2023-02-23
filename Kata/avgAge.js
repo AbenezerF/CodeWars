@@ -22,7 +22,7 @@ Age is represented by a number which can be any positive integer.
 function getAverageAge(list) {
   let total = 0;
   for(let x of list){
-    total += x.age
+    total += x.age;
   }
   return Math.round(Number(total/list.length))
 }
