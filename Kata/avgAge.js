@@ -24,5 +24,5 @@ function getAverageAge(list) {
   for(let x of list){
     total += x.age;
   }
-  return Math.round(Number(total/list.length));
+  return Math.round(Number(total/list.length))
 }
