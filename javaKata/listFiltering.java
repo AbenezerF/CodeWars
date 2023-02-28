@@ -10,7 +10,7 @@ Kata.filterList(List.of(1, 2, "a", "b", "aasf", "1", "123", 231)) => List.of(1, 
 
 
 import java.util.*;
-import java.util.stream.Collectors
+import java.util.stream.Collectors;
 
 public class Kata {
   
