@@ -7,3 +7,9 @@ Examples:
 solution('abc', 'bc') // returns true
 solution('abc', 'd') // returns false
 */
+
+public class Kata {
+  public static boolean solution(String str, String ending) {
+    return str.endsWith(ending);
+  }
+}
