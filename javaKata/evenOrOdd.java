@@ -21,7 +21,6 @@ Have fun!
 
 */
 
-
 public class Codewars {
   public static String oddOrEven (int[] array) {
   int total = 0;
