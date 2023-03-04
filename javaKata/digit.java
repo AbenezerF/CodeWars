@@ -11,7 +11,7 @@ Note: The function accepts an integer and returns an integer.
 Happy Coding!
 */
 
-import java.util.*;
+
 public class SquareDigit {
   public int squareDigits(int num) {
       char[] digitsArray = Integer.toString(num).toCharArray();
