@@ -19,7 +19,6 @@ public class SquareDigit {
       for (char digit : digitsArray) {
           num = Character.getNumericValue(digit);
           output += num*num;
-          System.out.println(output);
       }
       
       return Integer.parseInt(output);
