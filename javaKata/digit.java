@@ -10,3 +10,19 @@ Note: The function accepts an integer and returns an integer.
 
 Happy Coding!
 */
+
+import java.util.*;
+public class SquareDigit {
+  public int squareDigits(int num) {
+      char[] digitsArray = Integer.toString(num).toCharArray();
+      String output = "";
+      
+      for (char digit : digitsArray) {
+          num = Character.getNumericValue(digit);
+          output += num*num;
+          System.out.println(output);
+      }
+      
+      return Integer.parseInt(output);
+  }
+}
