@@ -14,6 +14,7 @@ Output string must be two numbers separated by a single space, and highest numbe
 
 public class Kata {
   public static String highAndLow(String numbers) {
+    
     // Code here or
     return "throw towel";
   }
