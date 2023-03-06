@@ -19,6 +19,7 @@ public class Kata {
     String sorted = "";
     String[] splitArray = numbers.split(" ");
     int[] arr = new int[splitArray.length];
+    
     for(int i = 0; i < splitArray.length; i++){
       arr[i] = Integer.parseInt(splitArray[i]);
     }
