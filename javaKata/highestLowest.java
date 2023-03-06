@@ -13,6 +13,7 @@ Output string must be two numbers separated by a single space, and highest numbe
 */
 
 import java.util.Arrays; 
+
 public class Kata {
   public static String highAndLow(String numbers) {
     String sorted = "";
