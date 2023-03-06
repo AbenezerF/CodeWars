@@ -23,6 +23,7 @@ public class Kata {
       arr[i] = Integer.parseInt(splitArray[i]);
     }
     Arrays.sort(arr);
+    
     sorted += String.valueOf(arr[splitArray.length - 1]);
     sorted += " " + String.valueOf(arr[0]);
 
