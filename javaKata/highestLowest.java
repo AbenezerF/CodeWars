@@ -12,10 +12,19 @@ There will always be at least one number in the input string.
 Output string must be two numbers separated by a single space, and highest number is first.
 */
 
+import java.util.Arrays; 
 public class Kata {
   public static String highAndLow(String numbers) {
-    
-    // Code here or
-    return "throw towel";
+    String sorted = "";
+    String[] splitArray = numbers.split(" ");
+    int[] arr = new int[splitArray.length];
+    for(int i = 0; i < splitArray.length; i++){
+      arr[i] = Integer.parseInt(splitArray[i]);
+    }
+    Arrays.sort(arr);
+    sorted += String.valueOf(arr[splitArray.length - 1]);
+    sorted += " " + String.valueOf(arr[0]);
+
+    return sorted;
   }
 }
