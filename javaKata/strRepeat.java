@@ -14,7 +14,7 @@ public class Solution {
       for(int i = 0; i < repeat; i++){
         total += string;
       }
-        return total
+        return total;
     }
 }
 
