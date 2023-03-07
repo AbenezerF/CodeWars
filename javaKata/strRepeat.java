@@ -8,7 +8,6 @@ Examples (input -> output)
 5, "Hello" -> "HelloHelloHelloHelloHello"
 */
 
-
 public class Solution {
     public static String repeatStr(final int repeat, final String string) {
       String total = "";
