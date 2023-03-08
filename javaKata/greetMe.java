@@ -8,3 +8,10 @@ Example:
 "riley" --> "Hello Riley!"
 "JACK"  --> "Hello Jack!"
 */
+
+public class GreetMe{
+  public static String greet(String name){
+    String firstChar = name.substring(0,1);
+    return "Hello " + firstChar.toUpperCase() + name.toLowerCase().substring(1) + "!";
+  }
+}
