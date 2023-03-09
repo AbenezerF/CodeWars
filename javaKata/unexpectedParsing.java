@@ -35,7 +35,7 @@ public class Kata {
         } else {
           status.put("status", "available");
         }
-        return status;
+        return status
     }
   
 }
