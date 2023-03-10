@@ -15,3 +15,16 @@ The correct answer would be 17.
 
 Hint: Don't forget to check for bad values like null/undefined
 */
+
+
+public class Counter {
+  public int countSheeps(Boolean[] arrayOfSheeps) {
+    int counter = 0;
+    for(Boolean ans: arrayOfSheeps){
+      if(ans != null && ans){
+        counter++;
+      }
+    }
+    return counter;
+  }
+}
