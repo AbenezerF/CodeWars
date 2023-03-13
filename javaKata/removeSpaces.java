@@ -10,3 +10,16 @@ Input -> Output
 "8 8 Bi fk8h B 8 BB8B B B  B888 c hl8 BhB fd" -> "88Bifk8hB8BB8BBBB888chl8BhBfd"
 "8aaaaa dddd r     " -> "8aaaaaddddr"
 */
+
+
+public class Kata {
+    public static String noSpace(final String x) {
+      String filtered = "";
+      for(int i = 0; i < x.length(); i++){
+        if(x.charAt(i) != ' '){
+          filtered = filtered + x.charAt(i);
+        }
+      }
+      return filtered;
+    }
+}
