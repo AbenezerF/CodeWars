@@ -1,1 +1,1 @@
-// Remove String Spaces 
+// Remove String Spaces (8Kyu)
