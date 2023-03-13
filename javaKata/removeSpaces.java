@@ -27,6 +27,6 @@ public class Kata {
 // Solution using in-built method
 class Kata {
     static String noSpace(final String x) {
-        return x.replace(" ", "");
+        return x.replace(" ", "")
     }
 }
