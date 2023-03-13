@@ -23,3 +23,5 @@ public class Kata {
       return filtered;
     }
 }
+
+// Solution using in-built method
