@@ -21,6 +21,6 @@ public class CodeWars {
   public static int strCount(String str, char letter) {
     int original = str.length();
     str = str.replace(String.valueOf(letter), "");
-    return original - str.length();
+    return original - str.length()
   }
 }
