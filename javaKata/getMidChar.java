@@ -1,1 +1,1 @@
-// Get the Middle Character
+// Get the Middle Character (7Kyu)
