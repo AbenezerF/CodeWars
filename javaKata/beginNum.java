@@ -14,5 +14,21 @@ Examples (a, b) --> output (explanation)
 (-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
 Your function should only return a number, not the explanation about how you get that number.
 */
+
+public class Sum{
+     public int GetSum(int a, int b){
+      int total = 0;
+       if( a < b){
+        for(int i = a; i <= b; i++){
+          total += i;
+      }
+  }else{
+    for(int i = b; i <= a; i++){
+      total += i;
+      }
+     }
+       return total;
+   }
+  }
   
   
