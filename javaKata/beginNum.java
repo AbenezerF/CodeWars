@@ -40,7 +40,7 @@ public class Sum{
       for (int i = Math.min(a, b); i <= Math.max(a, b); i++) {
         res += i;
       }
-      return a == b ? a : res;
+      return a == b ? a : res
     }
   }
   
