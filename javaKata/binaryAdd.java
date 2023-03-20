@@ -1,1 +1,1 @@
-// Binary Addition
+// Binary Addition (7Kyu)
