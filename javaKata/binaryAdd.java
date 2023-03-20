@@ -12,7 +12,6 @@ Examples:(Input1, Input2 --> Output (explanation)))
 */
 
 public class Kata{
-  
   public static String binaryAddition(int a, int b){
     int total = a + b;
     return Integer.toBinaryString(total);
