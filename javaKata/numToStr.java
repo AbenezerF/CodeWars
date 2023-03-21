@@ -10,3 +10,9 @@ Examples (input --> output):
 999  --> "999"
 -100 --> "-100"
 */
+
+class Kata {
+  public static String numberToString(int num) {
+    return String.valueOf(num);
+  }
+}
