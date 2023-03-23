@@ -19,6 +19,6 @@ public class NumberFun {
       if(Math.sqrt(sq) % 1 == 0){
         return (long)(Math.sqrt(sq) + 1) * (long)(Math.sqrt(sq) + 1);
       }
-      return -1; 
+      return -1
   }
 }
