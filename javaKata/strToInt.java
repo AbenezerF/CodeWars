@@ -12,3 +12,9 @@ Examples
 "1405" --> 1405
 "-7" --> -7
 */
+
+public class StringToNumber {
+  public static int stringToNumber(String str) {
+    return Integer.valueOf(str);
+  }
+}
