@@ -26,6 +26,6 @@ public class Codewars {
     for(int i = 0; i < array.length; i++){
       sum += array[i];
     }
-    return sum % 2 == 0 ? "even" : "odd"
+    return sum % 2 == 0 ? "even" : "odd";
   }
 }
