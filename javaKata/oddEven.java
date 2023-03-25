@@ -1,4 +1,4 @@
-// Odd or Even?
+// Odd or Even? (7Kyu)
 
 /*
 Task:
