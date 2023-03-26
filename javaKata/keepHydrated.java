@@ -14,3 +14,11 @@ time = 6.7---> litres = 3
 time = 11.8--> litres = 5
 
 */
+
+public class KeepHydrated  {
+
+  public int Liters(double time)  {
+    double val = time * 0.5;
+    return (int) val;
+  }
+}
