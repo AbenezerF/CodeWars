@@ -19,6 +19,6 @@ public class KeepHydrated  {
 
   public int Liters(double time)  {
     double val = time * 0.5;
-    return (int) val
+    return (int) val;
   }
 }
