@@ -1,4 +1,4 @@
-// Keep Hydrated! 
+// Keep Hydrated! (8Kyu)
 
 /*
 Because Nathan knows it is important to stay hydrated, he drinks 0.5 litres of water per hour of cycling.
