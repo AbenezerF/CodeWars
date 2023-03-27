@@ -13,6 +13,6 @@ public class Kata {
   for(int i = 0; i < array.length; i++){
     array[i] *= -1;
   }
-  return array
+  return array;
   }
 }
