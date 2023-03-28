@@ -13,6 +13,6 @@ class Kata {
     for(int i = 1; i <= num; i++){
       str += String.valueOf(i) + " sheep...";
     }
-    return num == 0 ? "" : str;
+    return num == 0 ? "" : str
   }
 }
