@@ -1,4 +1,4 @@
-// If you can't sleep, just count sheep!!
+// If you can't sleep, just count sheep!! (8Kyu)
 
 /*
 If you can't sleep, just count sheep!!
