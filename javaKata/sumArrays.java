@@ -32,6 +32,6 @@ public class SumArray {
     for(int i = 0; i < numbers.length; i++){
       total += numbers[i];
     }
-    return total;
+    return total
   }
 }
