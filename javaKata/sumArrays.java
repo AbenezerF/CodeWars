@@ -35,3 +35,6 @@ public class SumArray {
     return total;
   }
 }
+
+
+// using stream
