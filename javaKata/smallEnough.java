@@ -1,1 +1,1 @@
-// Small enough? - Beginner
+// Small enough? - Beginner (7Kyu)
