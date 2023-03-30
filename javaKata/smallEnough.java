@@ -1,6 +1,8 @@
 // Small enough? - Beginner (7Kyu)
 
+/*
 
+*/
 
 public class Kata{
   public static boolean smallEnough(int[] a, int limit){
