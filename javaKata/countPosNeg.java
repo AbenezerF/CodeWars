@@ -1,5 +1,9 @@
 // Count of positives / sum of negatives (8Kyu)
 
+/*
+
+*/
+
 
 public class Kata{
     public static int[] countPositivesSumNegatives(int[] input){
