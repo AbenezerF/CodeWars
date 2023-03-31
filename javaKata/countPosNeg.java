@@ -23,6 +23,6 @@ public class Kata{
         if(input[i] > 0) pos++;
       }
       int[] arr = {pos, neg};
-      return arr
+      return arr;
     }
 }
