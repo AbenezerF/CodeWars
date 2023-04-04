@@ -15,6 +15,6 @@ public class SmashWords {
 
 	public static String smash(String[] words) {
     String fin = String.join(" ", words);
-    return fin
+    return fin;
   }
 }
