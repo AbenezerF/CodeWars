@@ -1,1 +1,1 @@
-// Sentence Smash
+// Sentence Smash (8Kyu)
