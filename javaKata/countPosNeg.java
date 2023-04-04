@@ -1,5 +1,4 @@
 // Count of positives / sum of negatives (8Kyu)
-
 /*
 Given an array of integers.
 
