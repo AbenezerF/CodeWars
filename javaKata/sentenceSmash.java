@@ -7,3 +7,14 @@ Write a function that takes an array of words and smashes them together into a s
 Example
 ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
 */
+
+
+import java.util.Arrays;
+
+public class SmashWords {
+
+	public static String smash(String[] words) {
+    String fin = String.join(" ", words);
+    return fin;
+  }
+}
