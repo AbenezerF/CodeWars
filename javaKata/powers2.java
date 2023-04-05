@@ -17,6 +17,6 @@ public class Kata{
     for(int i = 0; i <= n; i++){
       val[i] = (long)Math.pow(2,i);
     }
-    return val
+    return val;
   }
 }
