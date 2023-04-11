@@ -1,1 +1,1 @@
-// The highest profit wins! 
+// The highest profit wins! (7Kyu)
