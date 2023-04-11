@@ -28,3 +28,14 @@ class MinMax {
       return fin;
     }
 }
+
+// using in-built methods
+import java.util.Arrays;
+
+class MinMax {
+    public static int[] minMax(int[] arr) {
+        // Your awesome code here
+         Arrays.sort(arr);
+        return new int[]{arr[0],arr[arr.length-1]};
+    }
+}
