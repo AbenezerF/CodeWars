@@ -1,4 +1,4 @@
-// Simple Fun #176: Reverse Letter
+// Simple Fun #176: Reverse Letter (7Kyu)
 
 /*
 Task
