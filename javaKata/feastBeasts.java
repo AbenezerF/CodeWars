@@ -7,3 +7,7 @@ Write a function feast that takes the animal's name and dish as arguments and re
 
 Assume that beast and dish are always lowercase strings, and that each has at least two letters. beast and dish may contain hyphens and spaces, but these will not appear at the beginning or end of the string. They will not contain numerals.
 */
+
+function feast(beast, dish) {
+   return dish[0] === beast[0] && dish[dish.length - 1] === beast[beast.length -1];
+}
