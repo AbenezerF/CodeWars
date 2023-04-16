@@ -12,7 +12,7 @@ The tests contain some very huge arrays, so think about performance.
 
 
 function findUniq(arr) {
-  arr = arr.sort( (a,b) => a -b)
+  arr = arr.sort( (a,b) => a - b);
   for(let i = 0; i < arr.length-1; i++){
     if(i == 0 && arr[i] !== arr[i+1]) return arr[i]
     else{
