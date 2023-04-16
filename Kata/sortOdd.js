@@ -14,7 +14,7 @@ function sortArray(array) {
   let sorted = array.filter( (x) => x % 2 !== 0).sort((a,b) => a - b);
   for(let i = 0; i < array.length; i++){
     if(array[i] % 2 === 0){
-      sorted.splice(i,0,array[i])
+      sorted.splice(i,0,array[i]);
     }
   }
   return sorted
