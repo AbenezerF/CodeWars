@@ -17,5 +17,5 @@ function sortArray(array) {
       sorted.splice(i,0,array[i]);
     }
   }
-  return sorted
+  return sorted;
 }
