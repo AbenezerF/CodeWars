@@ -17,3 +17,8 @@ The data is given in an array as such:
 
 [1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,1,0,1,0,1,0]
 */
+
+function dataReverse(data) {
+  let arr = data.join('').match(/.{1,8}/g).reverse().join('').split('').map( (x) => Number(x))
+  return arr
+}
