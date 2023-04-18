@@ -1,1 +1,1 @@
-// Complete The Pattern #1
+// Complete The Pattern #1 (7Kyu)
