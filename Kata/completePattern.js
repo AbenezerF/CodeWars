@@ -43,7 +43,7 @@ function pattern(n){
  let output="1";
   for(let i = 2; i <= n; i++){
     let val = i.toString();
-    output += '\n' + val.repeat(i) 
+    output += '\n' + val.repeat(i);
   }
  return n < 1 ? '' : output
 }
