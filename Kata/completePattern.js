@@ -45,5 +45,5 @@ function pattern(n){
     let val = i.toString();
     output += '\n' + val.repeat(i);
   }
- return n < 1 ? '' : output
+ return n < 1 ? '' : output;
 }
