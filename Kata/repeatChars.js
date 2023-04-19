@@ -11,9 +11,9 @@ If a string contains all repeating characters, it should return an empty string 
 */
 
 function firstNonRepeatingLetter(s) {
-  let a = s.toLowerCase()
+  let a = s.toLowerCase();
   for(let i = 0; i < s.length; i++){
-    if(a.indexOf(a[i]) === a.lastIndexOf(a[i])) return s[i]
+    if(a.indexOf(a[i]) === a.lastIndexOf(a[i])) return s[i];
   }
-  return ''
+  return '';
 }
