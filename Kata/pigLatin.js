@@ -16,5 +16,5 @@ function pigIt(str){
     if(arr[i] == '!' || arr[i] == '.' || arr[i] == '?') continue;
     arr[i] = arr[i].substring(1) + arr[i].substring(0,1) + 'ay';
   }
-  return arr.join(' ') 
+  return arr.join(' ');
 }
