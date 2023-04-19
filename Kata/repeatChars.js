@@ -9,3 +9,11 @@ As an added challenge, upper- and lowercase letters are considered the same char
 
 If a string contains all repeating characters, it should return an empty string ("") or None -- see sample tests.
 */
+
+function firstNonRepeatingLetter(s) {
+  let a = s.toLowerCase()
+  for(let i = 0; i < s.length; i++){
+    if(a.indexOf(a[i]) === a.lastIndexOf(a[i])) return s[i]
+  }
+  return ''
+}
