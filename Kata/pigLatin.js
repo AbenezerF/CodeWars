@@ -1,1 +1,1 @@
-// Simple Pig Latin
+// Simple Pig Latin (5Kyu)
