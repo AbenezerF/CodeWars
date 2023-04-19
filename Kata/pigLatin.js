@@ -11,7 +11,7 @@ pigIt('Hello world !');     // elloHay orldway !
 */
 
 function pigIt(str){
-  let arr = str.split(' ')
+  let arr = str.split(' ');
   for(let i = 0; i < arr.length; i++){
     if(arr[i] == '!' || arr[i] == '.' || arr[i] == '?') continue
     arr[i] = arr[i].substring(1) + arr[i].substring(0,1) + 'ay'
