@@ -1,1 +1,1 @@
-// Highest Scoring Word 
+// Highest Scoring Word (6Kyu)
