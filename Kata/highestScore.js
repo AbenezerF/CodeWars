@@ -23,7 +23,7 @@ function high(x){
              q: 17, r: 18, s: 19, t: 20, u: 21, v: 22, w: 23, x: 24, y: 25, z: 26}
   let arr = x.split(' ');
   for(let i = 0; i < arr.length; i++){
-    currScore = 0
+    currScore = 0;
     for(let j = 0; j < arr[i].length; j++){
       currScore += obj[arr[i][j]] 
       if(currScore > maxScore){
