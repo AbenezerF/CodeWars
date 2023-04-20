@@ -25,12 +25,12 @@ function high(x){
   for(let i = 0; i < arr.length; i++){
     currScore = 0;
     for(let j = 0; j < arr[i].length; j++){
-      currScore += obj[arr[i][j]] 
+      currScore += obj[arr[i][j]];
       if(currScore > maxScore){
-        maxScore = currScore
-        highStr = arr[i]
+        maxScore = currScore;
+        highStr = arr[i];
       }
     } 
   }
-  return highStr
+  return highStr;
 }
