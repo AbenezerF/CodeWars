@@ -6,5 +6,5 @@ This is an easy twist to the example kata (provided by Codewars when learning ho
 Add the value "codewars" to the array websites 1,000 times.
 */
 
-var websites = new Array(1000).fill("codewars")
+var websites = new Array(1000).fill("codewars");
 
