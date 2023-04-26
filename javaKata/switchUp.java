@@ -15,7 +15,7 @@ public class Kata{
     String val = "";
    switch(number){
     case 0:
-      val = "Zero";
+      val = "Zero"
       break;
     case 1:
       val =  "One";
