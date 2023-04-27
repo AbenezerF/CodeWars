@@ -1,4 +1,4 @@
-// Keep up the hoop
+// Keep up the hoop (8Kyu)
 
 /*
 Alex just got a new hula hoop, he loves it but feels discouraged because his little brother is better than him
