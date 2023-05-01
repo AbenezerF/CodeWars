@@ -11,3 +11,12 @@ O is misinterpreted as 0
 I is misinterpreted as 1
 The test cases contain numbers only by mistake.
 */
+
+public class Correct {
+  public static String correct(String string) {
+    string = string.replace("5","S");
+    string = string.replace("0","O");
+    string = string.replace("1","I");
+    return string;
+  }
+}
