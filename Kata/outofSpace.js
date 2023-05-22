@@ -11,5 +11,5 @@ function spacey(array){
   for(let i = 1; i < array.length; i++){
     arr.push(arr[i-1] + array[i]);
   }
-  return arr
+  return arr;
 }
