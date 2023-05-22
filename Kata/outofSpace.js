@@ -6,7 +6,7 @@ For example, running this function on the array ['i', 'have','no','space'] would
 */
 
 function spacey(array){
-  let arr = []
+  let arr = [];
   arr.push(array[0])
   for(let i = 1; i < array.length; i++){
     arr.push(arr[i-1] + array[i])
