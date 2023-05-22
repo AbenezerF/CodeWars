@@ -9,7 +9,7 @@ function spacey(array){
   let arr = [];
   arr.push(array[0]);
   for(let i = 1; i < array.length; i++){
-    arr.push(arr[i-1] + array[i])
+    arr.push(arr[i-1] + array[i]);
   }
   return arr
 }
