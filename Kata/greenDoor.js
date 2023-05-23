@@ -17,3 +17,7 @@ You can wear your glasses, but not your contacts.
 
 Have you figured it out? Good! Then write a program that can figure it out as well.
 */
+
+function stepThroughWith(s) {
+  return /([a-z])\1+/g.test(s)
+}
