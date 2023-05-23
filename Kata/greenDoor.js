@@ -19,5 +19,5 @@ Have you figured it out? Good! Then write a program that can figure it out as we
 */
 
 function stepThroughWith(s) {
-  return /([a-z])\1+/g.test(s);
+  return /([a-z])\1+/g.test(s)
 }
