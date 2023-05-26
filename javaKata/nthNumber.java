@@ -9,3 +9,9 @@ Example(Input --> Output)
 100 --> 198
 1298734 --> 2597466
 */
+
+public class Num {
+  public static int nthEven(int n) {
+    return n * 2 - 2;
+  }
+}
