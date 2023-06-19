@@ -17,5 +17,5 @@ function fuelPrice(litres, pricePerLiter) {
       pricePerLiter -= 0.05;
     }
   }
-  return Math.round(litres * pricePerLiter * 100) / 100
+  return Math.round(litres * pricePerLiter * 100) / 100;
 }
