@@ -40,3 +40,7 @@ autoMorphic (6) -->> return "Automorphic"
 Explanation:
 6 squared is 36 , Ends with the same number's digits which are 6
 */
+
+function automorphic(n){
+  return String(n*n).endsWith(String(n)) ? "Automorphic" : "Not!!"
+}
