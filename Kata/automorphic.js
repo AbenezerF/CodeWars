@@ -42,5 +42,5 @@ Explanation:
 */
 
 function automorphic(n){
-  return String(n*n).endsWith(String(n)) ? "Automorphic" : "Not!!"
+  return String(n*n).endsWith(String(n)) ? "Automorphic" : "Not!!";
 }
