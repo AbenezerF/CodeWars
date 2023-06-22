@@ -22,7 +22,7 @@ Since , 51 + 62 + 43 = 105 != 564 , thus output is "Not !!"
 */
 
 function disariumNumber(n){
-  let total = 0
+  let total = 0;
   let arr = n.toString().split('')
   for(let i = 0; i < arr.length; i++){
     total += Number(arr[i]) ** (i+1)
