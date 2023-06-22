@@ -25,7 +25,7 @@ function disariumNumber(n){
   let total = 0;
   let arr = n.toString().split('');
   for(let i = 0; i < arr.length; i++){
-    total += Number(arr[i]) ** (i+1)
+    total += Number(arr[i]) ** (i+1);
   }
   return total == n ? "Disarium !!" : "Not !!";
 }
