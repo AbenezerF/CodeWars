@@ -1,4 +1,4 @@
-// Disarium Number (Special Numbers Series #3)
+// Disarium Number (Special Numbers Series #3) (7Kyu)
 
 /*
 Definition
