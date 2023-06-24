@@ -1,1 +1,1 @@
-// Cat and Mouse - Easy Version
+// Cat and Mouse - Easy Version (7Kyu)
