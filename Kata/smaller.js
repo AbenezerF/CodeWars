@@ -9,3 +9,5 @@ For example:
 * Input [1, 2, 0] => Output [1, 1, 0]
 If you've completed this one and you feel like testing your performance tuning of this same kata, head over to the much tougher version How many are smaller than me II?
 */
+
+const smaller = nums => nums.map((x, i) => nums.slice(i).filter(y => x > y).length);
