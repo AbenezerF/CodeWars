@@ -43,5 +43,5 @@ function maxGap (numbers){
   for(let i = 0; i < numbers.length -1; i++){
     if(arr[i+1] - arr[i] > maxGap) maxGap = arr[i+1] - arr[i];
   }
-  return maxGap
+  return maxGap;
 }
