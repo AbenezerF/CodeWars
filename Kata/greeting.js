@@ -15,9 +15,9 @@ joe.name           // should == 'Joe'
 
 class Person {
   constructor(name) {
-    this.name = name
+    this.name = name;
   }
   greet(name) {
-    return `Hello ${name}, my name is ${this.name}`
+    return `Hello ${name}, my name is ${this.name}`;
   }
 }
