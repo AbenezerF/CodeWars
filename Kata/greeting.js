@@ -1,4 +1,4 @@
-// Refactored Greeting
+// Refactored Greeting (7kyu)
 
 /*
 The following code could use a bit of object-oriented artistry. While it's a simple method and works just fine as it is, in a larger system it's best to organize methods into classes/objects. (Or, at least, something similar depending on your language)
