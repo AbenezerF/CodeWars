@@ -12,5 +12,5 @@ replaceAll(replaceAll(array: [1,2,2], old: 1, new: 2) // [2,2,2]
 */
 
 function replaceAll(seq, find, replace) {
-  return Array.isArray(seq) ? seq.map( x => x == find ? x = replace : x) : seq.split(find).join(replace)
+  return Array.isArray(seq) ? seq.map( x => x == find ? x = replace : x) : seq.split(find).join(replace);
 }
