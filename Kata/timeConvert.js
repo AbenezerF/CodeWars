@@ -13,7 +13,7 @@ Good luck! :D
 */
 
 function timeConvert(num) { 
-  let val = (Math.floor(num / 60)).toString()
+  let val = (Math.floor(num / 60)).toString();
   let secondVal = (num % 60).toString()
   if(num < 0) return "00:00"
   return val.padStart(2, "0") + ":" + secondVal.padStart(2,"0")
