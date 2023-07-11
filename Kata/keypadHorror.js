@@ -29,7 +29,7 @@ function computerToPhone(numbers){
   for(let i = 0; i < num.length; i++){
     if(num[i] > 6) fin.push(num[i] - 6);
     else if(num[i] < 4 && num[i] >= 1) fin.push(num[i] + 6);
-    else fin.push(num[i])
+    else fin.push(num[i]);
   }
   return fin.join('');
 }
