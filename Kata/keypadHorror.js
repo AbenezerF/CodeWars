@@ -31,5 +31,5 @@ function computerToPhone(numbers){
     else if(num[i] < 4 && num[i] >= 1) fin.push(num[i] + 6)
     else fin.push(num[i])
   }
-  return fin.join('')
+  return fin.join('');
 }
