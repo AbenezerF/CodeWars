@@ -6,3 +6,7 @@ Example:
 
 ["hello", "world"] -> "hello world"
 */
+
+function wordsToSentence(words) {
+  return words.join(' ');
+}
