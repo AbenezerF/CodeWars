@@ -7,8 +7,5 @@ Your code must handle any value within the range of a 32-bit integer, and must b
 */
 
 function duplicateElements(m, n) {
-  for(let i = 0; i < m.length; i++){
-    if(n.some( (x) => x == m[i])) return true
-  }
-  return false
+  return m.some(v => n.includes(v))
 }
