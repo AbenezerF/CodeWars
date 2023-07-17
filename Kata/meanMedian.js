@@ -15,7 +15,7 @@ function meanVsMedian(numbers) {
   let avg = numbers.reduce( (curr, prev) => curr + prev, 0) / numbers.length;
   let sorted = numbers.sort( (a,b) => a - b);
   if(avg  > sorted[Math.floor(numbers.length/2)]) return 'mean';
-  else if(avg  < sorted[Math.floor(numbers.length/2)]) return 'median' 
+  else if(avg  < sorted[Math.floor(numbers.length/2)]) return 'median';
   else return 'same'
 
 }
