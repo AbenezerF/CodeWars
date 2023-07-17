@@ -17,5 +17,4 @@ function meanVsMedian(numbers) {
   if(avg  > sorted[Math.floor(numbers.length/2)]) return 'mean';
   else if(avg  < sorted[Math.floor(numbers.length/2)]) return 'median';
   else return 'same';
-
 }
