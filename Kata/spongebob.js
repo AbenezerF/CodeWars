@@ -17,5 +17,5 @@ function spongeMeme(sentence) {
     if(i % 2 == 0) arr[i] = arr[i].toUpperCase();
     else arr[i] = arr[i].toLowerCase();
   }
-  return arr.join('')
+  return arr.join('');
 }
