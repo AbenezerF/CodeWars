@@ -23,3 +23,12 @@ all but the last full stop will be followed by a space and at least one word
 
 
 */
+
+function fix(para){
+    if (para === "") return "";
+    return para
+              .split(". ")
+              .map(sentence => sentence[0].toUpperCase() + sentence.slice(1))
+              .join(". ");
+    
+}
