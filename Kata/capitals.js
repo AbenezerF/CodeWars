@@ -29,6 +29,6 @@ function fix(para){
     return para
               .split(". ")
               .map(sentence => sentence[0].toUpperCase() + sentence.slice(1))
-              .join(". ");
+              .join(". ")
     
 }
