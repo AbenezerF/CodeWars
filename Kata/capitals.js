@@ -1,4 +1,4 @@
-// Sentences should start with capital letters.
+// Sentences should start with capital letters. (7Kyu)
 
 /*
 In English, all words at the begining of a sentence should begin with a capital letter.
