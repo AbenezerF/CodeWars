@@ -12,3 +12,7 @@ So, for example:
 toBinary(3)=="11"
 toBinary(-3)=="11111111111111111111111111111101"
 */
+
+function toBinary(n){
+  return (n >>> 0).toString(2);
+}
