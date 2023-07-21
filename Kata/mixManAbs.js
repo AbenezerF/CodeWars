@@ -53,3 +53,15 @@ maxMin([1,3,5],[9,8,7])               should return [8,2]
 maxMin([1,10,100,1000],[0,0,0,0])     should return [1000,1]
 maxMin([10,20,30,40],[111,11,1,-111]) should return [151,9]
 */
+
+function maxMin(arr1,arr2){
+  let filtered = []
+  let fin = []
+  for(let i = 0; i < arr1.length; i++){
+    let diff = arr1[i] - arr2[i]
+    filtered.push(Math.abs(diff))
+  }
+  fin.push(Math.max.apply(null, filtered))
+  fin.push(Math.min.apply(null, filtered))
+  return fin
+}
