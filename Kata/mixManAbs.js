@@ -69,7 +69,7 @@ function maxMin(arr1,arr2){
     let diff = arr1[i] - arr2[i];
     filtered.push(Math.abs(diff));
   }
-  fin.push(Math.max.apply(null, filtered))
-  fin.push(Math.min.apply(null, filtered))
+  fin.push(Math.max.apply(null, filtered));
+  fin.push(Math.min.apply(null, filtered));
   return fin
 }
