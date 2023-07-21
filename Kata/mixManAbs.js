@@ -57,13 +57,13 @@ maxMin([10,20,30,40],[111,11,1,-111]) should return [151,9]
 // using map function
 function maxMin(arr1, arr2) {
   var difference = arr1.map((v, i) => Math.abs(v - arr2[i]));
-  return [Math.max(...difference), Math.min(...difference)]
+  return [Math.max(...difference), Math.min(...difference)];
 }
 
 
 
 function maxMin(arr1,arr2){
-  let filtered = []
+  let filtered = [];
   let fin = []
   for(let i = 0; i < arr1.length; i++){
     let diff = arr1[i] - arr2[i]
