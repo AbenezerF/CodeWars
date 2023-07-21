@@ -64,10 +64,10 @@ function maxMin(arr1, arr2) {
 
 function maxMin(arr1,arr2){
   let filtered = [];
-  let fin = []
+  let fin = [];
   for(let i = 0; i < arr1.length; i++){
-    let diff = arr1[i] - arr2[i]
-    filtered.push(Math.abs(diff))
+    let diff = arr1[i] - arr2[i];
+    filtered.push(Math.abs(diff));
   }
   fin.push(Math.max.apply(null, filtered))
   fin.push(Math.min.apply(null, filtered))
