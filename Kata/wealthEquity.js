@@ -1,1 +1,1 @@
-// Wealth equality, finally!
+// Wealth equality, finally! (7Kyu)
