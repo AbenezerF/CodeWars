@@ -26,3 +26,8 @@ Input is guaranteed to hold at least 1 citizen
 Wealth of a citizen will be an integer with minimum equal to 0 (negative wealth is not possible)
 Handling of floating point error will not be tested
 */
+
+function redistributeWealth(wealth) {
+  wealth = wealth.fill((wealth.reduce(function(a, b) {
+    return a + b;})) / wealth.length);
+}
