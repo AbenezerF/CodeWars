@@ -14,6 +14,11 @@ Input arrays are non-empty.
 Examples
 Median of [33,99,100,30,29,50] is 41.5.
 Median of [3,2,1] is 2.
-
-
 */
+
+function median(array) {
+  let arr = array.sort( (a,b) => a - b)
+  return array.length % 2 != 0 ? arr[Math.floor(array.length/2)] : 
+  (arr[arr.length/2] + arr[arr.length/2 - 1])/2
+    
+}
