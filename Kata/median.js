@@ -17,7 +17,7 @@ Median of [3,2,1] is 2.
 */
 
 function median(array) {
-  let arr = array.sort( (a,b) => a - b)
+  let arr = array.sort( (a,b) => a - b);
   return array.length % 2 != 0 ? arr[Math.floor(array.length/2)] : 
   (arr[arr.length/2] + arr[arr.length/2 - 1])/2
 }
