@@ -20,5 +20,4 @@ function median(array) {
   let arr = array.sort( (a,b) => a - b)
   return array.length % 2 != 0 ? arr[Math.floor(array.length/2)] : 
   (arr[arr.length/2] + arr[arr.length/2 - 1])/2
-    
 }
