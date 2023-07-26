@@ -34,6 +34,6 @@ true if A and B are similar, false otherwise.
 function areSimilar(A, B) {
   var s = A.map((x,i) => [x, i]).filter(x => x[0] !== B[x[1]]);
   if (s.length == 0) return true;
-  if (s.length != 2) return false
+  if (s.length != 2) return false;
   return s[0][0] === B[s[1][1]] && s[1][0] === B[s[0][1]];
 }
