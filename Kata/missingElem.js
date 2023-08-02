@@ -10,7 +10,7 @@ find_missing([6, 1, 3, 6, 8, 2], [3, 6, 6, 1, 2]) => 8
 */
 
 function findMissing(arr1, arr2) {
-  arr1 = arr1.sort( (a,b) => a - b)
+  arr1 = arr1.sort( (a,b) => a - b);
   arr2 = arr2.sort( (a,b) => a - b)
   for(let i = 0; i < arr1.length; i++){
     if(arr1[i] != arr2[i]) return arr1[i]
