@@ -13,6 +13,6 @@ It expects Calculator.average(3,4,5) to return 4.
 
 var Calculator = {
  average: function(...arr) {
-  return arr.length == 0? 0 : arr.reduce( (curr, prev) => curr + prev) / arr.length
+  return arr.length == 0? 0 : arr.reduce( (curr, prev) => curr + prev) / arr.length;
  }
 };
