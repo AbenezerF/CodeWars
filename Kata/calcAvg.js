@@ -1,1 +1,1 @@
-// Basic JS - Calculating averages
+// Basic JS - Calculating averages (7Kyu)
