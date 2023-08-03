@@ -10,3 +10,9 @@ The test also expects that when you pass no arguments, it returns 0. The argumen
 
 It expects Calculator.average(3,4,5) to return 4.
 */
+
+var Calculator = {
+ average: function(...arr) {
+  return arr.length == 0? 0 : arr.reduce( (curr, prev) => curr + prev) / arr.length
+ }
+};
