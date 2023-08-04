@@ -26,6 +26,6 @@ Input	Output
 */
 
 function sentencify(words) {
-  let sent = words.join(' ')
+  let sent = words.join(' ');
   return sent[0].toUpperCase() + sent.substring(1) + "."
 }
