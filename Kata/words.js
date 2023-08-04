@@ -24,3 +24,8 @@ Input	Output
 ["i'm","afraid","I","can't","let","you","do","that"]	"I'm afraid I can't let you do that."
 
 */
+
+function sentencify(words) {
+  let sent = words.join(' ')
+  return sent[0].toUpperCase() + sent.substring(1) + "."
+}
