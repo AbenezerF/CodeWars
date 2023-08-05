@@ -13,7 +13,7 @@ maxProduct([33, 231, 454, 11, 9, 99, 57])   // 104874
 */
 
 function maxProduct(a) {
-    let largestVal = a.splice((a.indexOf(Math.max(...a))),1)
+    let largestVal = a.splice((a.indexOf(Math.max(...a))),1);
     let secondVal = a.splice((a.indexOf(Math.max(...a))),1)
     return largestVal*secondVal
 }
