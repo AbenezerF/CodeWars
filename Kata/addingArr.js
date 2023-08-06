@@ -41,13 +41,13 @@ Examples:
 */
 
 function arrAdder(arr) {
-  let str = ''
+  let str = '';
   for(let i = 0; i < arr[0].length; i++){
-    str += ' '
+    str += ' ';
     for(let j = 0; j < arr.length; j++){
-      if(arr[j][i] == '') continue
-      str += arr[j][i]
+      if(arr[j][i] == '') continue;
+      str += arr[j][i];
     }
   }
-  return str.trim()
+  return str.trim();
 }
