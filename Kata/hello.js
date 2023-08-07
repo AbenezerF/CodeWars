@@ -1,1 +1,1 @@
-// Say "Hello World" JS Style
+// Say "Hello World" JS Style (7Kyu)
