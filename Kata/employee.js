@@ -1,4 +1,4 @@
-// Find an employees role in the company
+// Find an employees role in the company (7Kyu)
 /*
 You get a new job working for Eggman Movers. Your first task is to write a method that will allow the admin staff to enter a person’s name and return what that person's role is in the company.
 
