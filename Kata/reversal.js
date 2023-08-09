@@ -1,4 +1,4 @@
-// Simple Fun #88: Sort By Height
+// Simple Fun #88: Sort By Height (7kyu)
 
 /*
 Task
