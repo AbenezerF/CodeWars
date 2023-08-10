@@ -1,1 +1,1 @@
-// Word to binary
+// Word to binary (7Kyu)
