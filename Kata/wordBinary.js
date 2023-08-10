@@ -5,3 +5,7 @@ Write a function that takes a string and returns an array containing binary numb
 
 Example: 'man' should return [ '01101101', '01100001', '01101110' ]
 */
+
+function wordToBin(str){
+  return str.split('').map(x => '0' + x.charCodeAt(0).toString(2))
+}
