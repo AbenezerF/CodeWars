@@ -31,7 +31,7 @@ Hint: Use \n in string to jump to next line
 function pattern(n){
   var output="";
   for(let i = 1; i <= n; i+=2){
-    output += i.toString().repeat(i) + '\n'
+    output += i.toString().repeat(i) + '\n';
   }
  return output.slice(0,output.length-1)
 }
