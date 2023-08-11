@@ -33,5 +33,5 @@ function pattern(n){
   for(let i = 1; i <= n; i+=2){
     output += i.toString().repeat(i) + '\n';
   }
- return output.slice(0,output.length-1)
+ return output.slice(0,output.length-1);
 }
