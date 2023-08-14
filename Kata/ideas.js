@@ -21,6 +21,6 @@ function well(x){
     });
   });
   if(goodCount == 0) return "Fail!";
-  else if(goodCount <= 2 && goodCount > 0) return "Publish!"
+  else if(goodCount <= 2 && goodCount > 0) return "Publish!";
   else return "I smell a series!";
 }
