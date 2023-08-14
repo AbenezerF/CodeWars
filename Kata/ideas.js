@@ -1,1 +1,1 @@
-// Well of Ideas - Harder Version
+// Well of Ideas - Harder Version (7Kyu)
