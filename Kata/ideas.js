@@ -10,3 +10,17 @@ The sub arrays may not be the same length.
 The solution should be case insensitive (ie good, GOOD and gOOd all count as a good idea). All inputs may not be strings.
 
 */
+
+function well(x){
+  let goodCount = 0
+  x.forEach(function(arr) {
+    arr.forEach(function(elem) {
+      if(typeof(elem) === 'string' && elem.toLowerCase() === 'good') {
+        goodCount++;
+      }
+    });
+  });
+  if(goodCount == 0) return "Fail!"
+  else if(goodCount <= 2 && goodCount > 0) return "Publish!"
+  else return "I smell a series!"
+}
