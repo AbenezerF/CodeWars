@@ -12,7 +12,7 @@ The solution should be case insensitive (ie good, GOOD and gOOd all count as a g
 */
 
 function well(x){
-  let goodCount = 0
+  let goodCount = 0;
   x.forEach(function(arr) {
     arr.forEach(function(elem) {
       if(typeof(elem) === 'string' && elem.toLowerCase() === 'good') {
