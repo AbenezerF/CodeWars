@@ -19,3 +19,7 @@ Even though there are no spaces, it is still valid because none are needed:
 * ''              => true
 Note - there will be no punctuation or digits in the input string, only letters.
 */
+
+function validSpacing(s) {
+  return s.trim() == s && !s.includes("  ");
+}
