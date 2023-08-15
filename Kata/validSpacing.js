@@ -21,5 +21,5 @@ Note - there will be no punctuation or digits in the input string, only letters.
 */
 
 function validSpacing(s) {
-  return s.trim() == s && !s.includes("  ");
+  return s.trim() == s && !s.includes("  ")
 }
