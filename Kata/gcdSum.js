@@ -15,3 +15,8 @@ More examples in test cases.
 
 Good luck!
 */
+
+function solve(s,g){
+  let val = s - g
+  return val % g == 0 ? [g,val] : -1
+}
