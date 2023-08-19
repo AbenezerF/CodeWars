@@ -1,1 +1,1 @@
-// Find the calculation type
+// Find the calculation type (7Kyu)
