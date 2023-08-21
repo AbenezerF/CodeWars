@@ -1,1 +1,1 @@
-// Count the smiley faces!
+// Count the smiley faces! (7Kyu)
