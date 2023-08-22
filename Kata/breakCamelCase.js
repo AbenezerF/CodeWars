@@ -12,5 +12,5 @@ Example
 function solution(string) {
   let newStr = string[0].toUpperCase() + string.slice(1);
   let arr = newStr.match(/[A-Z][a-z]+/g).join(' ');
-  return arr[0].toLowerCase() + arr.slice(1)
+  return arr[0].toLowerCase() + arr.slice(1);
 }
