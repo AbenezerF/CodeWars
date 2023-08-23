@@ -12,5 +12,5 @@ function count (string) {
     if(obj[string[i]] >= 1) obj[string[i]]++;
     else obj[string[i]] = 1;
   }
-  return obj 
+  return obj;
 }
