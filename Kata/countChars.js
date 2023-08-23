@@ -9,8 +9,8 @@ What if the string is empty? Then the result should be empty object literal, {}.
 function count (string) { 
   let obj = {};
   for(let i = 0; i < string.length; i++){
-    if(obj[string[i]] >= 1) obj[string[i]]++
-    else obj[string[i]] = 1
+    if(obj[string[i]] >= 1) obj[string[i]]++;
+    else obj[string[i]] = 1;
   }
   return obj 
 }
