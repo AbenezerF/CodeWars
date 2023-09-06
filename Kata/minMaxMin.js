@@ -24,10 +24,10 @@ function minMinMax(array) {
   for(let i = 0; i < array.length; i++){
     if(!array.includes(minimum)){
       arr.push(minimum);
-      break
-    }else minimum++
+      break;
+    }else minimum++;
   }
-  arr.unshift(Math.min(...array))
-  arr.push(Math.max(...array))
-  return arr
+  arr.unshift(Math.min(...array));
+  arr.push(Math.max(...array));
+  return arr;
 }
