@@ -16,3 +16,18 @@ minMinMax([-1, 4, 5, -23, 24]); //[-23, -22, 24]
 minMinMax([1, 3, -3, -2, 8, -1]); //[-3, 0, 8]
 minMinMax([2, -4, 8, -5, 9, 7]); //[-5, -3,9]
 */
+
+function minMinMax(array) {
+  let arr = [];
+  array = array.sort((a,b) => a - b);
+  let minimum = Math.min(...array) + 1
+  for(let i = 0; i < array.length; i++){
+    if(!array.includes(minimum)){
+      arr.push(minimum) 
+      break
+    }else minimum++
+  }
+  arr.unshift(Math.min(...array))
+  arr.push(Math.max(...array))
+  return arr
+}
