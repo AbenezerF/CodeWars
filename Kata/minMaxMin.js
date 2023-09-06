@@ -1,1 +1,1 @@
-// MinMaxMin: Bounded Nums
+// MinMaxMin: Bounded Nums (7Kyu)
