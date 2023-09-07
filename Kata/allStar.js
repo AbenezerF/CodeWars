@@ -14,3 +14,7 @@ Note: ONLY letters from the english alphabet will be used as input There will AL
 
 
 */
+
+function noRepeat(str) {
+  return str.split("").filter((x,i)=>str.indexOf(x)===str.lastIndexOf(x))[0];
+}
