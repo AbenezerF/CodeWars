@@ -1,1 +1,1 @@
-// All Star Code Challenge #16
+// All Star Code Challenge #16 (7Kyu)
