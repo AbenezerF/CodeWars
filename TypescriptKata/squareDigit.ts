@@ -13,3 +13,10 @@ Happy Coding!
 
 
 */
+
+export class Kata {
+  static squareDigits(num: number): number {
+    let nums = [...num.toString()].map((x) => Number(x) **2)
+    return Number(nums.map((x) => x.toString()).join(''))
+  }
+}
