@@ -15,6 +15,6 @@ Output string must be two numbers separated by a single space, and highest numbe
 export class Kata {
   static highAndLow(numbers: string): string {
   let arr = numbers.split(' ').map(x => Number(x))
-    return Math.max(...arr).toString() + " " + Math.min(...arr).toString();
+    return Math.max(...arr).toString() + " " + Math.min(...arr).toString()
   }
 }
