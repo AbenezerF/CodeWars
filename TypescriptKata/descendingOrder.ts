@@ -14,5 +14,5 @@ Input: 123456789 Output: 987654321
 export function descendingOrder(n: number): number {
   let x = n.toString().split('').map( (x) => Number(x)).sort( (a,b) => b - a)
   let arr = Number(x.join(""))
-  return arr
+  return arr;
 }
