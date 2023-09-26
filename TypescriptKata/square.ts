@@ -21,3 +21,8 @@ Examples
 25  =>  true
 26  =>  false
 */
+
+
+export default function isSquare(n: number): boolean {
+  return Math.sqrt(n) % 1 == 0
+};
