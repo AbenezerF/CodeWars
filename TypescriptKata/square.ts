@@ -1,4 +1,4 @@
-// You're a square!
+// You're a square! (7Kyu)
 
 /*
 A square of squares
