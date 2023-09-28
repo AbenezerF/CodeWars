@@ -1,1 +1,1 @@
-// String ends with?
+// String ends with? (7Kyu)
