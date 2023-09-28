@@ -7,3 +7,7 @@ Examples:
 solution('abc', 'bc') // returns true
 solution('abc', 'd') // returns false
 */
+
+export function solution(str: string, ending: string): boolean {
+  return str.endsWith(ending);
+}
