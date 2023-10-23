@@ -15,6 +15,6 @@ export class Kata {
     for(let i = 0; i < str.length; i++){
       if(v.includes(str[i])) total++;
     }
-    return total
+    return total;
   }
 }
