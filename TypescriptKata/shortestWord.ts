@@ -6,6 +6,6 @@ String will never be empty and you do not need to account for different data typ
 */
 export function findShort(s: string): number {
   let arr: number[] = s.split(" ").map( (x) => x.length);
-  arr = arr.sort( (a,b) => a - b)
+  arr = arr.sort( (a,b) => a - b);
   return arr[0]; // your code here
 }
