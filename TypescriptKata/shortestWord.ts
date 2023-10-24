@@ -1,1 +1,1 @@
-// Shortest Word
+// Shortest Word (7Kyu)
