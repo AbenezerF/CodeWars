@@ -16,7 +16,7 @@ Your function should only return a number, not the explanation about how you get
 
 export function getSum(a: number, b: number): number {
   let total: number = 0;
-  if(a < b) for(let i = a; i <= b; i++) total += i
-  else for(let i = b; i <= a; i++) total += i
+  if(a < b) for(let i = a; i <= b; i++) total += i;
+  else for(let i = b; i <= a; i++) total += i;
  return total;
 }
