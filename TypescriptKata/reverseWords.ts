@@ -9,6 +9,6 @@ Examples
 */
 
 export function reverseWords(str: string): string {
-  let arr: string[] = str.split("").reverse().join("").split(" ").reverse()
+  let arr: string[] = str.split("").reverse().join("").split(" ").reverse();
   return arr.join(" ");
 }
