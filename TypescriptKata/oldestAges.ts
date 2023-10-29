@@ -12,3 +12,8 @@ For example (Input --> Output):
 [1, 3, 10, 0]) --> [3, 10]
 
 */
+
+export function twoOldestAges(ages: number[]): number[] {
+  ages = ages.sort((a,b) => a -b)
+  return [ages[ages.length-2], ages[ages.length-1]];
+}
