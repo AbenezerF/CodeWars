@@ -21,7 +21,7 @@ function stray(numbers) {
 
 // another solution
 function stray(numbers) {
-  let num = numbers.sort((a,b) => a - b)
+  let num = numbers.sort((a,b) => a - b);
   if(num[0] !== num[1]) return num[0]
   else return num[num.length-1]
 }
